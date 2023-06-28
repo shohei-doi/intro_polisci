@@ -1,0 +1,82 @@
+---
+title: "自己紹介"
+author: "土井翔平"
+date: today
+---
+
+## 何者か？
+
+東西ドイツが統一した年あたりに生まれる。
+
+![2022年くらいのエゴサ](figures/egosearch.png)
+
+::: {layout-ncol=2}
+
+![三鷹生まれ、国立通い](https://kunimachi.jp/wp-content/uploads/2017/07/1180046.jpg)
+
+![京都の大学、大学院](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Kamo_River_from_Shijo_Bridge.jpg/800px-Kamo_River_from_Shijo_Bridge.jpg)
+
+![中野でポスドク](https://media-assets.aumo.jp/uploads/photo/snap_photo/data/1305743/large_webp_bd98e672-9328-4532-a500-9faa0725cbcc.webp)
+
+![札幌3年目](https://cdn-mapple.net/Normal/%E5%8C%97%E6%B5%B7%E9%81%93/1017801_00000.jpg)
+:::
+
+**国際関係論** (International Relations: IR) が専門
+
+- グローバル経済が国際政治や安全保障に与える影響
+  - 経済的な繋がりが強まると平和になる？
+  - 経済的な繋がりをどのように政治的に利用する？
+  - グローバルな株式ネットワークに問題はない？
+    - いつの間にか重要な企業が他国の支配下に？
+    - いつの間にか投資したお金が環境問題を起こしている企業に？
+
+![経済的繋がりと紛争確率](figures/mercantilist_peace.png)
+
+![グローバル株式ネットワーク](figures/ownership.png)
+
+**ゲーム理論**：個人や組織の相互作用を数理的に分析（ミクロ経済学の一分野）
+
+**データ分析**：政治に関するデータから特徴や因果関係を発見（計量経済学や機械学習）
+
+- 詳しくは[researchmap](https://researchmap.jp/doishohei)や[Google Scholar](https://scholar.google.co.jp/citations?user=43lQ5k8AAAAJ&hl=ja)を見てね。
+- やっていない先生もいるので注意！
+
+連絡先
+
+- メール：sdoi0504@juris.hokudai.ac.jp
+- Twitter：sdoi0504
+
+## 好きなもの
+
+::: {layout-ncol=2}
+
+![](figures/bike.JPG)
+
+![](figures/art.JPG)
+
+![](figures/beer.JPG)
+
+![](https://eiga.k-img.com/images/movie/56096/photo/a4061fee7f450beb/640.jpg)
+
+![](https://topics-cdn.nintendo.co.jp/image/2020/06/03235641229580/0/22.webp)
+
+![](https://asset.watch.impress.co.jp/img/gmw/docs/1498/424/1.jpg)
+
+:::
+
+## 政治学をしよう！
+
+せっかくなので政治学（じゃなくてもなんでもいいですが）をしてみましょう。
+
+- 論文を書いたり、共同研究をしてみたり。
+- 大学院進学を考えている人はぜひ相談してください。
+  - 北海道大学大学院法学研究科
+  - 北海道大学公共政策大学院
+
+![I want you for political science.](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Uncle_Sam_%28pointing_finger%29.jpg/446px-Uncle_Sam_%28pointing_finger%29.jpg)
+
+授業に関係のないことでも、話したいことがあったらメールやTwitterのDMを送ってください。
+
+法学部棟609号室にいるので、訪問しに来ても構いません。
+
+![](https://www.juris.hokudai.ac.jp/wp-content/uploads/2022/03/accessMap.png)
