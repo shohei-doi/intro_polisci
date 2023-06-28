@@ -15,7 +15,8 @@ website:
     collapse-level: 0
     contents:
       - index.qmd
-      - column.qmd
+      - intl_soc.qmd
+      # - column.qmd
 
 format:
   html:

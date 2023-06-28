@@ -1,0 +1,347 @@
+---
+title: "国際社会の構造"
+subtitle: "政治学入門"
+author: "土井翔平"
+date: today
+---
+
+```{r}
+#| include: false
+#| cache: false
+
+library(tidyverse)
+theme_set(theme_bw(base_family = "Noto Sans CJK JP Light"))
+library(ggforce)
+```
+
+## 導入 {.unnumbered}
+
+- 国際社会とはどのような社会なのか？
+  - 国内社会とはどのようにことなるのか？
+- 現代の国家や国際社会はどのように誕生したのか？
+
+### 課題文献 {.unnumbered}
+
+- 国際社会や国際秩序
+  - @nakanishi2013[第3章]
+  - @shinoda2007
+  - 国際連合広報センター「[国際連合：その憲章と機構](https://www.unic.or.jp/info/un/)」
+- 国家
+  - @sunahara2020[第2章]
+  - @kubo2016[第2章]
+  - @kasuya2014[第1章]
+- 国際関係史
+  - @murata2023[第1章 (unit 1-5)]
+  - @nakanishi2013[第2章]
+  - @ogawa2018
+  - @yamakage2012[第1-4章]
+
+## 主権国家体系
+
+現代の国際社会の構造＝**主権国家体系** (system of sovereign
+state)
+
+- 中央集権的 (centralized) ／分権的 (decentralized) ・並列的
+- アナーキー
+
+![パリで大規模デモ　写真特集（時事通信）](https://www.jiji.com/news/handmade/topic/d4_et/pmb805-jpp033367028.jpg){width=50%}
+
+![アナーキーな国際社会のイメージ](figures/anarchy.drawio.png){width=80%}
+
+- 内部における排他性・絶対性$\leadsto$**内政不干渉原則** (principle of non-interference)
+- 外部における対等性$\leadsto$**主権平等原則** (principle of sovereign equality)
+
+現代の主権国家の特徴 [@sunahara2020]
+
+- 領域国家
+- 強制力（暴力）の独占
+- 正統性
+  - 国民国家 (nation state)
+
+## 国内的類推
+
+**国内的類推** (domestic analogy)[@nakanishi2013, p.174; @shinoda2007, p.39-46]
+
+- 国際社会（国際連合）と国内社会の対比
+
+![国際連合本部ビル](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/UNHQ_NYC.jpg/800px-UNHQ_NYC.jpg){width=50%}
+
+### 立法
+
+**条約** (treaty) ／**慣習国際法** (customary international law)
+
+:::{.callout-note}
+## [国際司法裁判所規程](https://www.unic.or.jp/info/un/un_organization/icj/statute/)　第38条1項
+
+裁判所は、付託される紛争を国際法に従って裁判することを任務とし、次のものを適用する。
+
+a. 一般又は特別の国際**条約**で係争国が明らかに認めた規則を確立しているもの
+b. 法として認められた一般慣行の証拠としての**国際慣習**
+c. 文明国が認めた法の一般原則
+d. 法則決定の補助手段としての裁判上の判決及び諸国の最も優秀な国際法学者の学説。但し、第59条の規定に従うことを条件とする。
+:::
+
+:::{.callout-note}
+## [条約法に関するウィーン条約](https://www1.doshisha.ac.jp/~karai/intlaw/docs/vclot.htm)　第2条1項(a)
+
+「条約」とは、国の間において文書の形式により締結され、国際法によつて規律される国際的な**合意**（単一の文書によるものであるか関連する二以上の文書によるものであるかを問わず、また、名称のいかんを問わない。）をいう。 
+:::
+
+**国際連合** (the United Nations: UN) の**総会** (General Assembly)
+
+![国連総会本会議場](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/UN_General_Assembly_hall.jpg/1280px-UN_General_Assembly_hall.jpg){width=50%}
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第7条1項
+
+国際連合の主要機関として、**総会**、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。
+:::
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第9条1項
+
+総会は、**すべての国際連合加盟国**で構成する。
+:::
+
+- [**一般討論**](https://gadebate.un.org/) (general debate)
+  - [日本政府の一般討論](https://www.mofa.go.jp/mofaj/gaiko/unsokai/toron.html)
+  - [トピックモデルによる分析結果](http://ungd.smikhaylov.net/)
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第10条
+
+総会は、この憲章の範囲内にある問題若しくは事項又はこの憲章に規定する機関の権限及び任務に関する問題若しくは事項を討議し、並びに、第12条に規定する場合を除く外、このような問題又は事項について国際連合加盟国若しくは安全保障理事会又はこの両者に対して勧告をすることができる。
+:::
+
+- [政府代表部](https://www.un.emb-japan.go.jp/itprtop_ja/index.html)
+- 6つの委員会^[第1委員会（軍縮・安全保障）、第2委員会（経済・金融）、第3委員会（社会・人権）、第4委員会（特別問題）、第5委員会（行政・予算）、第6委員会（国際法）からなる。]および本会議で討論
+
+$\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolution) の採択
+
+- 例：[日本提出の核兵器廃絶決議](https://www.mofa.go.jp/mofaj/gaiko/un_cd/gun_un/ketsugian.html)
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第18条
+
+
+1. 総会の各構成国は、**1個の投票権**を有する。
+2. （省略）
+3. その他の問題に関する決定は...出席し且つ投票する構成国の**過半数**によって行われる。
+:::
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第2条7項
+
+この憲章のいかなる規定も、本質上いずれかの国の**国内管轄権内にある事項に干渉する権限を国際連合に与えるものではなく**、また、その事項をこの憲章に基く解決に付託することを加盟国に要求するものでもない。但し、この原則は、第7章に基く強制措置の適用を妨げるものではない。
+:::
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第25条
+
+国際連合加盟国は、**安全保障理事会の決定**をこの憲章に従って**受諾し且つ履行する**ことに同意する。
+:::
+
+### 行政
+
+**事務局** (secretary)
+
+- 国連事務局の長として**事務総長** (secretary general: SG)
+
+![アントニオ・グテーレス国連事務総長](https://www.unic.or.jp/files/707593-guterres-sg.jpg){width=80%}
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第7条1項
+
+国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び**事務局**を設ける。
+:::
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第97条
+
+事務局は、1人の事務総長及びこの機構が必要とする職員からなる。事務総長は、安全保障理事会の勧告に基いて総会が任命する。事務総長は、この機構の行政職員の長である。
+:::
+
+- [年次報告](https://www.un.org/sg/en)
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第17条
+
+1. 総会は、この機構の予算を審議し、且つ、承認する。
+1. この機構の経費は、総会によって割り当てられるところに従って、加盟国が負担する。
+1. （省略）
+:::
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第19条
+
+この機構に対する分担金の支払が延滞している国際連合加盟国は、その延滞金の額がその時までの満2年間にその国から支払われるべきであった分担金の額に等しいか又はこれをこえるときは、総会で投票権を有しない。但し、総会は、支払の不履行がこのような加盟国にとってやむを得ない事情によると認めるときは、その加盟国に投票を許すことができる。
+:::
+
+- [予算](https://www.mofa.go.jp/mofaj/fp/unp_a/page22_001258.html)
+- [国連分担金の支払い率](https://www.un.org/en/ga/contributions/honourroll.shtml)
+
+### 司法
+
+**国際司法裁判所** (International Court of Justice: ICJ)
+
+![国際司法裁判所](https://upload.wikimedia.org/wikipedia/commons/f/fb/International_Court_of_Justice.jpg){width=50%}
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第7条1項
+
+国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、**国際司法裁判所**及び事務局を設ける。
+:::
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第92条
+
+国際司法裁判所は、国際連合の主要な司法機関である。この裁判所は、付属の規程に従って任務を行う。この規定は、常設国際司法裁判所規程を基礎とし、且つ、この憲章と不可分の一体をなす。
+:::
+
+:::{.callout-note}
+## [国際司法裁判所規程](https://www.unic.or.jp/info/un/un_organization/icj/statute/)　第36条1項
+
+裁判所の管轄は、**当事者が裁判所に付託する**すべての事件及び国際連合憲章又は現行諸条約に特に規定するすべての事項に及ぶ。
+:::
+
+:::{.callout-note}
+## [国際司法裁判所規程](https://www.unic.or.jp/info/un/un_organization/icj/statute/)　第36条2項
+
+この規程の当事国である国は、次の事項に関するすべての法律的紛争についての裁判所の管轄を同一の義務を受諾する他の国に対する関係において当然に且つ特別の合意なしに義務的であると認めることを、いつでも宣言することができる。 
+:::
+
+- [**選択条項受諾宣言**](https://www.icj-cij.org/en/declarations)（強制管轄権受諾宣言）
+
+:::{.callout-note}
+## [条約法に関するウィーン条約](https://www1.doshisha.ac.jp/~karai/intlaw/docs/vclot.htm)　第2条1項(d)
+
+「留保」とは、国が、条約の特定の規定の自国への適用上その法的効果を排除し又は変更することを意図して、条約への署名、条約の批准、受諾若しくは承認又は条約への加入の際に単独に行う声明（用いられる文言及び名称のいかんを問わない。）をいう。
+:::
+
+- 日本の選択条項受諾宣言および留保[@tamada2016]
+
+:::{.callout-note}
+## [国際司法裁判所規程](https://www.unic.or.jp/info/un/un_organization/icj/statute/)　第59条
+
+裁判所の裁判は、当事者間において且つその特定の事件に関してのみ拘束力を有する。
+:::
+
+:::{.callout-note}
+## [国際司法裁判所規程](https://www.unic.or.jp/info/un/un_organization/icj/statute/)　第94条1項
+
+各国際連合加盟国は、自国が当事者であるいかなる事件においても、国際司法裁判所の裁判に従うことを約束する。
+:::
+
+- 判決の法的拘束力／強制力
+
+:::{.callout-note}
+## [国連憲章](https://www.unic.or.jp/info/un/charter/text_japanese/)　第96条
+
+総会又は安全保障理事会は、いかなる法律問題についても勧告的意見を与えるように国際司法裁判所に要請することができる。
+:::
+
+- **勧告的意見** (advisory opinion)
+
+国際社会は国内社会よりも劣っている。
+
+## 近代国際社会の成立
+
+### 主権国家以前の社会
+
+![アナーキーではない国際社会のイメージ](figures/hierarchy.drawio.png){width=80%}
+
+近世（15世紀後半〜18世紀前半）の西ヨーロッパ
+
+- キリスト教権威（ローマ教皇）と政治権力（王国）が混在
+- 領域性、強制力、正統性
+- 西ヨーロッパ以外の地域（例えばアジアやアラブ世界）は？
+
+### 近代国家の誕生
+
+#### 戦争と国家
+
+宗教革命／官僚制（徴税）／常備軍
+
+- 財政＝軍事国家[@brewer2003]
+- 「戦争が近代国家を作り、また近代国家が戦争を行う」[@tilly1992]
+
+安全・権利$\rightleftarrows$納税
+
+- 「マフィアのような犯罪組織と国家との違いは程度問題であって、本質的な違いはない」[@tilly1985]
+
+#### 市場と国家
+
+所有権・貨幣$\rightleftarrows$納税
+
+- 規模の経済 (economies of scale)
+
+#### 社会契約説
+
+**自然状態** (state of nature)：政府の存在しない社会
+
+- ホッブズ
+  - 自然権
+  - **万人の万人に対する闘争**
+      - そのような世界での生活は「孤独で、貧しく、不潔で、粗暴で、短い」
+  - レヴァイアサン
+- ロック
+  - 自然権の侵害
+- ルソー
+  - 全体意思／一般意思
+
+社会契約説
+
+### 主権国家体系の成立
+
+**30年戦争**／**1648年**／**ウェストファリア条約** (Peace of Westphalia)^[なお、これによって主権国家体系が成立したというフィクションから、主権国家体系を**ウェストファリア体制**と呼ぶこともある。1648年に突然、主権国家体系が誕生したわけではない[@ogawa2018, p.16]。]
+
+主権国家体系による解決／社会契約による解決
+
+選択・再生産されるアナーキー[@wendt1992; @ishida1998]
+
+## 自生的秩序
+
+「孤独で、貧しく、不潔で、粗暴で、短い」国際社会？
+
+<iframe src="https://ourworldindata.org/grapher/merchandise-exports-gdp-cepii?country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+<iframe src="https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+<iframe src="https://ourworldindata.org/grapher/population" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+```{r}
+#| fig-cap: "武力紛争の推移[@miller2023]"
+
+df_hced <- read_csv("data/HCED Data v2.csv") %>% 
+  drop_na(ID) %>% 
+  mutate(Year = parse_number(Year))
+
+df_hced %>% 
+  count(Year) %>% 
+  ggplot() + 
+  geom_line(aes(x = Year, y = n), size = 0.2) +
+  facet_zoom(xlim = c(1648, 2003)) + 
+  labs(x = "年", y = "紛争発生件数")
+```
+
+```{r}
+#| fig-cap: "武力紛争の分布（1648-2003年）[@miller2023]"
+
+df_world <- map_data("world") %>% 
+  filter(region != "Antarctica")
+
+df_world %>% 
+  ggplot() + 
+  geom_polygon(aes(x = long, y = lat, group = group), 
+               fill = "lightgray", color = "black", linewidth = 0.05, alpha = 0.25) + 
+  geom_point(aes(x = Longitude, y = Latitude, color = Year), data = df_hced %>% filter(Year >= 1648), 
+             size = 0.05, alpha = 0.5) +
+  scale_color_viridis_c() + 
+  coord_map(projection = "mollweide", xlim = c(-180, 180)) + 
+  labs(x = "", y = "", color = "") + 
+  theme_void()
+```
+
+時間的・地域的分散（変動）／アナーキー、人間の「本質」
+
+政府なき統治 (governance without government)、自生的・自己拘束的 (self-enforcing) な秩序
