@@ -345,3 +345,5 @@ df_world %>%
 時間的・地域的分散（変動）／アナーキー、人間の「本質」
 
 政府なき統治 (governance without government)、自生的・自己拘束的 (self-enforcing) な秩序
+
+- 国際法や国際裁判は無意味？
