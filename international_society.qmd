@@ -11,6 +11,7 @@ date: today
 
 library(tidyverse)
 theme_set(theme_bw(base_family = "Noto Sans CJK JP Light"))
+library(countrycode)
 library(ggforce)
 ```
 
@@ -296,6 +297,41 @@ $\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolutio
 **30年戦争**／**1648年**／**ウェストファリア条約** (Peace of Westphalia)^[なお、これによって主権国家体系が成立したというフィクションから、主権国家体系を**ウェストファリア体制**と呼ぶこともある。1648年に突然、主権国家体系が誕生したわけではない[@ogawa2018, p.16]。]
 
 主権国家体系による解決／社会契約による解決
+
+```{r}
+#| fig-cap: "[国家の数の推移](https://correlatesofwar.org/data-sets/state-system-membership/)"
+
+df_system <- read_csv("data/system2016.csv")
+
+df_system %>% 
+  count(year) %>% 
+  ggplot() + 
+  geom_line(aes(x = year, y = n), size = 0.25) + 
+  annotate("rect", xmin = 1919, xmax = 1941, ymin = -Inf, ymax = Inf, alpha = 0.25) + 
+  annotate("rect", xmin = 1991, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.25) + 
+  labs(x = "年", y = "国家の数")
+```
+
+```{r}
+#| fig-cap: "[各国の独立年](https://correlatesofwar.org/data-sets/state-system-membership/)"
+
+df_world <- map_data("world") %>% 
+  filter(region != "Antarctica") %>% 
+  mutate(stateabb = countrycode(region, "country.name", "cowc"))
+
+full_join(df_world, 
+          df_system %>% 
+            group_by(stateabb) %>% 
+            filter(year == min(year))) %>% 
+  ggplot() + 
+  geom_polygon(aes(x = long, y = lat, group = group, fill = year), 
+               color = "black", size = 0.1) + 
+  scale_fill_distiller() + 
+  coord_map(projection = "mollweide", xlim = c(-180, 180)) + 
+  labs(x = "", y = "", fill = "年") + 
+  theme_minimal() + 
+  theme(legend.position = "bottom")
+```
 
 選択・再生産されるアナーキー[@wendt1992; @ishida1998]
 

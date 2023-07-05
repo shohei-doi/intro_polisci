@@ -134,18 +134,61 @@ $$
 w - c_A < x < w + c_B
 $$
 
+- **外部機会** (outside option) $\leadsto$交渉ポジション（有利さ）
+
 抑止＆交渉$\leadsto$アナーキーにおける平和
 
 - 抑止と交渉の二分法
+- 平和／正義
 
 ## 戦争の原因
 
-$\leadsto$そうであるにもかかわらず戦争が選択されるのはなぜか？
+そうであるにもかかわらず戦争が選択されるのはなぜか？[@fearon1995]
 
-<!-- ### 情報の非対称性 -->
+- 情報の非対称性
+- コミットメント問題
+- 分割不可能性（リスク愛好的、楽観的）
 
-<!-- ### コミットメント問題 -->
+### 情報の非対称性
+
+**情報の非対称性** (asymmetric information)
+
+- 本当に国家$B$は反撃する気があるのか？
+
+国家$A$が抑止の**信憑性** (credibility) が低いと**誤認** (misperception)$\leadsto$戦争
+
+チープ・トーク、ブラフ／コストリー・シグナル
+
+- 異なるタイプ$\leadsto$異なるメッセージ$\leadsto$情報伝達
+
+### コミットメント問題
+
+**コミットメント問題** (commitment problem)
+
+#### 安心供与
+
+![国際危機の構造](figures/reassurance.drawio.png)
+
+- 互いに攻撃する場合$w$
+- 国家$A$が一方的に攻撃する場合$w^A$
+- 国家$B$が一方的に攻撃する場合$w^B$
+
+安心供与 (reassurance) の破綻
+
+- $B$：平和より一方的な攻撃$1-q < 1-w^B - c_B$
+- $B$：一方的に攻撃されるより戦争$1-w^A-c_B < 1-w-c_B$
+- $A$：一方的に攻撃されるより戦争$w^B-c_A < w-c_A$
+- 例：$q = 0.5, w^A = 0.8, w = 0.5, w^B = 0.2, c_A = c_B = 0.2$
+
+$\leadsto$抑止＆安心供与
 
 ## 戦争の終結
 
-TBA
+戦争の終結$=$外交の成功$=$外交の阻害要因の消滅
+
+- データを用いた分析[@weisiger2016]
+
+![Battlefield deaths and war termination](figures/weisinger.png)
+
+- 回帰分析 (regression analysis)
+- 統計的有意 (statistically significant)
