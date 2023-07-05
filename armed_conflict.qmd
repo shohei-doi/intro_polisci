@@ -500,3 +500,28 @@ df_ucdp %>%
   labs(x = "武力紛争の期間（年）", y = "", color = "", fill = "") + 
   theme(legend.position = "bottom")
 ```
+
+## 武力紛争の帰結
+
+```{r}
+#| fig-cap: "国家間軍事衝突 (COW) の帰結"
+
+type <- c("武力による威嚇", "武力の動員", "武力行使", "戦争")
+
+df_mid_temp %>% 
+  mutate(outcome = case_when(outcome %in% c(1,2) ~ "一方の勝利", 
+                             outcome %in% c(3,4) ~ "一方の譲歩", 
+                             outcome == 5 ~ "膠着", 
+                             outcome == 6 ~ "互いに妥協", 
+                             TRUE ~ "その他・不明") %>% 
+           fct_relevel("一方の勝利", "一方の譲歩", "膠着", "互いに妥協", "その他・不明")) %>% 
+  ggplot() + 
+  geom_bar(aes(x = outcome, fill = as.factor(hostlev), color = as.factor(hostlev)),
+           alpha = 0.5, size = 0.25, 
+           position = position_dodge()) + 
+  scale_color_brewer(palette = "Set2", labels = type) + 
+  scale_fill_brewer(palette = "Set2", labels = type) + 
+  labs(x = "", y = "武力紛争発生数", color = "", fill = "") + 
+  theme(legend.position = "bottom")
+```
+
