@@ -5,6 +5,14 @@ author: "土井翔平"
 date: today
 ---
 
+```{r}
+#| include: false
+#| cache: false
+
+library(tidyverse)
+theme_set(theme_bw(base_family = "Noto Sans CJK JP Light"))
+```
+
 ## 導入 {.unnumbered}
 
 - 戦争と外交はどのような関係にあるのか？
@@ -157,9 +165,25 @@ $$
 
 国家$A$が抑止の**信憑性** (credibility) が低いと**誤認** (misperception)$\leadsto$戦争
 
-チープ・トーク、ブラフ／コストリー・シグナル
+#### チープトーク
+
+チープ・トーク、ブラフ
 
 - 異なるタイプ$\leadsto$異なるメッセージ$\leadsto$情報伝達
+
+コストリー・シグナル
+
+#### 朝鮮戦争
+
+アチソン・ライン（1950年）
+
+![[アチソン・ライン](https://commons.wikimedia.org/wiki/File:Acheson_line_ko.svg)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Acheson_line_ko.svg/640px-Acheson_line_ko.svg.png)
+
+- 誤った情報伝達
+
+北朝鮮が韓国に侵攻（**朝鮮戦争**）$\leadsto$ アメリカが参戦、「北進統一」を目指す$\leadsto$中国義勇兵の参戦
+
+- 中国による威嚇
 
 ### コミットメント問題
 
@@ -181,6 +205,37 @@ $$
 - 例：$q = 0.5, w^A = 0.8, w = 0.5, w^B = 0.2, c_A = c_B = 0.2$
 
 $\leadsto$抑止＆安心供与
+
+#### 太平洋戦争
+
+大日本帝国は日中戦争で消耗$\leadsto$資源を求めて東南アジアに進出$\leadsto$アメリカなどから経済制裁
+
+```{r}
+#| fig-cap: "日米の国力比較（1900-45年）"
+
+df_nmc <- read_csv("data/nmc/NMC-60-abridged.csv")
+
+df_nmc %>% 
+  filter(between(year, 1900, 1945)) %>% 
+  filter(stateabb %in% c("JPN", "USA")) %>% 
+  pivot_longer(milex:cinc) %>% 
+  filter(name %in% c("milex", "irst", "pec", "tpop")) %>% 
+  mutate(name = recode(name, 
+                       "milex" = "軍事費",
+                       "irst" = "鉄鋼生産量", 
+                       "pec" = "エネルギー消費量", 
+                       "tpop" = "総人口")) %>% 
+  ggplot() + 
+  geom_line(aes(x = year, y = value, color = stateabb)) + 
+  annotate("rect", xmin = 1937, xmax = 1945, ymin = -Inf, ymax = Inf, alpha = 0.25) + 
+  annotate("rect", xmin = 1941, xmax = 1945, ymin = -Inf, ymax = Inf, alpha = 0.25) + 
+  scale_color_brewer(palette = "Set2", labels = c("日本", "アメリカ")) + 
+  facet_wrap(~name, scales="free", ncol = 2) + 
+  labs(x = "年", y = "", color="") + 
+  theme(legend.position = "bottom")
+```
+
+- アメリカは当時、日本にとって石油輸出国
 
 ## 戦争の終結
 
