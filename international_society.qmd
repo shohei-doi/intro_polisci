@@ -213,6 +213,8 @@ $\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolutio
 
 - [**選択条項受諾宣言**](https://www.icj-cij.org/en/declarations)（強制管轄権受諾宣言）
 
+![[選択条項受諾宣言を行った国](https://commons.wikimedia.org/wiki/File:Acceptation_de_la_juridiction_obligatoire_de_la_Cour_Internationale_de_Justice.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Acceptation_de_la_juridiction_obligatoire_de_la_Cour_Internationale_de_Justice.png/800px-Acceptation_de_la_juridiction_obligatoire_de_la_Cour_Internationale_de_Justice.png)
+
 :::{.callout-note}
 ## [条約法に関するウィーン条約](https://www1.doshisha.ac.jp/~karai/intlaw/docs/vclot.htm)　第2条1項(d)
 
@@ -350,14 +352,45 @@ full_join(df_world,
 
 df_hced <- read_csv("data/HCED Data v2.csv") %>% 
   drop_na(ID) %>% 
-  mutate(Year = parse_number(Year))
+  mutate(Year = parse_number(Year), 
+         region = countrycode(Country, "country.name", "un.region.name"))
 
-df_hced %>% 
-  count(Year) %>% 
+left_join(expand(df_hced, Year, region),
+          df_hced %>% 
+            count(Year, region)) %>% 
+  replace_na(list(n = 0)) %>% 
   ggplot() + 
-  geom_line(aes(x = Year, y = n), size = 0.2) +
+  geom_area(aes(x = Year, y = n, fill = region, color = region), 
+            alpha = 0.5) +
   facet_zoom(xlim = c(1648, 2003)) + 
-  labs(x = "年", y = "紛争発生件数")
+  labs(x = "年", y = "紛争発生件数", fill = "", color = "") + 
+  scale_color_brewer(palette = "Set2") + 
+  scale_fill_brewer(palette = "Set2") + 
+  theme(legend.position = "bottom")
+```
+
+```{r}
+#| fig-cap: "武力紛争の推移[@miller2023]"
+
+df_hced <- read_csv("data/HCED Data v2.csv") %>% 
+  drop_na(ID) %>% 
+  mutate(Year = parse_number(Year), 
+         region = countrycode(Country, "country.name", "un.region.name"))
+
+left_join(expand(df_hced, Year, region),
+          df_hced %>% 
+            count(Year, region)) %>% 
+  replace_na(list(n = 0)) %>% 
+  group_by(Year) %>% 
+  mutate(ratio = n/sum(n)) %>% 
+  ggplot() + 
+  geom_area(aes(x = Year, y = ratio, fill = region, color = region), 
+            alpha = 0.5) +
+  facet_zoom(xlim = c(1648, 2003)) + 
+  labs(x = "年", y = "紛争発生割合", fill = "", color = "") + 
+  scale_color_brewer(palette = "Set2") + 
+  scale_fill_brewer(palette = "Set2") + 
+  theme(legend.position = "bottom")
 ```
 
 ```{r}
