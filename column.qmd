@@ -1,8 +1,30 @@
 ---
-title: "雑談"
+title: "おまけ"
 subtitle: "政治学入門"
 author: "土井翔平"
 date: today
 ---
 
 政治や政治学に関して、土井が面白いと思ったトピックを紹介するかもしれません（しないかもしれません）。
+
+## 中国のネット検閲
+
+### 人々は検閲を嫌っているのか？
+
+![@chen2019](figures/chen.png)
+
+![@hobbs2018](figures/hobbs1.jpeg)
+
+![@hobbs2018](figures/hobbs2.jpeg)
+
+### 政府は何を検閲しているのか？
+
+![@king2014](figures/king1.png)
+
+![@king2013](figures/king2.png)
+
+![@king2013](figures/king3.png)
+
+![@king2017](figures/king4.png)
+
+![@king2017](figures/king5.png)
