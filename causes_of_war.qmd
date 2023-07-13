@@ -163,7 +163,7 @@ $$
 
 - 本当に国家$B$は反撃する気があるのか？
 
-国家$A$が抑止の**信憑性** (credibility) が低いと**誤認** (misperception)$\leadsto$戦争
+国家$A$が抑止の**信憑性** (credibility) が低いと**誤認** (misperception)$\leadsto$抑止や交渉の失敗$\leadsto$戦争
 
 #### チープトーク
 
@@ -185,11 +185,24 @@ $$
 
 - 中国による威嚇
 
+#### 干ばつと紛争
+
+干ばつ$\leadsto$農作物の減少・経済水準の低下$\leadsto$戦争の費用の低下$\leadsto$誤認の確率の上昇？
+
+![@koubi2019](https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/polisci/2019/polisci.2019.22.issue-1/annurev-polisci-050317-070830/20190506/images/large/pl220343.f1.jpeg)
+
+- 相関$\neq$因果
+- 第三の要因（交絡因子）
+
 ### コミットメント問題
 
 **コミットメント問題** (commitment problem)
 
 #### 安心供与
+
+第一撃における優位 (first-strike advantage) ／**先制攻撃** (preemptive attack)[@powell2006]
+
+- 攻撃・防御バランス
 
 ![国際危機の構造](figures/reassurance.drawio.png)
 
@@ -208,7 +221,9 @@ $\leadsto$抑止＆安心供与
 
 #### 太平洋戦争
 
-大日本帝国は日中戦争で消耗$\leadsto$資源を求めて東南アジアに進出$\leadsto$アメリカなどから経済制裁
+**予防戦争** (preventive war)
+
+- 大日本帝国は日中戦争で消耗$\leadsto$資源を求めて東南アジアに進出$\leadsto$アメリカなどから経済制裁
 
 ```{r}
 #| fig-cap: "日米の国力比較（1900-45年）"
@@ -236,6 +251,10 @@ df_nmc %>%
 ```
 
 - アメリカは当時、日本にとって石油輸出国
+
+### 交渉の失敗
+
+情報の非対称性／コミットメント問題
 
 ## 戦争の終結
 

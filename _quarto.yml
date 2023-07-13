@@ -18,6 +18,7 @@ website:
       - international_society.qmd
       - armed_conflict.qmd
       - causes_of_war.qmd
+      - security_policy.qmd
       - column.qmd
 
 format:
