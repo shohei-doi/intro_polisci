@@ -256,15 +256,13 @@ df_nmc %>%
 
 ### 交渉の失敗
 
-情報の非対称性／コミットメント問題
+情報の非対称性／コミットメント問題（和平協定）
 
 ## 戦争の終結
 
 戦争の終結$=$外交の成功$=$外交の阻害要因の消滅
 
-- データを用いた分析[@weisiger2016]
-
-![Battlefield deaths and war termination](figures/weisinger.png)
+![@weisiger2016](figures/weisinger.png)
 
 - 回帰分析 (regression analysis)
 - 統計的有意 (statistically significant)
