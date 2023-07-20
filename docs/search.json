@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "security_policy.html",
+    "href": "security_policy.html",
+    "title": "安全保障政策",
+    "section": "",
+    "text": "戦\\(=\\)利害対立\\(+\\)外交の失敗\n\\(\\leadsto\\)安全保障政策\\(=\\)これらの要因を解消すること\n\n現状変更の意図\n情報の非対称性\nコミットメント問題\n\n\\(\\leadsto\\)地域や時代ごとの紛争の偏り"
+  },
+  {
+    "objectID": "security_policy.html#はじめに",
+    "href": "security_policy.html#はじめに",
+    "title": "安全保障政策",
+    "section": "",
+    "text": "戦\\(=\\)利害対立\\(+\\)外交の失敗\n\\(\\leadsto\\)安全保障政策\\(=\\)これらの要因を解消すること\n\n現状変更の意図\n情報の非対称性\nコミットメント問題\n\n\\(\\leadsto\\)地域や時代ごとの紛争の偏り"
+  },
+  {
+    "objectID": "security_policy.html#軍事力と平和",
+    "href": "security_policy.html#軍事力と平和",
+    "title": "安全保障政策",
+    "section": "1 軍事力と平和",
+    "text": "1 軍事力と平和\n\n1.1 抑止の能力\nバランシング：内的・外的\n\\[\n\\textrm{現状変更を望む国家Aの戦争の利益}=w - c_A\n\\]\n\n勢力均衡 (balance of power) (Waltz 2010)\n勢力優位 (preponderance of power)\n権力移行 (transition of power)\n\n現状の利益配分／国力の分布\n\n\n\n交渉可能領域\n\n\n\n\n\n交渉可能領域\n\n\n\n\n\n\n\n総合国力指数と軍事費の推移\n\n\n\n\n\n\n\n\n\n軍事支出 (SIPRI) のGDP比の推移\n\n\n\n\n\n\n1.2 抑止の信憑性\n\\[\n\\textrm{現状維持を望む国家Bの戦争の利益}= 1-w - c_B\n\\]\n\nロックイン\n埋没費用\n\n抑止力\\(=\\)抑止の能力\\(\\times\\)抑止の信憑性\n\n暴力asコミュニケーション\n抑止力の検証？\n\n\n\n1.3 安全保障のジレンマ\n先制攻撃\\(\\leadsto\\)安心供与の破綻\n安全保障のジレンマ(Jervis 1978)：安全保障のための政策\\(\\leadsto\\)安全保障環境の悪化\n\n\n\n\n\n\n軍拡のシナリオ\n\n\n\n\n国家\\(A\\)と国家\\(B\\)の現状の国力は\\(w\\)と\\(1-w\\)である。\n国家\\(A\\)だけが軍備拡大をすると国力は\\(w_A\\)に上がるが、費用\\(c_A\\)を支払う。\n国家\\(B\\)だけが軍備拡大をすると国力は\\(1-w_B\\)に上がるが、費用\\(c_B\\)を支払う。\n互いに軍備拡大をすると国力は変わらず、費用を支払う。\n\n\n\n\n\n\nA, B\n現状維持\n軍備拡大\n\n\n\n\n現状維持\n\\(w, 1-w\\)\n\\(w_B, 1-w_B-c_B\\)\n\n\n軍備拡大\n\\(w_A-c_A, 1-w_A\\)\n\\(w-c_A, 1-w-c_B\\)\n\n\n\n\n一方的な不利は望まない（\\(w_B &lt; w - c_A\\)かつ\\(1-w_A &lt; 1-w-c_B\\)）\n一方的な有利を望む？（\\(w_A - c_A &gt; w\\)かつ\\(1-w_B - c_B &gt; 1-w\\)）\n\n例：\\(w = 0.5, w_A = 0.7, w_B = 0.3, C_A = c_B = 0.1\\)\n\n一方的な有利は望まない？（\\(w_A - c_A &lt; w\\)かつ\\(1-w_B - c_B &lt; 1-w\\)）\n\n例：\\(w = 0.5, w_A = 0.7, w_B = 0.3, C_A = c_B = 0.3\\)\n\n\nスパイラル・モデル：抑止力の拡大\\(\\leadsto\\)戦争？(Slantchev 2003)\n\n攻撃・防御バランス\n\n\n\n1.4 同盟\nAlliance Treaty Obligations and Provisions (ATOP) のデータセット(B. Leeds ほか 2002)\n\n\n\n\n\n\nATOPにおける同盟の定義\n\n\n\nAn alliance is a formal agreement among independent states to cooperate militarily in the face of potential or realized military conflict.\n\n\n\n\n\n\n\nATOPにおける同盟の種類と推移\n\n\n\n\n拡大抑止 (extended deterrence)\n\n\n\n同盟国のいる国際危機\n\n\n\n見捨てられる恐怖\n\n評判費用 (reputation cost)／観衆費用 (audience cost)\\(\\leadsto\\)手を縛る (tying hands)\n埋没費用 (sunk cost)\n仕掛線 (trip wire)\n\n巻き込まれる恐怖\n\n\n\n\n第1次世界大戦時のヨーロッパの同盟関係\n\n\n\n\n\nNATOとワルシャワ条約機構の加盟国\n\n\n拡大抑止の効果\n\n\n\nB. A. Leeds (2003)\n\n\n\n\n\nFuhrmann と Sechser (2014)\n\n\n見捨てられる可能性\n\n\n\nBerkemeier と Fuhrmann (2018)\n\n\n\n\n1.5 軍事力の限界\n軍事力は平和の基礎：利益と軍事力の配分の一致\\(\\leadsto\\)平和\n軍備拡大\\(\\leadsto\\)平和？\nリベラルな平和／カント的平和(Oneal と Russet 1997; Oneal と Russett 1999)1／リベラル国際秩序 (liberal international order: ILO) (Ikenberry 2009, 2018)？\n\n制度（国際法）による平和\n民主主義による平和\n経済的相互依存（例、貿易や投資）による平和"
+  },
+  {
+    "objectID": "security_policy.html#国際法と平和",
+    "href": "security_policy.html#国際法と平和",
+    "title": "安全保障政策",
+    "section": "2 国際法と平和",
+    "text": "2 国際法と平和\n\n2.1 戦争の違法化\n国際連合 (the United Nations)／武力行使禁止原則\n\n\n\n\n\n\n国連憲章　第2条3項\n\n\n\nすべての加盟国は、その国際紛争を平和的手段によって国際の平和及び安全並びに正義を危くしないように解決しなければならない。\n\n\n\n\n\n\n\n\n国連憲章　第2条4項\n\n\n\nすべての加盟国は、その国際関係において、武力による威嚇又は武力の行使を、いかなる国の領土保全又は政治的独立に対するものも、また、国際連合の目的と両立しない他のいかなる方法によるものも慎まなければならない。\n\n\n自衛権 (right of self-defense)\n\n\n\n\n\n\n国連憲章　第51条\n\n\n\nこの憲章のいかなる規定も、国際連合加盟国に対して武力攻撃が発生した場合には、安全保障理事会が国際の平和及び安全の維持に必要な措置をとるまでの間、個別的又は集団的自衛の固有の権利を害するものではない。\n\n\n\n\n2.2 集団安全保障\n集団的安全保障 (collective security)\n\n同盟？\n\n安全保障理事会 (Security Council: SC)\n\n\n\n国連安全保障理事会\n\n\n\n\n\n\n\n\n国連憲章　第24条1項\n\n\n\n国際連合の迅速且つ有効な行動を確保するために、国際連合加盟国は、国際の平和及び安全の維持に関する主要な責任を安全保障理事会に負わせるものとし、且つ、安全保障理事会がこの責任に基く義務を果すに当って加盟国に代って行動することに同意する。\n\n\n\n\n\n\n\n\n国連憲章　第39条\n\n\n\n安全保障理事会は、平和に対する脅威、平和の破壊又は侵略行為の存在を決定し、並びに、国際の平和及び安全を維持し又は回復するために、勧告をし、又は第41条及び第42条に従っていかなる措置をとるかを決定する。\n\n\n\n\n\n\n\n\n国連憲章　第41条\n\n\n\n安全保障理事会は、その決定を実施するために、兵力の使用を伴わないいかなる措置を使用すべきかを決定することができ、且つ、この措置を適用するように国際連合加盟国に要請することができる。…\n\n\n\n\n\n\n\n\n国連憲章　第42条\n\n\n\n安全保障理事会は、第41条に定める措置では不充分であろうと認め、又は不充分なことが判明したと認めるときは、国際の平和及び安全の維持又は回復に必要な空軍、海軍又は陸軍の行動をとることができる。…\n\n\n\n\n\n\n\n\n国連憲章　第23条\n\n\n\n\n安全保障理事会は、15の国際連合加盟国で構成する。中華民国、フランス、ソヴィエト社会主義共和国連邦、グレート・ブリテン及び北部アイルランド連合王国及びアメリカ合衆国は、安全保障理事会の常任理事国となる。総会は、第一に国際の平和及び安全の維持とこの機構のその他の目的とに対する国際連合加盟国の貢献に、更に衡平な地理的分配に特に妥当な考慮を払って、安全保障理事会の非常任理事国となる他の10の国際連合加盟国を選挙する。\n安全保障理事会の非常任理事国は、2年の任期で選挙される。…退任理事国は、引き続いて再選される資格はない。\n（略）\n\n\n\n\n\n\n\n\n\n国連憲章　第25条\n\n\n\n国際連合加盟国は、安全保障理事会の決定をこの憲章に従って受諾し且つ履行することに同意する。\n\n\n\n\n\n\n\n\n国連憲章　第27条\n\n\n\n\n安全保障理事会の各理事国は、1個の投票権を有する。\n手続事項に関する安全保障理事会の決定は、9理事国の賛成投票によって行われる。\nその他のすべての事項に関する安全保障理事会の決定は、常任理事国の同意投票を含む9理事国の賛成投票によって行われる。但し、第6章及び第52条3に基く決定については、紛争当事国は、投票を棄権しなければならない。\n\n\n\n\n\n2.3 集団安全保障の機能と限界\n\n抑止力の向上／コミットメント問題の回避\n費用分担 (burden sharing)／取引費用 (transaction cost)／合意確保\n\n\n\n\n\n\n安保理における拒否権の推移\n\n\n\n\n朝鮮戦争／安保理決議83\n平和のための結集 (Uniting for Peace) 決議／国連緊急特別総会 (emergency special session: ESS)\n\n\n\n\n\n\n平和のための結集決議　主文1\n\n\n\nResolves that if the Security Council, because of lack of unanimity of the permanent members, fails to exercise its primary responsibility for the maintenance of international peace and security in any case where there appears to be a threat to the peace, breach of the peace, or act of aggression, the General Assembly shall consider the matter immediately with a view to making appropriate recommendations to Members for collective measures, including in the case of a breach of the peace or act of aggression the use of armed force when necessary, to maintain or restore international peace and security.\n\n\n平和維持活動 (peacekeeping operation)\n\n\n\n\n\n平和維持活動の推移\n\n\n\n\n\n\n\n国連平和維持活動の展開\n\n\n\n\n\n\n\n安保理会合の推移\n\n\n\n\n湾岸戦争／安保理決議678\n\n\n\n\n\n\n国連安保理決議678\n\n\n\nThe Security Council,\nRecalling and reaffirming its resolutions 660 (1990) of 2 August 1990, 661 (1990) of 6 August 1990, 662 (1990) of 9 August 1990, 664 (1990) of 18 August 1990, 665 (1990) of 25 August 1990, 666 (1990) of 13 September 1990, 667 (1990) of 16 September 1990, 669 (1990) of 24 September 1990, 670 (1990) of 25 September 1990, 674 (1990) of of 29 October 1990 and 677 (1990) of 28 November 1990.\nNoting that, despite all efforts by the United Nations, Iraq refuses to comply with its obligation to implement resolution 660 (1990) and the above-mentioned subsequent relevant resolutions, in flagrant contempt of the Security Council,\nMindful of its duties and responsibilities under the Charter of the United Nations for the maintenance and preservation of international peace and security,\nDetermined to secure full compliance with its decisions,\nActing under Chapter VII of the Charter,\n\nDemands that Iraq comply fully with resolution 660 (1990) and all subsequent relevant resolutions, and decides, while maintaining all its decisions, to allow Iraq one final opportunity, as a pause of goodwil, to do so;\nAuthorizes Member States co-operating with the Government of Kuwait, unless Iraq on or before 15 January 1991 fully implements, as set forth in paragraph 1 above, the above-mentioned resolutions, to use all necessary means to uphold and implement resolution 660 (1990) and all subsequent relevant resolutions and to restore international peace and security in the area;\nRequests all States to provide appropriate support for the actions undertaken in pursuance of paragraph 2 of the present resolution;\nRequests the States concerned to keep the Security Council regularly informed on the progress of actions undertaken pursuant to paragraphs 2 and 3 of the present resolution;\nDecides to remain seized of the matter.\n\n\n\n\n国連決議の読み方\n国連決議の探し方：国会図書館、国連広報センター\n\n総会、安保理\n\n国連の文書記号：国会図書館、国連広報センター"
+  },
+  {
+    "objectID": "security_policy.html#民主主義と平和",
+    "href": "security_policy.html#民主主義と平和",
+    "title": "安全保障政策",
+    "section": "3 民主主義と平和",
+    "text": "3 民主主義と平和\n\n3.1 民主的平和\n民主的平和 (democratic peace: DP)\n\n民主主義のデータ：Polity 5／V-Dem\n競争的権威主義、選挙権威主義(Gandhi と Lust-Okar 2009)2\n\n権威主義国のパフォーマンス？3\n\n民主主義の後退 (democracy backsliding)\n\n\n\n\n\n\n政治体制の推移 (Polity V)\n\n\n\n\n\n\n\n\n\n政治体制の推移 (V-Dem)\n\n\n\n\n\n\n\n\n\n政治体制の地理的分布\n\n\n\n\n\n\n\n\n\n政治体制の組み合わせと紛争頻度\n\n\n\n\n\n\n3.2 民主的平和の論理\n\nアカウンタビリティ\n\n権威主義国による攻撃(Reiter と Stam 2003)\n独裁者の末路(Goemans 2008)\n\n情報の非対称性\n\n報道の自由(Van Belle 1997)／与野党の議論(Schultz 1998)\n観衆費用(Fearon 1994)\n\n観衆費用の存在(M. Tomz 2007; Kurizaki と Whang 2015)\n観衆費用の不在Katagiri と Min (2019)\n権威主義国における観衆費用(Weiss 2013; Weeks 2008)\n民主主義国による威嚇の信憑性の低さ(Downes と Sechser 2012)\n\n透明性？(Finel と Lord 1999)\n\n規範／アイデンティティ／信頼(Doyle 1986; Risse-Kappen 1995)\n\n妥協(Mousseau 1998; Dixon 1994)\n市民の態度(M. R. Tomz と Weeks 2013)\n体制間競争？\n\n女性政治家\n\nジェンダー平等／女性議員／女性参政権と軍事支出／武力行使(Reiter 2015; Barnhart ほか 2020)\n女性指導者と武力紛争(Koch と Fulton 2011; Caprioli と Boyer 2001)\n\n指導者になる女性(Schramm と Stark 2020)\n平和的な姿勢？(Schwartz と Blair 2020)\n\n\n\n\n\n\n\n\n女性参政権の推移\n\n\n\n\n\n\n\n\n\n女性議員比率の推移\n\n\n\n\n\n\n\n\n\n女性の政治的指導者の推移\n\n\n\n\n\n\n3.3 民意と戦争\n旗下結集効果 (rally [’round the flag] effect)／陽動戦争 (diversionary war)／復活のためのギャンブル (gambling for resurrection)\n\n\n\nブッシュJr米大統領の支持率の推移\n\n\n\nインフレ率／失業率と紛争\n\n権威主義国(Mitchell と Prins 2004)\n民主主義国(Arena と Palmer 2009; Fordham 1998)\n\n国際危機と政治的生き残り(Chiozza と Goemans 2003)\n選挙後の紛争(Gaubatz 1991)\n\n\n\n3.4 民主化による平和\n相関\\(\\neq\\)因果\n\n自由市場経済(Gartzke 2007)\n領土問題(Thompson 1996; Gibler と Tir 2010, 2014)\n共通の脅威(Farber と Gowa 1997; McDonald 2015)\n\n民主化\\(\\leadsto\\)平和？\n\n新興民主主義国や民主化と紛争(Mansfield と Snyder 1995)"
+  },
+  {
+    "objectID": "security_policy.html#経済と平和",
+    "href": "security_policy.html#経済と平和",
+    "title": "安全保障政策",
+    "section": "4 経済と平和",
+    "text": "4 経済と平和\n経済的相互依存 (economic interdependence)\n\n\n\n\n\n貿易額の推移\n\n\n\n\n\n\n\n\n\n対GDP貿易額比率の推移\n\n\n\n\n\n\n\n地域貿易協定の推移\n\n\n商業的平和 (commercial peace)／機会費用 (opportunity cost)\n\n第1次世界大戦／太平洋戦争\n安全保障外部性 (security externalities)／経済的威圧／経済安全保障"
+  },
+  {
+    "objectID": "security_policy.html#footnotes",
+    "href": "security_policy.html#footnotes",
+    "title": "安全保障政策",
+    "section": "脚注",
+    "text": "脚注\n\n\nカントの「永遠平和のために」がこうした思想の潮流とする見方のため。↩︎\n東島雅晶「恐怖支配から恩寵政治へ？　権威主義体制の変貌する統治手法」(2022) 中央公論；浅古泰史・東島雅昌「「民主主義 vs. 権威主義」のゆくえ」(2022) 経済セミナー10・11月号↩︎\n東島雅晶「民主主義と権威主義、どちらの「社会経済パフォーマンス」が上なのか？ データ分析が示す驚きの結果」(2022) 現代ビジネス；安中進「民主主義は権威主義に劣るのか? : コロナ禍における政治体制の実証分析」(2021) 中央公論；安中進「政治体制は豊かさや健康にどのような影響を及ぼすのか？」(2022) 経済セミナー10・11月号↩︎"
+  },
+  {
     "objectID": "info.html",
     "href": "info.html",
     "title": "自己紹介",
@@ -98,6 +147,20 @@
     "text": "1 中国のネット検閲\n\n1.1 人々は検閲を嫌っているのか？\n\n\n\nChen と Yang (2019)\n\n\n\n\n\nHobbs と Roberts (2018)\n\n\n\n\n\nHobbs と Roberts (2018)\n\n\n\n\n1.2 政府は何を検閲しているのか？\n\n\n\nKing, Pan, と Roberts (2014)\n\n\n\n\n\nKing, Pan, と Roberts (2013)\n\n\n\n\n\nKing, Pan, と Roberts (2013)\n\n\n\n\n\nKing, Pan, と Roberts (2017)\n\n\n\n\n\nKing, Pan, と Roberts (2017)"
   },
   {
+    "objectID": "column.html#選挙",
+    "href": "column.html#選挙",
+    "title": "おまけ",
+    "section": "2 選挙",
+    "text": "2 選挙\n\n2.1 若者と投票\nライカー＝オードシュック・モデル\n\\[\nR = P \\times B - C + D\n\\]\n\n\n\n世代別投票率の推移\n\n\n若者の投票\\(\\leadsto\\)教育予算(Bertocchi ほか 2020)\n\n\n\nBertocchi ほか (2020)\n\n\n\n\n2.2 選挙と民意\n社会的選択理論 (social choice theory)(坂井 2015, 2016)\n\n\n\n\n\n\n政策の好みと政党の好み\n\n\n\n5人の有権者がいて、A党とB党の3つの政策について、次のように好んでいる。\n\n\n\nオストロゴルスキーのパラドックス(坂井 2016, 23)\n\n\n有権者\n金融\n外交\n原発\n支持政党\n\n\n\n\n1\nA\nA\nB\nA\n\n\n2\nA\nB\nA\nA\n\n\n3\nB\nA\nA\nA\n\n\n4\nB\nB\nB\nB\n\n\n5\nB\nB\nB\nB\n\n\n多数決の結果\nB\nB\nB\nA\n\n\n\n選び方によって結果は変わるかもしれない。\n\n\n\n\n\n\n選び方と政策\n\n\n\n9人の有権者がいて、4人の候補者（政策）について、次のように好んでいる。\n\n\n\n坂井 (2016), p.43\n\n\n人数\n4人\n3人\n2人\n\n\n\n\n1位\nA\nC\nD\n\n\n2位\nB\nB\nB\n\n\n3位\nC\nA\nC\n\n\n4位\nD\nD\nA\n\n\n\n\n多数決\n\nAが最多の4人の支持を得る\n\n決選投票\n\n1回目で2票しか得なかったDが落選\n決選投票ではCが5人の支持を得る1\n\nボルダルール：1位に4点、2位に3点、3位に2点、4位に1点を与える\n\nAは24点、Bは27点、Cは24点、Dは15点\n\n\n政策で投票先を選んでいるのか？\n\n堀内優作ほか「衆院総選挙、緊急解析！　データが明かした有権者の本音」日経ビジネス\n堀内優作「マニフェスト選挙を疑え：2021年総選挙の計量政治学」日経ビジネス\n\n\n\n\nコンジョイント実験の例\n\n\n\n\n\nコンジョイント実験の結果"
+  },
+  {
+    "objectID": "column.html#footnotes",
+    "href": "column.html#footnotes",
+    "title": "おまけ",
+    "section": "脚注",
+    "text": "脚注\n\n\n多数決の場合は票割れが起こってしまっている。↩︎"
+  },
+  {
     "objectID": "international_society.html",
     "href": "international_society.html",
     "title": "国際社会の構造",
@@ -123,14 +186,14 @@
     "href": "international_society.html#国内的類推",
     "title": "国際社会の構造",
     "section": "2 国内的類推",
-    "text": "2 国内的類推\n国内的類推 (domestic analogy)(中西, 石田, と 田所 2013, 174; 篠田 2007, 39–46)\n\n国際社会（国際連合）と国内社会の対比\n\n\n\n\n国際連合本部ビル\n\n\n\n2.1 立法\n条約 (treaty) ／慣習国際法 (customary international law)\n\n\n\n\n\n\n国際司法裁判所規程　第38条1項\n\n\n\n裁判所は、付託される紛争を国際法に従って裁判することを任務とし、次のものを適用する。\n\n一般又は特別の国際条約で係争国が明らかに認めた規則を確立しているもの\n法として認められた一般慣行の証拠としての国際慣習\n文明国が認めた法の一般原則\n法則決定の補助手段としての裁判上の判決及び諸国の最も優秀な国際法学者の学説。但し、第59条の規定に従うことを条件とする。\n\n\n\n\n\n\n\n\n\n条約法に関するウィーン条約　第2条1項(a)\n\n\n\n「条約」とは、国の間において文書の形式により締結され、国際法によつて規律される国際的な合意（単一の文書によるものであるか関連する二以上の文書によるものであるかを問わず、また、名称のいかんを問わない。）をいう。\n\n\n国際連合 (the United Nations: UN) の総会 (General Assembly)\n\n\n\n国連総会本会議場\n\n\n\n\n\n\n\n\n国連憲章　第7条1項\n\n\n\n国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。\n\n\n\n\n\n\n\n\n国連憲章　第9条1項\n\n\n\n総会は、すべての国際連合加盟国で構成する。\n\n\n\n一般討論 (general debate)\n\n日本政府の一般討論\nトピックモデルによる分析結果\n\n\n\n\n\n\n\n\n国連憲章　第10条\n\n\n\n総会は、この憲章の範囲内にある問題若しくは事項又はこの憲章に規定する機関の権限及び任務に関する問題若しくは事項を討議し、並びに、第12条に規定する場合を除く外、このような問題又は事項について国際連合加盟国若しくは安全保障理事会又はこの両者に対して勧告をすることができる。\n\n\n\n政府代表部\n6つの委員会1および本会議で討論\n\n1 第1委員会（軍縮・安全保障）、第2委員会（経済・金融）、第3委員会（社会・人権）、第4委員会（特別問題）、第5委員会（行政・予算）、第6委員会（国際法）からなる。\\(\\leadsto\\)決議 (resolution) の採択\n\n例：日本提出の核兵器廃絶決議\n\n\n\n\n\n\n\n国連憲章　第18条\n\n\n\n\n総会の各構成国は、1個の投票権を有する。\n（省略）\nその他の問題に関する決定は…出席し且つ投票する構成国の過半数によって行われる。\n\n\n\n\n\n\n\n\n\n国連憲章　第2条7項\n\n\n\nこの憲章のいかなる規定も、本質上いずれかの国の国内管轄権内にある事項に干渉する権限を国際連合に与えるものではなく、また、その事項をこの憲章に基く解決に付託することを加盟国に要求するものでもない。但し、この原則は、第7章に基く強制措置の適用を妨げるものではない。\n\n\n\n\n\n\n\n\n国連憲章　第25条\n\n\n\n国際連合加盟国は、安全保障理事会の決定をこの憲章に従って受諾し且つ履行することに同意する。\n\n\n\n\n2.2 行政\n事務局 (secretary)\n\n国連事務局の長として事務総長 (secretary general: SG)\n\n\n\n\nアントニオ・グテーレス国連事務総長\n\n\n\n\n\n\n\n\n国連憲章　第7条1項\n\n\n\n国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。\n\n\n\n\n\n\n\n\n国連憲章　第97条\n\n\n\n事務局は、1人の事務総長及びこの機構が必要とする職員からなる。事務総長は、安全保障理事会の勧告に基いて総会が任命する。事務総長は、この機構の行政職員の長である。\n\n\n\n年次報告\n\n\n\n\n\n\n\n国連憲章　第17条\n\n\n\n\n総会は、この機構の予算を審議し、且つ、承認する。\nこの機構の経費は、総会によって割り当てられるところに従って、加盟国が負担する。\n（省略）\n\n\n\n\n\n\n\n\n\n国連憲章　第19条\n\n\n\nこの機構に対する分担金の支払が延滞している国際連合加盟国は、その延滞金の額がその時までの満2年間にその国から支払われるべきであった分担金の額に等しいか又はこれをこえるときは、総会で投票権を有しない。但し、総会は、支払の不履行がこのような加盟国にとってやむを得ない事情によると認めるときは、その加盟国に投票を許すことができる。\n\n\n\n予算\n国連分担金の支払い率\n\n\n\n2.3 司法\n国際司法裁判所 (International Court of Justice: ICJ)\n\n\n\n国際司法裁判所\n\n\n\n\n\n\n\n\n国連憲章　第7条1項\n\n\n\n国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。\n\n\n\n\n\n\n\n\n国連憲章　第92条\n\n\n\n国際司法裁判所は、国際連合の主要な司法機関である。この裁判所は、付属の規程に従って任務を行う。この規定は、常設国際司法裁判所規程を基礎とし、且つ、この憲章と不可分の一体をなす。\n\n\n\n\n\n\n\n\n国際司法裁判所規程　第36条1項\n\n\n\n裁判所の管轄は、当事者が裁判所に付託するすべての事件及び国際連合憲章又は現行諸条約に特に規定するすべての事項に及ぶ。\n\n\n\n\n\n\n\n\n国際司法裁判所規程　第36条2項\n\n\n\nこの規程の当事国である国は、次の事項に関するすべての法律的紛争についての裁判所の管轄を同一の義務を受諾する他の国に対する関係において当然に且つ特別の合意なしに義務的であると認めることを、いつでも宣言することができる。\n\n\n\n選択条項受諾宣言（強制管轄権受諾宣言）\n\n\n\n\n選択条項受諾宣言を行った国\n\n\n\n\n\n\n\n\n条約法に関するウィーン条約　第2条1項(d)\n\n\n\n「留保」とは、国が、条約の特定の規定の自国への適用上その法的効果を排除し又は変更することを意図して、条約への署名、条約の批准、受諾若しくは承認又は条約への加入の際に単独に行う声明（用いられる文言及び名称のいかんを問わない。）をいう。\n\n\n\n日本の選択条項受諾宣言および留保(玉田 2016)\n\n\n\n\n\n\n\n国際司法裁判所規程　第59条\n\n\n\n裁判所の裁判は、当事者間において且つその特定の事件に関してのみ拘束力を有する。\n\n\n\n\n\n\n\n\n国際司法裁判所規程　第94条1項\n\n\n\n各国際連合加盟国は、自国が当事者であるいかなる事件においても、国際司法裁判所の裁判に従うことを約束する。\n\n\n\n判決の法的拘束力／強制力\n\n\n\n\n\n\n\n国連憲章　第96条\n\n\n\n総会又は安全保障理事会は、いかなる法律問題についても勧告的意見を与えるように国際司法裁判所に要請することができる。\n\n\n\n勧告的意見 (advisory opinion)\n\n国際社会は国内社会よりも劣っている。"
+    "text": "2 国内的類推\n国内的類推 (domestic analogy)(中西, 石田, と 田所 2013, 174; 篠田 2007, 39–46)\n\n国際社会（国際連合）と国内社会の対比\n\n\n\n\n国際連合本部ビル\n\n\n\n2.1 立法\n条約 (treaty) ／慣習国際法 (customary international law)\n\n\n\n\n\n\n国際司法裁判所規程　第38条1項\n\n\n\n裁判所は、付託される紛争を国際法に従って裁判することを任務とし、次のものを適用する。\n\n一般又は特別の国際条約で係争国が明らかに認めた規則を確立しているもの\n法として認められた一般慣行の証拠としての国際慣習\n文明国が認めた法の一般原則\n法則決定の補助手段としての裁判上の判決及び諸国の最も優秀な国際法学者の学説。但し、第59条の規定に従うことを条件とする。\n\n\n\n\n\n\n\n\n\n条約法に関するウィーン条約　第2条1項(a)\n\n\n\n「条約」とは、国の間において文書の形式により締結され、国際法によつて規律される国際的な合意（単一の文書によるものであるか関連する二以上の文書によるものであるかを問わず、また、名称のいかんを問わない。）をいう。\n\n\n国際連合 (the United Nations: UN) の総会 (General Assembly)\n\n\n\n国連総会本会議場\n\n\n\n\n\n\n\n\n国連憲章　第7条1項\n\n\n\n国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。\n\n\n\n\n\n\n\n\n国連憲章　第9条1項\n\n\n\n総会は、すべての国際連合加盟国で構成する。\n\n\n\n一般討論 (general debate)\n\n日本政府の一般討論\nトピックモデルによる分析結果\n\n\n\n\n\n\n\n\n国連憲章　第10条\n\n\n\n総会は、この憲章の範囲内にある問題若しくは事項又はこの憲章に規定する機関の権限及び任務に関する問題若しくは事項を討議し、並びに、第12条に規定する場合を除く外、このような問題又は事項について国際連合加盟国若しくは安全保障理事会又はこの両者に対して勧告をすることができる。\n\n\n\n政府代表部\n6つの委員会1および本会議で討論\n\n\\(\\leadsto\\)決議 (resolution) の採択\n\n例：日本提出の核兵器廃絶決議\n\n\n\n\n\n\n\n国連憲章　第18条\n\n\n\n\n総会の各構成国は、1個の投票権を有する。\n（省略）\nその他の問題に関する決定は…出席し且つ投票する構成国の過半数によって行われる。\n\n\n\n\n\n\n\n\n\n国連憲章　第2条7項\n\n\n\nこの憲章のいかなる規定も、本質上いずれかの国の国内管轄権内にある事項に干渉する権限を国際連合に与えるものではなく、また、その事項をこの憲章に基く解決に付託することを加盟国に要求するものでもない。但し、この原則は、第7章に基く強制措置の適用を妨げるものではない。\n\n\n\n\n\n\n\n\n国連憲章　第25条\n\n\n\n国際連合加盟国は、安全保障理事会の決定をこの憲章に従って受諾し且つ履行することに同意する。\n\n\n\n\n2.2 行政\n事務局 (secretary)\n\n国連事務局の長として事務総長 (secretary general: SG)\n\n\n\n\nアントニオ・グテーレス国連事務総長\n\n\n\n\n\n\n\n\n国連憲章　第7条1項\n\n\n\n国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。\n\n\n\n\n\n\n\n\n国連憲章　第97条\n\n\n\n事務局は、1人の事務総長及びこの機構が必要とする職員からなる。事務総長は、安全保障理事会の勧告に基いて総会が任命する。事務総長は、この機構の行政職員の長である。\n\n\n\n年次報告\n\n\n\n\n\n\n\n国連憲章　第17条\n\n\n\n\n総会は、この機構の予算を審議し、且つ、承認する。\nこの機構の経費は、総会によって割り当てられるところに従って、加盟国が負担する。\n（省略）\n\n\n\n\n\n\n\n\n\n国連憲章　第19条\n\n\n\nこの機構に対する分担金の支払が延滞している国際連合加盟国は、その延滞金の額がその時までの満2年間にその国から支払われるべきであった分担金の額に等しいか又はこれをこえるときは、総会で投票権を有しない。但し、総会は、支払の不履行がこのような加盟国にとってやむを得ない事情によると認めるときは、その加盟国に投票を許すことができる。\n\n\n\n予算\n国連分担金の支払い率\n\n\n\n2.3 司法\n国際司法裁判所 (International Court of Justice: ICJ)\n\n\n\n国際司法裁判所\n\n\n\n\n\n\n\n\n国連憲章　第7条1項\n\n\n\n国際連合の主要機関として、総会、安全保障理事会、経済社会理事会、信託統治理事会、国際司法裁判所及び事務局を設ける。\n\n\n\n\n\n\n\n\n国連憲章　第92条\n\n\n\n国際司法裁判所は、国際連合の主要な司法機関である。この裁判所は、付属の規程に従って任務を行う。この規定は、常設国際司法裁判所規程を基礎とし、且つ、この憲章と不可分の一体をなす。\n\n\n\n\n\n\n\n\n国際司法裁判所規程　第36条1項\n\n\n\n裁判所の管轄は、当事者が裁判所に付託するすべての事件及び国際連合憲章又は現行諸条約に特に規定するすべての事項に及ぶ。\n\n\n\n\n\n\n\n\n国際司法裁判所規程　第36条2項\n\n\n\nこの規程の当事国である国は、次の事項に関するすべての法律的紛争についての裁判所の管轄を同一の義務を受諾する他の国に対する関係において当然に且つ特別の合意なしに義務的であると認めることを、いつでも宣言することができる。\n\n\n\n選択条項受諾宣言（強制管轄権受諾宣言）\n\n\n\n\n選択条項受諾宣言を行った国\n\n\n\n\n\n\n\n\n条約法に関するウィーン条約　第2条1項(d)\n\n\n\n「留保」とは、国が、条約の特定の規定の自国への適用上その法的効果を排除し又は変更することを意図して、条約への署名、条約の批准、受諾若しくは承認又は条約への加入の際に単独に行う声明（用いられる文言及び名称のいかんを問わない。）をいう。\n\n\n\n日本の選択条項受諾宣言および留保(玉田 2016)\n\n\n\n\n\n\n\n国際司法裁判所規程　第59条\n\n\n\n裁判所の裁判は、当事者間において且つその特定の事件に関してのみ拘束力を有する。\n\n\n\n\n\n\n\n\n国際司法裁判所規程　第94条1項\n\n\n\n各国際連合加盟国は、自国が当事者であるいかなる事件においても、国際司法裁判所の裁判に従うことを約束する。\n\n\n\n判決の法的拘束力／強制力\n\n\n\n\n\n\n\n国連憲章　第96条\n\n\n\n総会又は安全保障理事会は、いかなる法律問題についても勧告的意見を与えるように国際司法裁判所に要請することができる。\n\n\n\n勧告的意見 (advisory opinion)\n\n国際社会は国内社会よりも劣っている。"
   },
   {
     "objectID": "international_society.html#近代国際社会の成立",
     "href": "international_society.html#近代国際社会の成立",
     "title": "国際社会の構造",
     "section": "3 近代国際社会の成立",
-    "text": "3 近代国際社会の成立\n\n3.1 主権国家以前の社会\n\n\n\nアナーキーではない国際社会のイメージ\n\n\n近世（15世紀後半〜18世紀前半）の西ヨーロッパ\n\nキリスト教権威（ローマ教皇）と政治権力（王国）が混在\n領域性、強制力、正統性\n西ヨーロッパ以外の地域（例えばアジアやアラブ世界）は？\n\n\n\n3.2 近代国家の誕生\n\n3.2.1 戦争と国家\n宗教革命／官僚制（徴税）／常備軍\n\n財政＝軍事国家(ジョン・ブリュア 2003)\n「戦争が近代国家を作り、また近代国家が戦争を行う」(Tilly ほか 1992)\n\n安全・権利\\(\\rightleftarrows\\)納税\n\n「マフィアのような犯罪組織と国家との違いは程度問題であって、本質的な違いはない」(Tilly 1985)\n\n\n\n3.2.2 市場と国家\n所有権・貨幣\\(\\rightleftarrows\\)納税\n\n規模の経済 (economies of scale)\n\n\n\n3.2.3 社会契約説\n自然状態 (state of nature)：政府の存在しない社会\n\nホッブズ\n\n自然権\n万人の万人に対する闘争\n\nそのような世界での生活は「孤独で、貧しく、不潔で、粗暴で、短い」\n\nレヴァイアサン\n\nロック\n\n自然権の侵害\n\nルソー\n\n全体意思／一般意思\n\n\n社会契約説\n\n\n\n3.3 主権国家体系の成立\n30年戦争／1648年／ウェストファリア条約 (Peace of Westphalia)22 なお、これによって主権国家体系が成立したというフィクションから、主権国家体系をウェストファリア体制と呼ぶこともある。1648年に突然、主権国家体系が誕生したわけではない(小川, 板橋, と 青野 2018, 16)。\n主権国家体系による解決／社会契約による解決\n\n\n\n\n\n国家の数の推移\n\n\n\n\n\n\n\n\n\n各国の独立年\n\n\n\n\n選択・再生産されるアナーキー(Wendt 1992; 石田 1998)"
+    "text": "3 近代国際社会の成立\n\n3.1 主権国家以前の社会\n\n\n\nアナーキーではない国際社会のイメージ\n\n\n近世（15世紀後半〜18世紀前半）の西ヨーロッパ\n\nキリスト教権威（ローマ教皇）と政治権力（王国）が混在\n領域性、強制力、正統性\n西ヨーロッパ以外の地域（例えばアジアやアラブ世界）は？\n\n\n\n3.2 近代国家の誕生\n\n3.2.1 戦争と国家\n宗教革命／官僚制（徴税）／常備軍\n\n財政＝軍事国家(ジョン・ブリュア 2003)\n「戦争が近代国家を作り、また近代国家が戦争を行う」(Tilly ほか 1992)\n\n安全・権利\\(\\rightleftarrows\\)納税\n\n「マフィアのような犯罪組織と国家との違いは程度問題であって、本質的な違いはない」(Tilly 1985)\n\n\n\n3.2.2 市場と国家\n所有権・貨幣\\(\\rightleftarrows\\)納税\n\n規模の経済 (economies of scale)\n\n\n\n3.2.3 社会契約説\n自然状態 (state of nature)：政府の存在しない社会\n\nホッブズ\n\n自然権\n万人の万人に対する闘争\n\nそのような世界での生活は「孤独で、貧しく、不潔で、粗暴で、短い」\n\nレヴァイアサン\n\nロック\n\n自然権の侵害\n\nルソー\n\n全体意思／一般意思\n\n\n社会契約説\n\n\n\n3.3 主権国家体系の成立\n30年戦争／1648年／ウェストファリア条約 (Peace of Westphalia)2\n主権国家体系による解決／社会契約による解決\n\n\n\n\n\n国家の数の推移\n\n\n\n\n\n\n\n\n\n各国の独立年\n\n\n\n\n選択・再生産されるアナーキー(Wendt 1992; 石田 1998)"
   },
   {
     "objectID": "international_society.html#自生的秩序",
@@ -140,18 +203,25 @@
     "text": "4 自生的秩序\n「孤独で、貧しく、不潔で、粗暴で、短い」国際社会？\n\n\n\n\n\n\n\n\n\n\n\n武力紛争の推移(Miller と Bakar 2023)\n\n\n\n\n\n\n\n\n\n武力紛争の推移(Miller と Bakar 2023)\n\n\n\n\n\n\n\n\n\n武力紛争の分布（1648-2003年）(Miller と Bakar 2023)\n\n\n\n\n時間的・地域的分散（変動）／アナーキー、人間の「本質」\n政府なき統治 (governance without government)、自生的・自己拘束的 (self-enforcing) な秩序\n\n国際法や国際裁判は無意味？"
   },
   {
+    "objectID": "international_society.html#footnotes",
+    "href": "international_society.html#footnotes",
+    "title": "国際社会の構造",
+    "section": "脚注",
+    "text": "脚注\n\n\n第1委員会（軍縮・安全保障）、第2委員会（経済・金融）、第3委員会（社会・人権）、第4委員会（特別問題）、第5委員会（行政・予算）、第6委員会（国際法）からなる。↩︎\nなお、これによって主権国家体系が成立したというフィクションから、主権国家体系をウェストファリア体制と呼ぶこともある。1648年に突然、主権国家体系が誕生したわけではない(小川, 板橋, と 青野 2018, 16)。↩︎"
+  },
+  {
     "objectID": "causes_of_war.html",
     "href": "causes_of_war.html",
     "title": "戦争の原因",
     "section": "",
-    "text": "戦争と外交はどのような関係にあるのか？\nなぜ戦争は選択されるのか？\n\n戦争の原因？\n\n人間の本性\n\n循環論法、後知恵\n\nアナーキー\n\n犯罪、内戦\n政治的統合？\n\n\n地域的・時間的な分散／非現実的な安全保障政策\n\n戦争\\(\\neq\\)自然災害／戦争\\(=\\)人々（集団）の選択\n\n\n\n\n抑止と安心供与\n\n中西, 石田, と 田所 (2013, 第3章)\n\n戦争の交渉モデル1\n\n多湖 (2020, 第2章)\n砂原, 稗田, と 多湖 (2020, 第10章)\n坂本 と 石橋 (2020, 第2章)\n大芝 ほか (2018, 第4章)\n浅古 (2018, 第11章)\n岡田 (2020, 第6章)\n石黒 (2019, 第1章)\n\n\n1 上から順に易しいものから専門的なものに並べている。"
+    "text": "戦争と外交はどのような関係にあるのか？\nなぜ戦争は選択されるのか？\n\n戦争の原因？\n\n人間の本性\n\n循環論法、後知恵\n\nアナーキー\n\n犯罪、内戦\n政治的統合？\n\n\n地域的・時間的な分散／非現実的な安全保障政策\n\n戦争\\(\\neq\\)自然災害／戦争\\(=\\)人々（集団）の選択\n\n\n\n\n抑止と安心供与\n\n中西, 石田, と 田所 (2013, 第3章)\n\n戦争の交渉モデル1\n\n多湖 (2020, 第2章)\n砂原, 稗田, と 多湖 (2020, 第10章)\n坂本 と 石橋 (2020, 第2章)\n大芝 ほか (2018, 第4章)\n浅古 (2018, 第11章)\n岡田 (2020, 第6章)\n石黒 (2019, 第1章)"
   },
   {
     "objectID": "causes_of_war.html#導入",
     "href": "causes_of_war.html#導入",
     "title": "戦争の原因",
     "section": "",
-    "text": "戦争と外交はどのような関係にあるのか？\nなぜ戦争は選択されるのか？\n\n戦争の原因？\n\n人間の本性\n\n循環論法、後知恵\n\nアナーキー\n\n犯罪、内戦\n政治的統合？\n\n\n地域的・時間的な分散／非現実的な安全保障政策\n\n戦争\\(\\neq\\)自然災害／戦争\\(=\\)人々（集団）の選択\n\n\n\n\n抑止と安心供与\n\n中西, 石田, と 田所 (2013, 第3章)\n\n戦争の交渉モデル1\n\n多湖 (2020, 第2章)\n砂原, 稗田, と 多湖 (2020, 第10章)\n坂本 と 石橋 (2020, 第2章)\n大芝 ほか (2018, 第4章)\n浅古 (2018, 第11章)\n岡田 (2020, 第6章)\n石黒 (2019, 第1章)\n\n\n1 上から順に易しいものから専門的なものに並べている。"
+    "text": "戦争と外交はどのような関係にあるのか？\nなぜ戦争は選択されるのか？\n\n戦争の原因？\n\n人間の本性\n\n循環論法、後知恵\n\nアナーキー\n\n犯罪、内戦\n政治的統合？\n\n\n地域的・時間的な分散／非現実的な安全保障政策\n\n戦争\\(\\neq\\)自然災害／戦争\\(=\\)人々（集団）の選択\n\n\n\n\n抑止と安心供与\n\n中西, 石田, と 田所 (2013, 第3章)\n\n戦争の交渉モデル1\n\n多湖 (2020, 第2章)\n砂原, 稗田, と 多湖 (2020, 第10章)\n坂本 と 石橋 (2020, 第2章)\n大芝 ほか (2018, 第4章)\n浅古 (2018, 第11章)\n岡田 (2020, 第6章)\n石黒 (2019, 第1章)"
   },
   {
     "objectID": "causes_of_war.html#戦争の構造",
@@ -173,6 +243,13 @@
     "title": "戦争の原因",
     "section": "3 戦争の終結",
     "text": "3 戦争の終結\n戦争の終結\\(=\\)外交の成功\\(=\\)外交の阻害要因の消滅\n\n情報の非対称性／コミットメント問題\nコミットメントとしての和平協定\n\n\n\n\nWeisiger (2016)\n\n\n\n回帰分析 (regression analysis)\n統計的有意 (statistically significant)"
+  },
+  {
+    "objectID": "causes_of_war.html#footnotes",
+    "href": "causes_of_war.html#footnotes",
+    "title": "戦争の原因",
+    "section": "脚注",
+    "text": "脚注\n\n\n上から順に易しいものから専門的なものに並べている。↩︎"
   },
   {
     "objectID": "index.html",
@@ -200,41 +277,13 @@
     "href": "index.html#参考書",
     "title": "はじめに",
     "section": "3 参考書",
-    "text": "3 参考書\n特定の教科書を用いないが、自習のためにいくつかの参考書を紹介する。国際関係論のテキストは多種多様なので、ぜひ読み比べて欲しい。\n\nなにから読めばよいか分からない初学者の方は、まず 砂原, 稗田, と 多湖 (2020) や 坂本 と 石橋 (2020) など政治学の入門レベルの教科書の中の国際関係に関する箇所を読むことを勧める。その後、 村田 ほか (2023) など国際関係論の入門レベルの教科書を読むとよい。\n身近な日本の話題から国際関係や国際法へ入門するものとして 佐藤 ほか (2018) や 森川 ほか (2016) などがある。\n既に国際関係論を学んだことがある人は 中西, 石田, と 田所 (2013) や 山影 (2012) など が発展レベルの教科書としてある。また、発展レベルの政治学を扱う 久米 ほか (2011) の国際関係に関する箇所も読むとよい。\n国際関係の重要な知識をまとめたものとして 田中 と 中西 (2010) は辞書的に使うことができる1。\n国際関係論を本格的に学習したい人は英語のテキストとして Frieden, Lake, と Schultz (2019) などに挑戦することを勧める。\n\n1 ただし、やや古いので注意。国際関係論を直接扱うものではないが、この授業を理解する上で重要な周辺知識に関する参考書も挙げておく。\n\n国際関係を理解する上で国際政治史、国際法、比較政治の知識は不可欠である。これらについても多くのテキストがあるが、入り口としてそれぞれ 小川, 板橋, と 青野 (2018) 、玉田, 水島, と 山田 (2022) 、 久保, 末近, と 高橋 (2016) を紹介する。\n国際関係の一つの見方としてゲーム理論2がある。ゲーム理論を用いた政治学の入門レベルの教科書として 浅古 (2018) がある。また、 岡田 (2020) はゲーム理論を用いた国際関係論のテキストである（ただし、やや難易度は高い）。\n国際関係をはじめ、様々な社会現象に関して原因と結果を検証する方法として統計的因果推論がある。入門レベルの教科書として 中室 と 津川 (2017), 伊藤公一朗. (2017), 松林 (2021) などがある。事例分析の方法としては 久米 (2013), 伊藤修一郎. (2022) などが参考になる。\n\n2 ゲーム理論自体はミクロ経済学の一分野である。これらに加えて、こちらで紹介している「国際問題に関する情報」なども関心に応じて参考とすること。\n政治学（や経済学）全般の研究について紹介しているサイトやアカウントも参考になる。\n\n福本健太郎（学習院大学）\nアライさんのお尻と学ぶ統計学\n経済学101\n\n\n\n\n\n\n\n引用方法\n\n\n\n技術的な問題から、講義ノートにおける引用方法は適切ではないので、レポート執筆などにおいて参考にしないこと。学生便覧の「引用の仕方」などを参照すること。"
+    "text": "3 参考書\n特定の教科書を用いないが、自習のためにいくつかの参考書を紹介する。国際関係論のテキストは多種多様なので、ぜひ読み比べて欲しい。\n\nなにから読めばよいか分からない初学者の方は、まず 砂原, 稗田, と 多湖 (2020) や 坂本 と 石橋 (2020) など政治学の入門レベルの教科書の中の国際関係に関する箇所を読むことを勧める。その後、 村田 ほか (2023) など国際関係論の入門レベルの教科書を読むとよい。\n身近な日本の話題から国際関係や国際法へ入門するものとして 佐藤 ほか (2018) や 森川 ほか (2016) などがある。\n既に国際関係論を学んだことがある人は 中西, 石田, と 田所 (2013) や 山影 (2012) など が発展レベルの教科書としてある。また、発展レベルの政治学を扱う 久米 ほか (2011) の国際関係に関する箇所も読むとよい。\n国際関係の重要な知識をまとめたものとして 田中 と 中西 (2010) は辞書的に使うことができる1。\n国際関係論を本格的に学習したい人は英語のテキストとして Frieden, Lake, と Schultz (2019) などに挑戦することを勧める。\n\n国際関係論を直接扱うものではないが、この授業を理解する上で重要な周辺知識に関する参考書も挙げておく。\n\n国際関係を理解する上で国際政治史、国際法、比較政治の知識は不可欠である。これらについても多くのテキストがあるが、入り口としてそれぞれ 小川, 板橋, と 青野 (2018) 、玉田, 水島, と 山田 (2022) 、 久保, 末近, と 高橋 (2016) を紹介する。\n国際関係の一つの見方としてゲーム理論2がある。ゲーム理論を用いた政治学の入門レベルの教科書として 浅古 (2018) がある。また、 岡田 (2020) はゲーム理論を用いた国際関係論のテキストである（ただし、やや難易度は高い）。\n国際関係をはじめ、様々な社会現象に関して原因と結果を検証する方法として統計的因果推論がある。入門レベルの教科書として 中室 と 津川 (2017), 伊藤公一朗. (2017), 松林 (2021) などがある。事例分析の方法としては 久米 (2013), 伊藤修一郎. (2022) などが参考になる。\n\nこれらに加えて、こちらで紹介している「国際問題に関する情報」なども関心に応じて参考とすること。\n政治学（や経済学）全般の研究について紹介しているサイトやアカウントも参考になる。\n\n福本健太郎（学習院大学）\nアライさんのお尻と学ぶ統計学\n経済学101\n\n\n\n\n\n\n\n引用方法\n\n\n\n技術的な問題から、講義ノートにおける引用方法は適切ではないので、レポート執筆などにおいて参考にしないこと。学生便覧の「引用の仕方」などを参照すること。"
   },
   {
-    "objectID": "security_policy.html",
-    "href": "security_policy.html",
-    "title": "安全保障政策",
-    "section": "",
-    "text": "戦争＝利害対立＋外交の失敗\n\\(\\leadsto\\)安全保障政策＝これらの要因を解消すること\n\n現状変更の意図\n情報の非対称性\nコミットメント問題"
-  },
-  {
-    "objectID": "security_policy.html#はじめに",
-    "href": "security_policy.html#はじめに",
-    "title": "安全保障政策",
-    "section": "",
-    "text": "戦争＝利害対立＋外交の失敗\n\\(\\leadsto\\)安全保障政策＝これらの要因を解消すること\n\n現状変更の意図\n情報の非対称性\nコミットメント問題"
-  },
-  {
-    "objectID": "security_policy.html#軍事力と平和",
-    "href": "security_policy.html#軍事力と平和",
-    "title": "安全保障政策",
-    "section": "1 軍事力と平和",
-    "text": "1 軍事力と平和\n\n1.1 抑止の能力\nバランシング：内的・外的\n\\[\n\\textrm{現状変更を望む国家Aの戦争の利益}=w - c_A\n\\]\n\n勢力均衡 (balance of power) (Waltz 2010)\n勢力優位 (preponderance of power)\n権力移行 (transition of power)\n\n現状の利益配分／国力の分布\n\n\n\n交渉可能領域\n\n\n\n\n\n交渉可能領域\n\n\n\n\n\n\n\n総合国力指数と軍事費の推移\n\n\n\n\n\n\n\n\n\n軍事支出 (SIPRI) のGDP比の推移\n\n\n\n\n\n\n1.2 抑止の信憑性\n\\[\n\\textrm{現状維持を望む国家Bの戦争の利益}= 1-w - c_B\n\\]\n\nロックイン\n埋没費用\n\n抑止力\\(=\\)抑止の能力\\(\\times\\)抑止の信憑性\n\n抑止力の検証？\n\n\n\n1.3 安全保障のジレンマ\n先制攻撃\n安全保障のジレンマ(Jervis 1978)／スパイラル・モデル\n\n\n\n\n\n\n軍拡のシナリオ\n\n\n\n\n国家\\(A\\)と国家\\(B\\)の現状の国力は\\(w\\)と\\(1-w\\)である。\n国家\\(A\\)だけが軍備拡大をすると国力は\\(w_A\\)に上がるが、費用\\(c_A\\)を支払う。\n国家\\(B\\)だけが軍備拡大をすると国力は\\(1-w_B\\)に上がるが、費用\\(c_B\\)を支払う。\n互いに軍備拡大をすると国力は変わらず、費用を支払う。\n\n\n\n\n\n\nA, B\n現状維持\n軍備拡大\n\n\n\n\n現状維持\n\\(w, 1-w\\)\n\\(w_B, 1-w_B-c_B\\)\n\n\n軍備拡大\n\\(w_A-c_A, 1-w_A\\)\n\\(w-c_A, 1-w-c_B\\)\n\n\n\n\n一方的な不利は望まない（\\(w_B &lt; w - c_A\\)かつ\\(1-w_A &lt; 1-w-c_B\\)）\n\n一方的な有利を望む？（\\(w_A - c_A &gt; w\\)かつ\\(1-w_B - c_B &gt; 1-w\\)）\n一方的な有利は望まない？（\\(w_A - c_A &lt; w\\)かつ\\(1-w_B - c_B &lt; 1-w\\)）\n\n\n抑止力の拡大\\(\\leadsto\\)戦争？(Slantchev 2003)\n\n\n1.4 同盟\nAlliance Treaty Obligations and Provisions (ATOP) のデータセット(B. Leeds ほか 2002)\n\n\n\n\n\n\nATOPにおける同盟の定義\n\n\n\nAn alliance is a formal agreement among independent states to cooperate militarily in the face of potential or realized military conflict.\n\n\n\n\n\n\n\nATOPにおける同盟の種類と推移\n\n\n\n\n拡大抑止 (extended deterrence)\n\n\n\n同盟国のいる国際危機\n\n\n\n見捨てられる恐怖\n\n評判費用 (reputation cost)／観衆費用 (audience cost)\\(\\leadsto\\)手を縛る (tying hands)\n埋没費用 (sunk cost)\n仕掛線 (trip wire)\n\n巻き込まれる恐怖\n\n\n\n\n第1次世界大戦時のヨーロッパの同盟関係\n\n\n\n\n\nNATOとワルシャワ条約機構の加盟国\n\n\n拡大抑止の効果\n\n\n\nB. A. Leeds (2003)\n\n\n\n\n\nFuhrmann と Sechser (2014)\n\n\n見捨てられる可能性\n\n\n\nBerkemeier と Fuhrmann (2018)\n\n\n\n\n1.5 軍事力の限界\n軍事力は平和の基礎：利益と軍事力の配分の一致\\(\\leadsto\\)平和\n軍備拡大\\(\\leadsto\\)平和？\nリベラルな平和／カント的平和(Oneal と Russet 1997; Oneal と Russett 1999)1／リベラル国際秩序 (liberal international order: ILO) (Ikenberry 2009, 2018)？1 カントの「永遠平和のために」がこうした思想の潮流とする見方のため。"
-  },
-  {
-    "objectID": "security_policy.html#国際法と平和",
-    "href": "security_policy.html#国際法と平和",
-    "title": "安全保障政策",
-    "section": "2 国際法と平和",
-    "text": "2 国際法と平和\n\n2.1 戦争の違法化\n国際連合 (the United Nations)／武力行使禁止原則\n\n\n\n\n\n\n国連憲章　第2条3項\n\n\n\nすべての加盟国は、その国際紛争を平和的手段によって国際の平和及び安全並びに正義を危くしないように解決しなければならない。\n\n\n\n\n\n\n\n\n国連憲章　第2条4項\n\n\n\nすべての加盟国は、その国際関係において、武力による威嚇又は武力の行使を、いかなる国の領土保全又は政治的独立に対するものも、また、国際連合の目的と両立しない他のいかなる方法によるものも慎まなければならない。\n\n\n自衛権 (right of self-defense)\n\n\n\n\n\n\n国連憲章　第51条\n\n\n\nこの憲章のいかなる規定も、国際連合加盟国に対して武力攻撃が発生した場合には、安全保障理事会が国際の平和及び安全の維持に必要な措置をとるまでの間、個別的又は集団的自衛の固有の権利を害するものではない。\n\n\n\n\n2.2 集団安全保障\n集団的安全保障 (collective security)\n\n同盟？\n\n安全保障理事会 (Security Council: SC)\n\n\n\n国連安全保障理事会\n\n\n\n\n\n\n\n\n国連憲章　第24条1項\n\n\n\n国際連合の迅速且つ有効な行動を確保するために、国際連合加盟国は、国際の平和及び安全の維持に関する主要な責任を安全保障理事会に負わせるものとし、且つ、安全保障理事会がこの責任に基く義務を果すに当って加盟国に代って行動することに同意する。\n\n\n\n\n\n\n\n\n国連憲章　第39条\n\n\n\n安全保障理事会は、平和に対する脅威、平和の破壊又は侵略行為の存在を決定し、並びに、国際の平和及び安全を維持し又は回復するために、勧告をし、又は第41条及び第42条に従っていかなる措置をとるかを決定する。\n\n\n\n\n\n\n\n\n国連憲章　第41条\n\n\n\n安全保障理事会は、その決定を実施するために、兵力の使用を伴わないいかなる措置を使用すべきかを決定することができ、且つ、この措置を適用するように国際連合加盟国に要請することができる。…\n\n\n\n\n\n\n\n\n国連憲章　第42条\n\n\n\n安全保障理事会は、第41条に定める措置では不充分であろうと認め、又は不充分なことが判明したと認めるときは、国際の平和及び安全の維持又は回復に必要な空軍、海軍又は陸軍の行動をとることができる。…\n\n\n\n\n\n\n\n\n国連憲章　第23条\n\n\n\n\n安全保障理事会は、15の国際連合加盟国で構成する。中華民国、フランス、ソヴィエト社会主義共和国連邦、グレート・ブリテン及び北部アイルランド連合王国及びアメリカ合衆国は、安全保障理事会の常任理事国となる。総会は、第一に国際の平和及び安全の維持とこの機構のその他の目的とに対する国際連合加盟国の貢献に、更に衡平な地理的分配に特に妥当な考慮を払って、安全保障理事会の非常任理事国となる他の10の国際連合加盟国を選挙する。\n安全保障理事会の非常任理事国は、2年の任期で選挙される。…退任理事国は、引き続いて再選される資格はない。\n（略）\n\n\n\n\n\n\n\n\n\n国連憲章　第25条\n\n\n\n国際連合加盟国は、安全保障理事会の決定をこの憲章に従って受諾し且つ履行することに同意する。\n\n\n\n\n\n\n\n\n国連憲章　第27条\n\n\n\n\n安全保障理事会の各理事国は、1個の投票権を有する。\n手続事項に関する安全保障理事会の決定は、9理事国の賛成投票によって行われる。\nその他のすべての事項に関する安全保障理事会の決定は、常任理事国の同意投票を含む9理事国の賛成投票によって行われる。但し、第6章及び第52条3に基く決定については、紛争当事国は、投票を棄権しなければならない。\n\n\n\n\n\n2.3 集団安全保障の機能と限界\n\n抑止力の向上／コミットメント問題の回避\n費用分担 (burden sharing)／取引費用 (transaction cost)／合意確保\n\n\n\n\n\n\n安保理における拒否権の推移\n\n\n\n\n朝鮮戦争／安保理決議83\n平和のための結集 (Uniting for Peace) 決議／国連緊急特別総会 (emergency special session: ESS)\n\n\n\n\n\n\n平和のための結集決議　主文1\n\n\n\nResolves that if the Security Council, because of lack of unanimity of the permanent members, fails to exercise its primary responsibility for the maintenance of international peace and security in any case where there appears to be a threat to the peace, breach of the peace, or act of aggression, the General Assembly shall consider the matter immediately with a view to making appropriate recommendations to Members for collective measures, including in the case of a breach of the peace or act of aggression the use of armed force when necessary, to maintain or restore international peace and security.\n\n\n平和維持活動 (peacekeeping operation)\n\n\n\n\n\n平和維持活動の推移\n\n\n\n\n\n\n\n国連平和維持活動の展開\n\n\n\n\n\n\n\n安保理会合の推移\n\n\n\n\n湾岸戦争／安保理決議678\n\n\n\n\n\n\n国連安保理決議678\n\n\n\nThe Security Council,\nRecalling and reaffirming its resolutions 660 (1990) of 2 August 1990, 661 (1990) of 6 August 1990, 662 (1990) of 9 August 1990, 664 (1990) of 18 August 1990, 665 (1990) of 25 August 1990, 666 (1990) of 13 September 1990, 667 (1990) of 16 September 1990, 669 (1990) of 24 September 1990, 670 (1990) of 25 September 1990, 674 (1990) of of 29 October 1990 and 677 (1990) of 28 November 1990.\nNoting that, despite all efforts by the United Nations, Iraq refuses to comply with its obligation to implement resolution 660 (1990) and the above-mentioned subsequent relevant resolutions, in flagrant contempt of the Security Council,\nMindful of its duties and responsibilities under the Charter of the United Nations for the maintenance and preservation of international peace and security,\nDetermined to secure full compliance with its decisions,\nActing under Chapter VII of the Charter,\n\nDemands that Iraq comply fully with resolution 660 (1990) and all subsequent relevant resolutions, and decides, while maintaining all its decisions, to allow Iraq one final opportunity, as a pause of goodwil, to do so;\nAuthorizes Member States co-operating with the Government of Kuwait, unless Iraq on or before 15 January 1991 fully implements, as set forth in paragraph 1 above, the above-mentioned resolutions, to use all necessary means to uphold and implement resolution 660 (1990) and all subsequent relevant resolutions and to restore international peace and security in the area;\nRequests all States to provide appropriate support for the actions undertaken in pursuance of paragraph 2 of the present resolution;\nRequests the States concerned to keep the Security Council regularly informed on the progress of actions undertaken pursuant to paragraphs 2 and 3 of the present resolution;\nDecides to remain seized of the matter.\n\n\n\n\n国連決議の読み方\n国連決議の探し方：国会図書館、国連広報センター\n\n総会、安保理\n\n国連の文書記号：国会図書館、国連広報センター"
-  },
-  {
-    "objectID": "security_policy.html#民主主義と平和",
-    "href": "security_policy.html#民主主義と平和",
-    "title": "安全保障政策",
-    "section": "3 民主主義と平和",
-    "text": "3 民主主義と平和\n\n3.1 民主的平和\n民主的平和 (democratic peace: DP)\n\n民主主義のデータ：Polity 5／V-Dem\n競争的権威主義、選挙権威主義(Gandhi と Lust-Okar 2009)2\n\n権威主義国のパフォーマンス？3\n\n民主主義の後退 (democracy backsliding)\n\n2 東島雅晶「恐怖支配から恩寵政治へ？　権威主義体制の変貌する統治手法」(2022) 中央公論；浅古泰史・東島雅昌「「民主主義 vs. 権威主義」のゆくえ」(2022) 経済セミナー10・11月号3 東島雅晶「民主主義と権威主義、どちらの「社会経済パフォーマンス」が上なのか？ データ分析が示す驚きの結果」(2022) 現代ビジネス；安中進「民主主義は権威主義に劣るのか? : コロナ禍における政治体制の実証分析」(2021) 中央公論；安中進「政治体制は豊かさや健康にどのような影響を及ぼすのか？」(2022) 経済セミナー10・11月号\n\n\n\n\n政治体制の推移 (Polity V)\n\n\n\n\n\n\n\n\n\n政治体制の推移 (V-Dem)\n\n\n\n\n\n\n\n\n\n政治体制の地理的分布\n\n\n\n\n\n\n\n\n\n政治体制の組み合わせと紛争頻度\n\n\n\n\n\n\n3.2 民主的平和の論理\n\nアカウンタビリティ\n\n権威主義国による攻撃(Reiter と Stam 2003)\n独裁者の末路(Goemans 2008)\n\n情報の非対称性\n\n報道の自由(Van Belle 1997)／与野党の議論(Schultz 1998)\n観衆費用(Fearon 1994)\n\n観衆費用の存在(M. Tomz 2007; Kurizaki と Whang 2015)\n観衆費用の不在Katagiri と Min (2019)\n権威主義国における観衆費用(Weiss 2013; Weeks 2008)\n民主主義国による威嚇の信憑性の低さ(Downes と Sechser 2012)\n\n透明性？(Finel と Lord 1999)\n\n規範／アイデンティティ／信頼(Doyle 1986; Risse-Kappen 1995)\n\n妥協(Mousseau 1998; Dixon 1994)\n市民の態度(M. R. Tomz と Weeks 2013)\n体制間競争？\n\n女性政治家\n\nジェンダー平等／女性議員／女性参政権と軍事支出／武力行使(Reiter 2015; Barnhart ほか 2020)\n女性指導者と武力紛争(Koch と Fulton 2011; Caprioli と Boyer 2001)\n\n指導者になる女性(Schramm と Stark 2020)\n平和的な姿勢？(Schwartz と Blair 2020)\n\n\n\n\n\n\n\n\n女性参政権の推移\n\n\n\n\n\n\n\n\n\n女性議員比率の推移\n\n\n\n\n\n\n\n\n\n女性の政治的指導者の推移\n\n\n\n\n\n\n3.3 民意と戦争\n旗下結集効果 (rally [’round the flag] effect)／陽動戦争 (diversionary war)／復活のためのギャンブル (gambling for resurrection)\n\n\n\nブッシュJr米大統領の支持率の推移\n\n\n\nインフレ率／失業率と紛争\n\n権威主義国(Mitchell と Prins 2004)\n民主主義国(Arena と Palmer 2009; Fordham 1998)\n\n国際危機と政治的生き残り(Chiozza と Goemans 2003)\n選挙後の紛争(Gaubatz 1991)\n\n\n\n3.4 民主化による平和\n相関\\(\\neq\\)因果\n\n自由市場経済(Gartzke 2007)\n領土問題(Thompson 1996; Gibler と Tir 2010, 2014)\n共通の脅威(Farber と Gowa 1997; McDonald 2015)\n\n民主化\\(\\leadsto\\)平和？\n\n新興民主主義国や民主化と紛争(Mansfield と Snyder 1995)"
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "はじめに",
+    "section": "脚注",
+    "text": "脚注\n\n\nただし、やや古いので注意。↩︎\nゲーム理論自体はミクロ経済学の一分野である。↩︎"
   }
 ]

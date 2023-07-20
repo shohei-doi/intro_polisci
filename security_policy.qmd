@@ -17,13 +17,15 @@ library(countrycode)
 
 ## はじめに {.unnumbered}
 
-戦争＝利害対立＋外交の失敗
+戦$=$利害対立$+$外交の失敗
 
-$\leadsto$安全保障政策＝これらの要因を解消すること
+$\leadsto$安全保障政策$=$これらの要因を解消すること
 
 - 現状変更の意図
 - 情報の非対称性
 - コミットメント問題
+
+$\leadsto$地域や時代ごとの紛争の偏り
 
 ## 軍事力と平和
 
@@ -136,13 +138,14 @@ $$
 
 抑止力$=$抑止の能力$\times$抑止の信憑性
 
+- 暴力asコミュニケーション
 - 抑止力の検証？
 
 ### 安全保障のジレンマ
 
-先制攻撃
+先制攻撃$\leadsto$安心供与の破綻
 
-**安全保障のジレンマ**[@jervis1978]／スパイラル・モデル
+**安全保障のジレンマ**[@jervis1978]：安全保障のための政策$\leadsto$安全保障環境の悪化
 
 :::{.callout-tip}
 ## 軍拡のシナリオ
@@ -159,10 +162,14 @@ $$
 |軍備拡大|$w_A-c_A, 1-w_A$|$w-c_A, 1-w-c_B$|
 
 - 一方的な不利は望まない（$w_B < w - c_A$かつ$1-w_A < 1-w-c_B$）
-  - 一方的な有利を望む？（$w_A - c_A > w$かつ$1-w_B - c_B > 1-w$）
-  - 一方的な有利は望まない？（$w_A - c_A < w$かつ$1-w_B - c_B < 1-w$）
+- 一方的な有利を望む？（$w_A - c_A > w$かつ$1-w_B - c_B > 1-w$）
+  - 例：$w = 0.5, w_A = 0.7, w_B = 0.3, C_A = c_B = 0.1$
+- 一方的な有利は望まない？（$w_A - c_A < w$かつ$1-w_B - c_B < 1-w$）
+  - 例：$w = 0.5, w_A = 0.7, w_B = 0.3, C_A = c_B = 0.3$
 
-抑止力の拡大$\leadsto$戦争？[@slantchev2003]
+スパイラル・モデル：抑止力の拡大$\leadsto$戦争？[@slantchev2003]
+
+- 攻撃・防御バランス
 
 ### 同盟
 
@@ -248,6 +255,10 @@ left_join(expand(df_atop, year, oblig),
 軍備拡大$\leadsto$平和？
 
 リベラルな平和／カント的平和[@oneal1997; @oneal1999]^[カントの「永遠平和のために」がこうした思想の潮流とする見方のため。]／リベラル国際秩序 (liberal international order: ILO) [@ikenberry2009; @ikenberry2018]？
+
+- 制度（国際法）による平和
+- 民主主義による平和
+- 経済的相互依存（例、貿易や投資）による平和
 
 ## 国際法と平和
 
@@ -741,3 +752,51 @@ left_join(expand(df_vdem, year, gender_leader),
 民主化$\leadsto$平和？
 
 - 新興民主主義国や民主化と紛争[@mansfield1995]
+
+## 経済と平和
+
+経済的相互依存 (economic interdependence)
+
+```{r}
+#| fig-cap: "貿易額の推移"
+
+df_trade <- read_csv("data/COW_Trade_4.0/National_COW_4.0.csv")
+
+df_trade %>% 
+  pivot_longer(imports:exports, names_to = "type", values_to = "amount") %>% 
+  mutate(type = recode(type, imports = "輸入額", exports = "輸出額")) %>% 
+  ggplot() + 
+  geom_line(aes(x = year, y = amount, group = ccode), alpha = 0.25, linewidth = 0.25) + 
+  facet_grid(type ~ .) + 
+  labs(x = "年", y = "貿易額")
+```
+
+```{r}
+#| fig-cap: "対GDP貿易額比率の推移"
+
+df_trade_gdp <- read_csv("data/trade_gdp/API_NE.TRD.GNFS.ZS_DS2_en_csv_v2_5455012.csv", 
+                         skip = 3, col_names = FALSE)
+
+df_trade_gdp%>% 
+  set_names(df_trade_gdp[1,]) %>% 
+  slice(-1) %>% 
+  pivot_longer("1960":"2020", names_to = "year", values_to = "amount") %>% 
+  drop_na(amount) %>% 
+  rename(country = "Country Code") %>% 
+  mutate(year = parse_number(year)) %>% 
+  ggplot() + 
+  geom_line(aes(x = year, y = amount, group = country), alpha = 0.25, linewidth = 0.25) + 
+  geom_line(aes(x = year, y = amount), color = "royalblue", linewidth = 1,
+            data = . %>% 
+              group_by(year) %>% 
+              summarise(amount = mean(amount))) + 
+  coord_cartesian(ylim = c(0, 100)) + 
+  labs(x = "年", y = "GDPに占める貿易額の割合")
+```
+
+![[地域貿易協定の推移](https://rtais.wto.org/UI/charts.aspx)](figures/rta.png)
+
+**商業的平和** (commercial peace)／機会費用 (opportunity cost)
+
+- 第1次世界大戦／太平洋戦争
+- 安全保障外部性 (security externalities)／経済的威圧／経済安全保障
