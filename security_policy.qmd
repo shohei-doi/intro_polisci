@@ -72,7 +72,8 @@ df_nmc <- read_csv("data/nmc/NMC-60-abridged.csv")
 bind_rows(df_milex %>% 
             filter(type == "実質") %>% 
             select(country = Country, year, value = milex) %>% 
-            mutate(type = "軍事費（実質USドル）"),
+            mutate(type = "軍事費（実質USドル）", 
+                   country = if_else(country == "United States of America", "USA", country)),
           df_nmc %>% 
             select(country = stateabb, year, value = cinc) %>% 
             mutate(type = "CINCスコア")) %>% 
@@ -158,14 +159,19 @@ $$
 
 |A, B|現状維持|軍備拡大|
 |---|:---:|:---:|
-|現状維持|$w, 1-w$|$w_B, 1-w_B-c_B$|
-|軍備拡大|$w_A-c_A, 1-w_A$|$w-c_A, 1-w-c_B$|
+|現状維持|$(w, 1-w)$|$(w_B, 1-w_B-c_B)$|
+|軍備拡大|$(w_A-c_A, 1-w_A)$|$(w-c_A, 1-w-c_B)$|
 
 - 一方的な不利は望まない（$w_B < w - c_A$かつ$1-w_A < 1-w-c_B$）
 - 一方的な有利を望む？（$w_A - c_A > w$かつ$1-w_B - c_B > 1-w$）
-  - 例：$w = 0.5, w_A = 0.7, w_B = 0.3, C_A = c_B = 0.1$
-- 一方的な有利は望まない？（$w_A - c_A < w$かつ$1-w_B - c_B < 1-w$）
-  - 例：$w = 0.5, w_A = 0.7, w_B = 0.3, C_A = c_B = 0.3$
+  - 例：$w = 0.5, w_A = 0.7, w_B = 0.3, c_A = c_B = 0.1$
+
+以下は誤った例でした。削除します。
+
+- ~~一方的な有利は望まない？（$w_A - c_A < w$かつ$1-w_B - c_B < 1-w$）~~
+  - ~~例：$w = 0.5, w_A = 0.8, w_B = 0.3, c_A = c_B = 0.2$~~
+
+削除終わり。
 
 スパイラル・モデル：抑止力の拡大$\leadsto$戦争？[@slantchev2003]
 
@@ -406,8 +412,8 @@ df_pko %>%
                 fill = region),
             alpha = 0.5) + 
   geom_vline(aes(xintercept = 1991), alpha = 0.25) + 
-  scale_color_brewer(palette = "Set2", breaks = type, labels = type) + 
-  scale_fill_brewer(palette = "Set2", breaks = type, labels = type) + 
+  scale_color_brewer(palette = "Set2") + 
+  scale_fill_brewer(palette = "Set2") + 
   facet_grid(name ~ ., scales = "free_y") + 
   labs(x = "年", y = "平和維持活動", color = "", fill = "") + 
   theme(legend.position = "bottom")
@@ -647,6 +653,7 @@ bind_rows(df_vdem_dy %>%
     - 権威主義国における観衆費用[@weiss2013; @weeks2008]
     - 民主主義国による威嚇の信憑性の低さ[@downes2012]
   - 透明性？[@finel1999]
+  - 憲法9条？
 - 規範／アイデンティティ／信頼[@doyle1986; @risse1995]
   - 妥協[@mousseau1998; @dixon1994]
   - 市民の態度[@tomz2013]

@@ -19,6 +19,7 @@ website:
       - armed_conflict.qmd
       - causes_of_war.qmd
       - security_policy.qmd
+      - international_political_economy.qmd
       - column.qmd
 
 format:
