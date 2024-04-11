@@ -1,39 +1,30 @@
 project:
-  type: website
+  type: book
   output-dir: docs
 
-execute: 
-  cache: true
-  echo: false
-  warning: false
-
-website:
+book:
   title: "政治学入門"
+  author: "土井翔平"
+  date: today
   sidebar:
-    style: "docked"
-    search: true
-    collapse-level: 0
-    contents:
-      - index.qmd
-      - international_society.qmd
-      - armed_conflict.qmd
-      - causes_of_war.qmd
-      - security_policy.qmd
-      - international_political_economy.qmd
-      - column.qmd
+    title: "政治学入門"
+    collapse-level: 2
+  chapters:
+    - index.qmd
+    - info.qmd
+    - intro.qmd
+
+bibliography: references.bib
 
 format:
   html:
-    theme: lumen
-    include-in-header:
-      - analytics.html
-    mainfont: Helvetica Neue, Arial, Hiragino Kaku Gothic ProN, Hiragino Sans, BIZ UDPGothic, Meiryo, sans-serif
-    toc: true
-    number-sections: true
+    theme:
+      - materia
+      - custom.scss
+    include-in-header: font.html
+    mainfont: Noto Sans JP
     link-external-icon: true
     link-external-newwindow: true
-    fig-format: png
-    smooth-scroll: true
+    code-line-numbers: true
 
-bibliography: references.bib
 lang: ja
