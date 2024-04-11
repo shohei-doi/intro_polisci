@@ -24,6 +24,7 @@
 - 政治談義？
 - 政治学の教科書の目次
     - 砂原ほか「[政治学の第一歩](https://www.yuhikaku.co.jp/books/detail/9784641150782)」
+    - 坂本・石橋編「[ポリティカルサイエンス入門](https://www.hou-bun.com/cgi-bin/search/detail.cgi?c=ISBN978-4-589-04100-5)」
     - 羅・前田「[権力を読み解く政治学](https://www.yuhikaku.co.jp/books/detail/9784641200081)」
     - 街鳥・山岡「[政治学入門](https://ua-book.shop-pro.jp/?pid=167017681)」
     - 犬塚ほか「[政治学入門](https://www.yuhikaku.co.jp/books/detail/9784641151086)」
@@ -47,7 +48,7 @@
 
 ## 多様性のある学問
 
-曖昧な現象／多様な手法$\leadsto$未熟？　包容力？
+曖昧な現象／多様な手法$\leadsto$未熟？（輸入学問）　包容力？
 
 - この授業で扱えるのは「ごく一部」だけです。
 - 興味を持った方も、持たなかった方も、ぜひ法学部（あるいは他の学部）の専門科目へ！
