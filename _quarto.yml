@@ -11,8 +11,12 @@ book:
     collapse-level: 2
   chapters:
     - index.qmd
-    - info.qmd
-    - intro.qmd
+    - part: "導入"
+      chapters: 
+        - info.qmd
+        - intro.qmd
+    - part: "比較政治"
+    - part: "国際関係"
 
 bibliography: references.bib
 
