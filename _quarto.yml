@@ -13,7 +13,7 @@ book:
     - index.qmd
     - part: "導入"
       chapters: 
-        - info.qmd
+        # - info.qmd
         - intro.qmd
     - part: "比較政治"
     - part: "国際関係"
