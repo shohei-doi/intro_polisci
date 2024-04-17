@@ -1,7 +1,7 @@
 # 政治（学）って？ {.unnumbered}
 
-:::{.callout-note}
-## 政治学との悲哀
+:::{.callout-note collapse=true}
+## 政治学徒の悲哀
 
 - Aさん「何学部なんですか？」
 - ぼく「法学部なんです」
@@ -32,6 +32,7 @@
     - 新川ほか「[政治学](https://www.yuhikaku.co.jp/books/detail/9784641149229)」
     - 川出・谷口「[政治学](https://www.utp.or.jp/book/b606377.html)」
 - [日本政治学会による専門分野の分類](https://www.jpsa-web.org/mypage/field/)
+- [大学教育の分野別質保証委員会](https://www.scj.go.jp/ja/member/iinkai/daigakuhosyo/daigakuhosyo.html)
 
 ## 政治
 

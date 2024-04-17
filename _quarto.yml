@@ -16,6 +16,9 @@ book:
         # - info.qmd
         - intro.qmd
     - part: "比較政治"
+      chapters: 
+        - electoral_system.qmd
+        # - voting_behavior.qmd
     - part: "国際関係"
 
 bibliography: references.bib
