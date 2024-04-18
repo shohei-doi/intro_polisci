@@ -1,1 +1,41 @@
 # 投票行動
+
+選挙制度＝選挙（という名のゲーム）のルール
+
+- ゲーム：互いに影響を及ぼし合う、したがって相手の出方を伺いながら自分の行動を選択する状況
+
+![有権者＝政治家＝公務員](figures/principal_agent.drawio.png)
+
+→ルールの下で有権者はどのように投票するのか（しないのか）？
+
+- 政治行動論、投票行動論、政治心理学、政治文化論
+
+## 投票参加
+
+![[衆議院議員総選挙における年代別投票率の推移](https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/nendaibetu/)](figures/turnout_jp.png)
+
+- 投票率の低下（特に若者）
+
+![[世界の投票率の推移](https://www.idea.int/publications/catalogue/voter-turnout-trends-around-world)](figures/turnout_trend.png)
+
+![[世界の年代別投票率](https://www.idea.int/publications/catalogue/voter-turnout-trends-around-world)](figures/turnout_age.png)
+
+### 投票しないパラドックス
+
+$R = P \times B - C$
+
+- $R$：投票の便益（メリット）
+- $B$：自分にとって好ましい候補者が当選することで（そうではない候補者と比べて）得られる便益
+- $P$：自分が投票に行くことで望ましい選挙結果になる確率
+- $C$：投票に行くことで自らが被る費用
+    - 機会費用 (opportunity cost)
+
+∴投票に「行く」ことが不思議
+
+ライカー＝オードシュック・モデル：$R = P \times B - C + D$
+
+- $D$：投票に行くこと自体で得られる便益（メリット）
+
+## 投票選択
+
+誰に投票するのか？
