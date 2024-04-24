@@ -58,7 +58,7 @@
 
 （一般的な）投票用紙→1位の候補（の情報）のみ
 
-![[日本の投票用紙の例](https://www.musashinet.co.jp/department/election/ballot-paper.html)](https://www.musashinet.co.jp/department/election/images/ballot.jpg)
+![[日本の投票用紙の例](https://www.musashinet.co.jp/department/election/ballot-paper.html)](figures/ballot.jpg)
 
 ### 様々な決め方
 
@@ -114,7 +114,7 @@
 
 ### 日本の選挙制度
 
-- 国政選挙（1993年選挙制度改革）
+- 国政選挙（1994年選挙制度改革）
     - 衆議院選挙
     - 参議院選挙
 - 地方選挙
@@ -136,4 +136,4 @@
 
 ∴あらゆる選挙制度は（なにかしらの意味で）不完全
 
-∴有権者や候補者／政党の行動を分析する必要
+→有権者は選挙においてどのように行動するのか？
