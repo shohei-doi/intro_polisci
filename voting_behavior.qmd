@@ -154,9 +154,12 @@ $$
 - ソーシャル・メディア
     - 選好に基づく強化、パーソナライゼーション
     - エコー・チェンバー、フィルターバブル
+    - 影響力工作
 
 ![[Journalists and Trump voters live in separate online bubbles, MIT analysis shows](https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows)](figures/twitter1.png)
 
 ![[Journalists and Trump voters live in separate online bubbles, MIT analysis shows](https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows)](figures/twitter2.png)
 
 ![[Journalists and Trump voters live in separate online bubbles, MIT analysis shows](https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows)](figures/twitter3.png)
+
+→候補者や政党は選挙においてどのように行動するのか？　選挙は政治に影響するのか？
