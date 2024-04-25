@@ -11,6 +11,7 @@
 - 政治行動論、投票行動論、政治心理学、政治文化論
 - 飯田健ほか (2015)「政治行動論」
 - 松林哲也 (2023)「何が投票率を高めるのか」
+- 稲増一憲 (2022)「マスメディアと何か」
 
 この章では、有権者はなぜ投票に行くのか、どのように投票先を選択するのかを考えます。
 
@@ -105,16 +106,16 @@ $$
 
 投票先を選ぶ際の基準
 
+- 争点投票、政策投票
 - 政党投票
-- 争点投票
-    - イデオロギー、政党の役割
+    - イデオロギー、政党ラベル
 
 ![[各党の政策比較表　参院選2022バージョン（選挙ドットコム）](https://go2senkyo.com/articles/2022/07/07/69339.html)](figures/manifesto_2022.jpg)
 
 - 個人投票
-    - 候補者特性、利益誘導
+    - 候補者特性（世襲、知名度、性別、年齢、外見……）、利益誘導
 - 業績評価投票
-    - 経済投票
+    - 経済投票 (pocketbook or sociotropic)
 - 誠実投票／戦略投票
 
 ### 日本人を対象にした「実験」
@@ -129,3 +130,33 @@ $$
 ![コンジョイント実験の結果](https://cdn-business.nikkei.com/atcl/gen/19/00351/120200011/f3.jpg)
 
 →投票によって選挙結果はどのように変わり、政党はどのように応答するのか？
+
+## メディア
+
+- 強力効果論
+    - ナチスのプロパガンダ
+
+![[Selb, 2018](https://www.cambridge.org/core/journals/american-political-science-review/article/examining-a-most-likely-case-for-strong-campaign-effects-hitlers-speeches-and-the-rise-of-the-nazi-party-19271933/1E88D3B79217653D77735294CF2C8DED)](figures/selb1.png)
+
+![[Selb, 2018](https://www.cambridge.org/core/journals/american-political-science-review/article/examining-a-most-likely-case-for-strong-campaign-effects-hitlers-speeches-and-the-rise-of-the-nazi-party-19271933/1E88D3B79217653D77735294CF2C8DED)](figures/selb2.png)
+
+:::{.callout-note}
+## 信頼区間と統計的有意
+
+データ分析において信頼区間とは分析結果の不確実性の範囲を示しています。信頼区間に0が含まれている場合、統計的に有意ではない（0と区別がつかない）です。
+:::
+
+- 限定効果論
+    - 選択メカニズム
+    - 第三者効果、敵対的メディア認知
+- 新しい強力効果論
+    - 議題設定、プライミング、フレーミング
+- ソーシャル・メディア
+    - 選好に基づく強化、パーソナライゼーション
+    - エコー・チェンバー、フィルターバブル
+
+![[Journalists and Trump voters live in separate online bubbles, MIT analysis shows](https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows)](figures/twitter1.png)
+
+![[Journalists and Trump voters live in separate online bubbles, MIT analysis shows](https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows)](figures/twitter2.png)
+
+![[Journalists and Trump voters live in separate online bubbles, MIT analysis shows](https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows)](figures/twitter3.png)
