@@ -1,4 +1,6 @@
 /.git/
 /.quarto/
 /figures/
+/data/
+*.R
 *.code-workspace

@@ -19,6 +19,8 @@ book:
       chapters: 
         - electoral_system.qmd
         - voting_behavior.qmd
+        # - party_election.qmd
+        # - political_regime.qmd
     - part: "国際関係"
 
 bibliography: references.bib

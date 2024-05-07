@@ -122,7 +122,7 @@
     "href": "voting_behavior.html#投票参加",
     "title": "2  投票行動",
     "section": "",
-    "text": "衆議院議員総選挙における年代別投票率の推移\n\n\n\n投票率の低下（特に若者）\n\n\n\n\n世界の投票率の推移\n\n\n\n\n\n世界の年代別投票率\n\n\n\n2.1.1 投票しないパラドックス\n\\(R = P \\times B - C\\)\n\n\\(R\\) (reward)：投票の便益（メリット）\n\\(B\\) (benefit)：自分にとって好ましい候補者が当選することで（そうではない候補者と比べて）得られる便益\n\\(P\\) (probability)：自分が投票に行くことで望ましい選挙結果になる確率\n\\(C\\) (cost)：投票に行くことや投票先を調べることで自らが被る費用\n\n機会費用 (opportunity cost)\n\n\n∴投票しない（棄権の）パラドックス\nライカー＝オードシュック・モデル：\\(R = P \\times B - C + D\\)\n\n\\(D\\) (duty/democratic value)：投票に行くこと自体で得られる便益\n\n義務感、満足感……\n\n\n政治的知識、教育水準、年齢→投票コスト\n∴個人的属性は重要／政策的意義は限定的\n\n\n2.1.2 投票環境\n\n投票制度\n\n当日投票所の減少／期日前投票所の増加\n記名式投票\nオンライン投票？\n\n\n\n\n\n\n\n\n回帰分析\n\n\n\n政治学や社会科学で広く使われているデータ分析の方法として回帰分析というものがあります。例えば、次のような式を想定して、\n\\[\ny_i = \\alpha + \\beta_1 \\times x_{i1} + \\beta_2 \\times x_{i2} + \\varepsilon_i\n\\]\n\n\\(y_i\\)：選挙区\\(i\\)の投票率\n\\(x_{i1}\\)：選挙区\\(i\\)の当日投票所数\n\\(x_{i2}\\)：選挙区\\(i\\)の期日前投票所数\n（\\(\\varepsilon_i\\)：その他の要因）\n\nデータから\\(\\beta_1, \\beta2\\)を計算することができます（最小二乗法: OLS）。\n\n\n\n啓発活動\n\n\n\n\n\n\n\n政治学の「実験」\n\n\n\n政治学では対象者をランダムに分けて、異なる刺激を与え、その結果が異なるかどうかを検証する「実験」を用いることがあります。実社会で行う実験をフィールド実験、世論調査の中で行う実験をサーベイ実験と言います。\n\n\n\n\n\nGerber et al. (2008)\n\n\n\n選挙制度\n\n選挙区定数\n定数不均衡（都市部／地方）\n義務投票制\n\n\n\n\n\nBlais and Carty, 1990\n\n\n\n新規政党\n\n差別化、競争度\n\n\n\n\n\n\n\n\n見かけの相関\n\n\n\n新党効果をどのように検証すればいいでしょうか。まず、「新党が出馬した選挙区」と「新党が出馬しなかった選挙区」の投票率を比較しても不十分です。もしかすると、新党は投票率の高い（政治に関心のある）地域で出馬するかもしれないからです。そうだとすれば、新党が出馬した選挙区のほうが投票率が高くても、新党の効果とは言えない見かけの相関が生じます。\n次に、新党が出馬した選挙区の「出馬する前の選挙」と「出馬したときの選挙」の投票率を比較しても不十分です。もしかすると、全国的に投票率が高まっており、それを受けて新党が登場したからかもしれないからです。このように、前後比較から因果を（誤って）導くことを前後即因果の誤謬と言います。\n\n\n\n女性議員\n\n\n\n\n女性議員の比率（Variety of Democracyより）",
+    "text": "衆議院議員総選挙における年代別投票率の推移\n\n\n\n投票率の低下（特に若者）\n\n\n\n\n世界の投票率の推移\n\n\n\n\n\n世界の年代別投票率\n\n\n\n2.1.1 投票しないパラドックス\n\\(R = P \\times B - C\\)\n\n\\(R\\) (reward)：投票の便益（メリット）\n\\(B\\) (benefit)：自分にとって好ましい候補者が当選することで（そうではない候補者と比べて）得られる便益\n\\(P\\) (probability)：自分が投票に行くことで望ましい選挙結果になる確率\n\\(C\\) (cost)：投票に行くことや投票先を調べることで自らが被る費用\n\n機会費用 (opportunity cost)\n\n\n∴投票しない（棄権の）パラドックス\nライカー＝オードシュック・モデル：\\(R = P \\times B - C + D\\)\n\n\\(D\\) (duty/democratic value)：投票に行くこと自体で得られる便益\n\n義務感、満足感……\n\n\n政治的知識、教育水準、年齢→投票コスト\n∴個人的属性は重要／政策的意義は限定的\n\n\n2.1.2 投票環境\n\n投票制度\n\n当日投票所の減少／期日前投票所の増加\n記名式投票\nオンライン投票？\n\n\n\n\n\n\n\n\n回帰分析\n\n\n\n政治学や社会科学で広く使われているデータ分析の方法として回帰分析というものがあります。例えば、次のような式を想定して、\n\\[\ny_i = \\alpha + \\beta_1 \\times x_{i1} + \\beta_2 \\times x_{i2} + \\varepsilon_i\n\\]\n\n\\(y_i\\)：選挙区\\(i\\)の投票率\n\\(x_{i1}\\)：選挙区\\(i\\)の当日投票所数\n\\(x_{i2}\\)：選挙区\\(i\\)の期日前投票所数\n（\\(\\varepsilon_i\\)：その他の要因）\n\nデータから\\(\\beta_1, \\beta2\\)を計算することができます（最小二乗法: OLS）。\n\n\n\n\n\n松林 (2023)\n\n\n\n啓発活動\n\n\n\n\n\n\n\n政治学の「実験」\n\n\n\n政治学では対象者をランダムに分けて、異なる刺激を与え、その結果が異なるかどうかを検証する「実験」を用いることがあります。実社会で行う実験をフィールド実験、世論調査の中で行う実験をサーベイ実験と言います。\n\n\n\n\n\n松林 (2023)\n\n\n\n\n\n松林 (2023)\n\n\n\n\n\nGerber et al. (2008)\n\n\n\n選挙制度\n\n選挙区定数\n定数不均衡（都市部／地方）\n義務投票制\n\n\n\n\n\nBlais and Carty (1990)\n\n\n\n\n\n松林 (2023)\n\n\n\n新規政党\n\n差別化、競争度\n\n\n\n\n\n\n\n\n見かけの相関\n\n\n\n新党効果をどのように検証すればいいでしょうか。まず、「新党が出馬した選挙区」と「新党が出馬しなかった選挙区」の投票率を比較しても不十分です。もしかすると、新党は投票率の高い（政治に関心のある）地域で出馬するかもしれないからです。そうだとすれば、新党が出馬した選挙区のほうが投票率が高くても、新党の効果とは言えない見かけの相関が生じます。\n次に、新党が出馬した選挙区の「出馬する前の選挙」と「出馬したときの選挙」の投票率を比較しても不十分です。もしかすると、全国的に投票率が高まっており、それを受けて新党が登場したからかもしれないからです。このように、前後比較から因果を（誤って）導くことを前後即因果の誤謬と言います。\n\n\n\n\n\n松林 (2023)\n\n\n\n女性議員\n\n\n\n\n女性議員の比率（Variety of Democracyより）\n\n\n\n\n\n松林 (2023)",
     "crumbs": [
       "比較政治",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>投票行動</span>"
@@ -133,7 +133,7 @@
     "href": "voting_behavior.html#投票選択",
     "title": "2  投票行動",
     "section": "2.2 投票選択",
-    "text": "2.2 投票選択\n投票先を選ぶ際の基準\n\n争点投票、政策投票\n政党投票\n\nイデオロギー、政党ラベル\n\n\n\n\n\n各党の政策比較表　参院選2022バージョン（選挙ドットコム）\n\n\n\n個人投票\n\n候補者特性（世襲、知名度、性別、年齢、外見……）、利益誘導\n\n業績評価投票\n\n経済投票 (pocketbook or sociotropic)\n\n誠実投票／戦略投票\n\n\n2.2.1 日本人を対象にした「実験」\nMoral Machine\n\n堀内優作ほか「衆院総選挙、緊急解析！　データが明かした有権者の本音」日経ビジネス\n堀内優作「マニフェスト選挙を疑え：2021年総選挙の計量政治学」日経ビジネス\n\n\n\n\nコンジョイント実験の例\n\n\n\n\n\nコンジョイント実験の結果\n\n\n→投票によって選挙結果はどのように変わり、政党はどのように応答するのか？",
+    "text": "2.2 投票選択\n投票先を選ぶ際の基準\n\n争点投票、政策投票\n政党投票\n\nイデオロギー、政党ラベル\n\n\n\n\n\n各党の政策比較表　参院選2022バージョン（選挙ドットコム）\n\n\n\n個人投票\n\n候補者特性（世襲、知名度、性別、年齢、外見……）／利益誘導\n\n誠実投票／戦略投票\n業績評価投票\n\n経済投票 (pocketbook or sociotropic)\n\n\n\n2.2.1 日本人を対象にした「実験」\nMoral Machine\n\n堀内優作ほか「衆院総選挙、緊急解析！　データが明かした有権者の本音」日経ビジネス\n堀内優作「マニフェスト選挙を疑え：2021年総選挙の計量政治学」日経ビジネス\n\n\n\n\nコンジョイント実験の例\n\n\n\n\n\nコンジョイント実験の結果\n\n\n→投票によって選挙結果はどのように変わり、政党はどのように応答するのか？",
     "crumbs": [
       "比較政治",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>投票行動</span>"
@@ -144,10 +144,65 @@
     "href": "voting_behavior.html#メディア",
     "title": "2  投票行動",
     "section": "2.3 メディア",
-    "text": "2.3 メディア\n\n強力効果論\n\nナチスのプロパガンダ\n\n\n\n\n\nSelb, 2018\n\n\n\n\n\nSelb, 2018\n\n\n\n\n\n\n\n\n信頼区間と統計的有意\n\n\n\nデータ分析において信頼区間とは分析結果の不確実性の範囲を示しています。信頼区間に0が含まれている場合、統計的に有意ではない（0と区別がつかない）です。\n\n\n\n限定効果論\n\n選択メカニズム\n第三者効果、敵対的メディア認知\n\n新しい強力効果論\n\n議題設定、プライミング、フレーミング\n\nソーシャル・メディア\n\n選好に基づく強化、パーソナライゼーション\nエコー・チェンバー、フィルターバブル\n影響力工作\n\n\n\n\n\nJournalists and Trump voters live in separate online bubbles, MIT analysis shows\n\n\n\n\n\nJournalists and Trump voters live in separate online bubbles, MIT analysis shows\n\n\n\n\n\nJournalists and Trump voters live in separate online bubbles, MIT analysis shows\n\n\n→候補者や政党は選挙においてどのように行動するのか？　選挙は政治に影響するのか？",
+    "text": "2.3 メディア\n\n強力効果論\n\n説得効果（皮下注射モデル、魔法の弾丸モデル）\nナチスのプロパガンダ\n\n\n\n\n\nSelb, 2018\n\n\n\n\n\nSelb, 2018\n\n\n\n\n\n\n\n\n信頼区間と統計的有意\n\n\n\nデータ分析において信頼区間とは分析結果の不確実性の範囲を示しています。信頼区間に0が含まれている場合、統計的に有意ではない（0と区別がつかない）です。\n\n\n\n限定効果論\n\n選択メカニズム（選択的接触、選択的知覚、選択的記憶）\n第三者効果、敵対的メディア認知\n\n新しい強力効果論\n\n誘発効果（議題設定、プライミング、フレーミング）\n\nソーシャル・メディア\n\n選好に基づく強化\nパーソナライゼーション\nエコー・チェンバー、フィルターバブル／多様な意見\n影響力工作？\n\n\n\n\n\nJournalists and Trump voters live in separate online bubbles, MIT analysis shows\n\n\n\n\n\nJournalists and Trump voters live in separate online bubbles, MIT analysis shows\n\n\n\n\n\nJournalists and Trump voters live in separate online bubbles, MIT analysis shows\n\n\n→候補者や政党は選挙においてどのように行動するのか？　選挙は政治に影響するのか？",
     "crumbs": [
       "比較政治",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>投票行動</span>"
+    ]
+  },
+  {
+    "objectID": "party_election.html",
+    "href": "party_election.html",
+    "title": "3  政党と選挙",
+    "section": "",
+    "text": "3.1 政党システム",
+    "crumbs": [
+      "比較政治",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>政党と選挙</span>"
+    ]
+  },
+  {
+    "objectID": "party_election.html#政党組織",
+    "href": "party_election.html#政党組織",
+    "title": "3  政党と選挙",
+    "section": "3.2 政党組織",
+    "text": "3.2 政党組織",
+    "crumbs": [
+      "比較政治",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>政党と選挙</span>"
+    ]
+  },
+  {
+    "objectID": "party_election.html#選挙と政策",
+    "href": "party_election.html#選挙と政策",
+    "title": "3  政党と選挙",
+    "section": "3.3 選挙と政策",
+    "text": "3.3 選挙と政策",
+    "crumbs": [
+      "比較政治",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>政党と選挙</span>"
+    ]
+  },
+  {
+    "objectID": "political_regime.html",
+    "href": "political_regime.html",
+    "title": "4  政治体制",
+    "section": "",
+    "text": "4.1 多様な民主主義",
+    "crumbs": [
+      "比較政治",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>政治体制</span>"
+    ]
+  },
+  {
+    "objectID": "political_regime.html#権威主義",
+    "href": "political_regime.html#権威主義",
+    "title": "4  政治体制",
+    "section": "4.2 権威主義",
+    "text": "4.2 権威主義",
+    "crumbs": [
+      "比較政治",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>政治体制</span>"
     ]
   }
 ]

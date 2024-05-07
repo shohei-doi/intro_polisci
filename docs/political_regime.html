@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>政治学入門 - 2&nbsp; 投票行動</title>
+<title>政治学入門 - 4&nbsp; 政治体制</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./electoral_system.html" rel="prev">
+<link href="./party_election.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet">
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -112,7 +83,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./voting_behavior.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">投票行動</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./political_regime.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">政治体制</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -177,8 +148,20 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./voting_behavior.html" class="sidebar-item-text sidebar-link active">
+  <a href="./voting_behavior.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">投票行動</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./party_election.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">政党と選挙</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./political_regime.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">政治体制</span></span></a>
   </div>
 </li>
       </ul>
@@ -197,25 +180,17 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#投票参加" id="toc-投票参加" class="nav-link active" data-scroll-target="#投票参加"><span class="header-section-number">2.1</span> 投票参加</a>
-  <ul class="collapse">
-  <li><a href="#投票しないパラドックス" id="toc-投票しないパラドックス" class="nav-link" data-scroll-target="#投票しないパラドックス"><span class="header-section-number">2.1.1</span> 投票しないパラドックス</a></li>
-  <li><a href="#投票環境" id="toc-投票環境" class="nav-link" data-scroll-target="#投票環境"><span class="header-section-number">2.1.2</span> 投票環境</a></li>
-  </ul></li>
-  <li><a href="#投票選択" id="toc-投票選択" class="nav-link" data-scroll-target="#投票選択"><span class="header-section-number">2.2</span> 投票選択</a>
-  <ul class="collapse">
-  <li><a href="#日本人を対象にした実験" id="toc-日本人を対象にした実験" class="nav-link" data-scroll-target="#日本人を対象にした実験"><span class="header-section-number">2.2.1</span> 日本人を対象にした「実験」</a></li>
-  </ul></li>
-  <li><a href="#メディア" id="toc-メディア" class="nav-link" data-scroll-target="#メディア"><span class="header-section-number">2.3</span> メディア</a></li>
+  <li><a href="#多様な民主主義" id="toc-多様な民主主義" class="nav-link active" data-scroll-target="#多様な民主主義"><span class="header-section-number">4.1</span> 多様な民主主義</a></li>
+  <li><a href="#権威主義" id="toc-権威主義" class="nav-link" data-scroll-target="#権威主義"><span class="header-section-number">4.2</span> 権威主義</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./voting_behavior.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">投票行動</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./political_regime.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">政治体制</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">投票行動</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">政治体制</span></h1>
 </div>
 
 
@@ -232,326 +207,11 @@ window.Quarto = {
 </header>
 
 
-<p>選挙制度＝選挙（という名のゲーム）のルール</p>
-<ul>
-<li>ゲーム：互いに影響を及ぼし合う、したがって相手の出方を伺いながら自分の行動を選択する状況</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/principal_agent.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>有権者＝政治家＝公務員</figcaption>
-</figure>
-</div>
-<p>→ルールの下で有権者はどのように投票するのか（しないのか）？</p>
-<ul>
-<li>政治行動論、投票行動論、政治心理学、政治文化論</li>
-<li>飯田健ほか (2015)「政治行動論」</li>
-<li>松林哲也 (2023)「何が投票率を高めるのか」</li>
-<li>稲増一憲 (2022)「マスメディアと何か」</li>
-</ul>
-<p>この章では、有権者はなぜ投票に行くのか、どのように投票先を選択するのかを考えます。</p>
-<section id="投票参加" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="投票参加"><span class="header-section-number">2.1</span> 投票参加</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/turnout_jp.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/nendaibetu/">衆議院議員総選挙における年代別投票率の推移</a></figcaption>
-</figure>
-</div>
-<ul>
-<li>投票率の低下（特に若者）</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/turnout_trend.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.idea.int/publications/catalogue/voter-turnout-trends-around-world">世界の投票率の推移</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/turnout_age.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.idea.int/publications/catalogue/voter-turnout-trends-around-world">世界の年代別投票率</a></figcaption>
-</figure>
-</div>
-<section id="投票しないパラドックス" class="level3" data-number="2.1.1">
-<h3 data-number="2.1.1" class="anchored" data-anchor-id="投票しないパラドックス"><span class="header-section-number">2.1.1</span> 投票しないパラドックス</h3>
-<p><span class="math inline">\(R = P \times B - C\)</span></p>
-<ul>
-<li><span class="math inline">\(R\)</span> (reward)：投票の便益（メリット）</li>
-<li><span class="math inline">\(B\)</span> (benefit)：自分にとって好ましい候補者が当選することで（そうではない候補者と比べて）得られる便益</li>
-<li><span class="math inline">\(P\)</span> (probability)：自分が投票に行くことで望ましい選挙結果になる確率</li>
-<li><span class="math inline">\(C\)</span> (cost)：投票に行くことや投票先を調べることで自らが被る費用
-<ul>
-<li>機会費用 (opportunity cost)</li>
-</ul></li>
-</ul>
-<p>∴投票しない（棄権の）パラドックス</p>
-<p>ライカー＝オードシュック・モデル：<span class="math inline">\(R = P \times B - C + D\)</span></p>
-<ul>
-<li><span class="math inline">\(D\)</span> (duty/democratic value)：投票に行くこと自体で得られる便益
-<ul>
-<li>義務感、満足感……</li>
-</ul></li>
-</ul>
-<p>政治的知識、教育水準、年齢→投票コスト</p>
-<p>∴個人的属性は重要／政策的意義は限定的</p>
+<section id="多様な民主主義" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="多様な民主主義"><span class="header-section-number">4.1</span> 多様な民主主義</h2>
 </section>
-<section id="投票環境" class="level3" data-number="2.1.2">
-<h3 data-number="2.1.2" class="anchored" data-anchor-id="投票環境"><span class="header-section-number">2.1.2</span> 投票環境</h3>
-<ul>
-<li>投票制度
-<ul>
-<li>当日投票所の減少／期日前投票所の増加</li>
-<li>記名式投票</li>
-<li>オンライン投票？</li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-回帰分析
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>政治学や社会科学で広く使われているデータ分析の方法として回帰分析というものがあります。例えば、次のような式を想定して、</p>
-<p><span class="math display">\[
-y_i = \alpha + \beta_1 \times x_{i1} + \beta_2 \times x_{i2} + \varepsilon_i
-\]</span></p>
-<ul>
-<li><span class="math inline">\(y_i\)</span>：選挙区<span class="math inline">\(i\)</span>の投票率</li>
-<li><span class="math inline">\(x_{i1}\)</span>：選挙区<span class="math inline">\(i\)</span>の当日投票所数</li>
-<li><span class="math inline">\(x_{i2}\)</span>：選挙区<span class="math inline">\(i\)</span>の期日前投票所数</li>
-<li>（<span class="math inline">\(\varepsilon_i\)</span>：その他の要因）</li>
-</ul>
-<p>データから<span class="math inline">\(\beta_1, \beta2\)</span>を計算することができます（最小二乗法: OLS）。</p>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi1.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
-<ul>
-<li>啓発活動</li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-政治学の「実験」
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>政治学では対象者をランダムに分けて、異なる刺激を与え、その結果が異なるかどうかを検証する「実験」を用いることがあります。実社会で行う実験をフィールド実験、世論調査の中で行う実験をサーベイ実験と言います。</p>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi2.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi3.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/gerber.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/social-pressure-and-voter-turnout-evidence-from-a-largescale-field-experiment/11E84AF4C0B7FBD1D20C855972C2C3EB">Gerber et al.&nbsp;(2008)</a></figcaption>
-</figure>
-</div>
-<ul>
-<li>選挙制度
-<ul>
-<li>選挙区定数</li>
-<li>定数不均衡（都市部／地方）</li>
-<li>義務投票制</li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/blais.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://ejpr.onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-6765.1990.tb00227.x">Blais and Carty (1990)</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi4.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
-<ul>
-<li>新規政党
-<ul>
-<li>差別化、競争度</li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-見かけの相関
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>新党効果をどのように検証すればいいでしょうか。まず、「新党が出馬した選挙区」と「新党が出馬しなかった選挙区」の投票率を比較しても不十分です。もしかすると、新党は投票率の高い（政治に関心のある）地域で出馬するかもしれないからです。そうだとすれば、新党が出馬した選挙区のほうが投票率が高くても、新党の効果とは言えない見かけの相関が生じます。</p>
-<p>次に、新党が出馬した選挙区の「出馬する前の選挙」と「出馬したときの選挙」の投票率を比較しても不十分です。もしかすると、全国的に投票率が高まっており、それを受けて新党が登場したからかもしれないからです。このように、前後比較から因果を（誤って）導くことを前後即因果の誤謬と言います。</p>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi5.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
-<ul>
-<li>女性議員</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/female_legislators.png" class="img-fluid figure-img"></p>
-<figcaption>女性議員の比率（<a href="https://www.v-dem.net/">Variety of Democracy</a>より）</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi6.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="投票選択" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="投票選択"><span class="header-section-number">2.2</span> 投票選択</h2>
-<p>投票先を選ぶ際の基準</p>
-<ul>
-<li>争点投票、政策投票</li>
-<li>政党投票
-<ul>
-<li>イデオロギー、政党ラベル</li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/manifesto_2022.jpg" class="img-fluid figure-img"></p>
-<figcaption><a href="https://go2senkyo.com/articles/2022/07/07/69339.html">各党の政策比較表　参院選2022バージョン（選挙ドットコム）</a></figcaption>
-</figure>
-</div>
-<ul>
-<li>個人投票
-<ul>
-<li>候補者特性（世襲、知名度、性別、年齢、外見……）／利益誘導</li>
-</ul></li>
-<li>誠実投票／戦略投票</li>
-<li>業績評価投票
-<ul>
-<li>経済投票 (pocketbook or sociotropic)</li>
-</ul></li>
-</ul>
-<section id="日本人を対象にした実験" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="日本人を対象にした実験"><span class="header-section-number">2.2.1</span> 日本人を対象にした「実験」</h3>
-<p><a href="https://www.moralmachine.net/hl">Moral Machine</a></p>
-<ul>
-<li>堀内優作ほか<a href="https://business.nikkei.com/atcl/seminar/19/00059/120200330/">「衆院総選挙、緊急解析！　データが明かした有権者の本音」</a>日経ビジネス</li>
-<li>堀内優作<a href="https://business.nikkei.com/atcl/gen/19/00351/120200011/">「マニフェスト選挙を疑え：2021年総選挙の計量政治学」</a>日経ビジネス</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cdn-business.nikkei.com/atcl/seminar/19/00059/120200330/hyo02.jpg" class="img-fluid figure-img"></p>
-<figcaption>コンジョイント実験の例</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://cdn-business.nikkei.com/atcl/gen/19/00351/120200011/f3.jpg" class="img-fluid figure-img"></p>
-<figcaption>コンジョイント実験の結果</figcaption>
-</figure>
-</div>
-<p>→投票によって選挙結果はどのように変わり、政党はどのように応答するのか？</p>
-</section>
-</section>
-<section id="メディア" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="メディア"><span class="header-section-number">2.3</span> メディア</h2>
-<ul>
-<li>強力効果論
-<ul>
-<li>説得効果（皮下注射モデル、魔法の弾丸モデル）</li>
-<li>ナチスのプロパガンダ</li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/selb1.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/examining-a-most-likely-case-for-strong-campaign-effects-hitlers-speeches-and-the-rise-of-the-nazi-party-19271933/1E88D3B79217653D77735294CF2C8DED">Selb, 2018</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/selb2.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/examining-a-most-likely-case-for-strong-campaign-effects-hitlers-speeches-and-the-rise-of-the-nazi-party-19271933/1E88D3B79217653D77735294CF2C8DED">Selb, 2018</a></figcaption>
-</figure>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-信頼区間と統計的有意
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>データ分析において信頼区間とは分析結果の不確実性の範囲を示しています。信頼区間に0が含まれている場合、統計的に有意ではない（0と区別がつかない）です。</p>
-</div>
-</div>
-<ul>
-<li>限定効果論
-<ul>
-<li>選択メカニズム（選択的接触、選択的知覚、選択的記憶）</li>
-<li>第三者効果、敵対的メディア認知</li>
-</ul></li>
-<li>新しい強力効果論
-<ul>
-<li>誘発効果（議題設定、プライミング、フレーミング）</li>
-</ul></li>
-<li>ソーシャル・メディア
-<ul>
-<li>選好に基づく強化</li>
-<li>パーソナライゼーション</li>
-<li>エコー・チェンバー、フィルターバブル／多様な意見</li>
-<li>影響力工作？</li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/twitter1.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows">Journalists and Trump voters live in separate online bubbles, MIT analysis shows</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/twitter2.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows">Journalists and Trump voters live in separate online bubbles, MIT analysis shows</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/twitter3.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.vice.com/en/article/d3xamx/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows">Journalists and Trump voters live in separate online bubbles, MIT analysis shows</a></figcaption>
-</figure>
-</div>
-<p>→候補者や政党は選挙においてどのように行動するのか？　選挙は政治に影響するのか？</p>
+<section id="権威主義" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="権威主義"><span class="header-section-number">4.2</span> 権威主義</h2>
 
 
 </section>
@@ -975,8 +635,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./electoral_system.html" class="pagination-link" aria-label="選挙制度">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">選挙制度</span></span>
+      <a href="./party_election.html" class="pagination-link" aria-label="政党と選挙">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">政党と選挙</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
