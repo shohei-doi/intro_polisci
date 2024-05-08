@@ -351,7 +351,8 @@ y_i = \alpha + \beta_1 \times x_{i1} + \beta_2 \times x_{i2} + \varepsilon_i
 <li><span class="math inline">\(x_{i2}\)</span>：選挙区<span class="math inline">\(i\)</span>の期日前投票所数</li>
 <li>（<span class="math inline">\(\varepsilon_i\)</span>：その他の要因）</li>
 </ul>
-<p>データから<span class="math inline">\(\beta_1, \beta2\)</span>を計算することができます（最小二乗法: OLS）。</p>
+<p>データから<span class="math inline">\(\beta_1, \beta_2\)</span>を計算することができます（最小二乗法: OLS）。</p>
+<p>これによって、<span class="math inline">\(x_{i1}\)</span>と<span class="math inline">\(x_{i2}\)</span>の間の交絡を除去できます。例えば、<span class="math inline">\(\beta_1\)</span>は<span class="math inline">\(x_{i2}\)</span>を一定にしたまま、<span class="math inline">\(x_{i1}\)</span>が1増えたときの<span class="math inline">\(y_i\)</span>の変化量を表していると解釈できます。</p>
 </div>
 </div>
 <ul>
