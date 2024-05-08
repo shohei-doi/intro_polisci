@@ -306,6 +306,31 @@ window.Quarto = {
 <li>オンライン投票？</li>
 </ul></li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/matsubayashi1.png" class="img-fluid figure-img"></p>
+<figcaption>松林 (2023)</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+見かけの相関
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>仮に期日前投票所の数と投票率の間に関係がない、あるいは負の関係があったとしても、期日前投票所には投票率を上げる効果がないとは「言えません」（なぜ？）。相関 (correlation) は因果ではないですが、因果だと見えてしまう関係を「見かけの相関」と言います。</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/confounding1.drawio.png" class="img-fluid figure-img"></p>
+<figcaption>交絡 (confounding) のイメージ</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -329,12 +354,6 @@ y_i = \alpha + \beta_1 \times x_{i1} + \beta_2 \times x_{i2} + \varepsilon_i
 <p>データから<span class="math inline">\(\beta_1, \beta2\)</span>を計算することができます（最小二乗法: OLS）。</p>
 </div>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/matsubayashi1.png" class="img-fluid figure-img"></p>
-<figcaption>松林 (2023)</figcaption>
-</figure>
-</div>
 <ul>
 <li>啓発活動</li>
 </ul>
@@ -348,8 +367,15 @@ y_i = \alpha + \beta_1 \times x_{i1} + \beta_2 \times x_{i2} + \varepsilon_i
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>政治学では対象者をランダムに分けて、異なる刺激を与え、その結果が異なるかどうかを検証する「実験」を用いることがあります。実社会で行う実験をフィールド実験、世論調査の中で行う実験をサーベイ実験と言います。</p>
+<p>啓発活動の有無によって投票率の高低を比較して因果関係を言えるでしょうか。見かけの相関の可能性はないでしょうか。</p>
+<p>政治学では対象者をランダムに分けて、異なる刺激を与え、その結果が異なるかどうかを検証する「実験」（ランダム化比較試験 [Randomized Controlled Trial: RCT]）を用いることがあります。実社会で行う実験をフィールド実験、世論調査の中で行う実験をサーベイ実験と言います。</p>
 </div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/confounding2.drawio.png" class="img-fluid figure-img"></p>
+<figcaption>RCTのイメージ</figcaption>
+</figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -401,11 +427,11 @@ y_i = \alpha + \beta_1 \times x_{i1} + \beta_2 \times x_{i2} + \varepsilon_i
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-見かけの相関
+前後即因果の誤謬
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>新党効果をどのように検証すればいいでしょうか。まず、「新党が出馬した選挙区」と「新党が出馬しなかった選挙区」の投票率を比較しても不十分です。もしかすると、新党は投票率の高い（政治に関心のある）地域で出馬するかもしれないからです。そうだとすれば、新党が出馬した選挙区のほうが投票率が高くても、新党の効果とは言えない見かけの相関が生じます。</p>
+<p>新党効果をどのように検証すればいいでしょうか。まず、「新党が出馬した選挙区」と「新党が出馬しなかった選挙区」の投票率を比較しても、見かけの相関かもしれません。</p>
 <p>次に、新党が出馬した選挙区の「出馬する前の選挙」と「出馬したときの選挙」の投票率を比較しても不十分です。もしかすると、全国的に投票率が高まっており、それを受けて新党が登場したからかもしれないからです。このように、前後比較から因果を（誤って）導くことを前後即因果の誤謬と言います。</p>
 </div>
 </div>
