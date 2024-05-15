@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -174,9 +203,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#政党システム" id="toc-政党システム" class="nav-link active" data-scroll-target="#政党システム"><span class="header-section-number">3.1</span> 政党システム</a></li>
-  <li><a href="#政党組織" id="toc-政党組織" class="nav-link" data-scroll-target="#政党組織"><span class="header-section-number">3.2</span> 政党組織</a></li>
+  <li><a href="#政党組織" id="toc-政党組織" class="nav-link active" data-scroll-target="#政党組織"><span class="header-section-number">3.1</span> 政党組織</a></li>
+  <li><a href="#政党システム" id="toc-政党システム" class="nav-link" data-scroll-target="#政党システム"><span class="header-section-number">3.2</span> 政党システム</a></li>
   <li><a href="#選挙と政策" id="toc-選挙と政策" class="nav-link" data-scroll-target="#選挙と政策"><span class="header-section-number">3.3</span> 選挙と政策</a></li>
+  <li><a href="#まとめ" id="toc-まとめ" class="nav-link" data-scroll-target="#まとめ"><span class="header-section-number">3.4</span> まとめ</a></li>
   </ul>
 </nav>
     </div>
@@ -214,16 +244,201 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>→ルールの下で政治家や政党はどのように行動するのか？（選挙に意味はあるのか？）</p>
 <ul>
-<li>政党システム、政党組織、議員行動論</li>
+<li>政党システム、政党組織、議員行動論、政治経済学</li>
+<li>建林正彦、曽我謙悟、待鳥聡史 (2008)「比較政治制度論」</li>
 </ul>
-<section id="政党システム" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="政党システム"><span class="header-section-number">3.1</span> 政党システム</h2>
+<section id="政党組織" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="政党組織"><span class="header-section-number">3.1</span> 政党組織</h2>
+<p>政党の機能</p>
+<ul>
+<li>政策の形成：利益の表出、利益の集約
+<ul>
+<li>政党ラベル（ヒューリスティクス）</li>
+</ul></li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th>法案1</th>
+<th>法案2</th>
+<th>法案3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>議員A</td>
+<td>3</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr class="even">
+<td>議員B</td>
+<td>-1</td>
+<td>3</td>
+<td>-1</td>
+</tr>
+<tr class="odd">
+<td>議員C</td>
+<td>-1</td>
+<td>-1</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>候補者のリクルート、育成</li>
+<li>政府の形成</li>
+<li>政治的社会化</li>
+</ul>
+<p>政党の一体性</p>
+<ul>
+<li>凝集性</li>
+<li>政党規律（集権化）
+<ul>
+<li>個人投票／政党投票</li>
+<li>政党内ルール</li>
+</ul></li>
+</ul>
+<p>政党組織の帰結</p>
+<ul>
+<li>国レベルのマクロな政策争点／利益誘導・財政赤字
+<ul>
+<li>後援会、族議員</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/catalinac1.jpeg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.journals.uchicago.edu/doi/full/10.1086/683073">Catalinac (2016)</a></figcaption>
+</figure>
+</div>
+<ul>
+<li>多様性</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/catalinac2.jpeg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/positioning-under-alternative-electoral-systems-evidence-from-japanese-candidate-election-manifestos/D0D7EE4EEDBDEED88F6550AEA2841870">Catalinac (2018)</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/female_legislator.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.rieti.go.jp/jp/publications/nts/22e094.html">粕谷ほか (2022)</a></figcaption>
+</figure>
+</div>
 </section>
-<section id="政党組織" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="政党組織"><span class="header-section-number">3.2</span> 政党組織</h2>
+<section id="政党システム" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="政党システム"><span class="header-section-number">3.2</span> 政党システム</h2>
+<p>政党システム：政党間競争から生じる相互作用の構造（サルトーリ）</p>
+<ul>
+<li>競争の局面：選挙、政権形成、政策形成</li>
+<li>一党制、ヘゲモニー政党制</li>
+<li>一党優位制</li>
+<li>二党制</li>
+<li>穏健な多党制</li>
+<li>分極的多党制</li>
+</ul>
+<p>政党システムの規程要因</p>
+<ul>
+<li>社会的亀裂：中央／周辺、都市／農村、国家／教会、資本／労働
+<ul>
+<li>脱物質的価値：環境、自由、ジェンダー、多文化、ナショナリズム……</li>
+<li>地域主義</li>
+</ul></li>
+<li>デュベルジェの法則：機械的要因、心理的要因
+<ul>
+<li>汚染効果</li>
+<li>選挙区レベル</li>
+<li><span class="math inline">\(M+1\)</span>ルール</li>
+</ul></li>
+<li>相互作用</li>
+</ul>
+<p>政党システムの帰結</p>
+<ul>
+<li>内閣の安定性</li>
+<li>責任の所在／代表性</li>
+<li>政策の継続性</li>
+<li>福祉国家的政策、財政支出</li>
+</ul>
+<p>政党組織・政党システムの評価軸：代表／代理</p>
+<ul>
+<li>多様な意見を「どこで」集約するか？</li>
+</ul>
 </section>
 <section id="選挙と政策" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="選挙と政策"><span class="header-section-number">3.3</span> 選挙と政策</h2>
+<p>選挙は政策を変えるのか？</p>
+<ul>
+<li>飯田健ほか (2015)「政治行動論」</li>
+<li>松林哲也 (2023)「何が投票率を高めるのか」</li>
+<li>北村周平 (2022)「民主主義の経済学」</li>
+</ul>
+<p>選挙による代表：好みの政治家を選ぶ</p>
+<ul>
+<li>政権交代</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/de-benedictis.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.journals.uchicago.edu/doi/full/10.1086/686308">de Benedictis-Kessner and Warshaw (2016)</a></figcaption>
+</figure>
+</div>
+<p>選挙による代理：有権者のために政治家を働かせる</p>
+<ul>
+<li>アカウンタビリティ</li>
+<li>（ダウンズの）中位投票者定理</li>
+<li>参政権の拡大、簡易な投票環境、義務投票制</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/miler1.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://academic.oup.com/qje/article/123/3/1287/1928181">Miler (2008)</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/miler2.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://academic.oup.com/qje/article/123/3/1287/1928181">Miler (2008)</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/bertocchi.png" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.aeaweb.org/articles?id=10.1257/pol.20180203">Bertocchia et al.&nbsp;(2020)</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="まとめ" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="まとめ"><span class="header-section-number">3.4</span> まとめ</h2>
+<p>民主主義国（特に日本を念頭）の政治について、選挙を軸に有権者と政党について学びました。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/principal_agent.drawio.png" class="img-fluid figure-img"></p>
+<figcaption>有権者＝政治家＝公務員</figcaption>
+</figure>
+</div>
+<ul>
+<li>選挙をどのように見るか？</li>
+<li>立法過程、執政制度、政官関係、官僚制、利益団体……や権威主義体制は割愛</li>
+<li>次回以降のトピック
+<ul>
+<li>地方政治（官僚制も？）は宇野先生</li>
+<li>アメリカ（大統領制）は小浜先生</li>
+<li>国際関係（や権威主義体制）はまたもや土井</li>
+</ul></li>
+</ul>
+<p>伝えたかったこと</p>
+<ul>
+<li>現象を「見たまんま」に受け止めない＝環境（制度など）の影響を考える。</li>
+<li>望ましい結果を求めるなら、変えられるもの（多くの場合は環境）を変える。</li>
+</ul>
+<p><img src="figures/perspective.drawio.png" class="img-fluid"></p>
+<ul>
+<li>ある現象の原因を見つけるのは難しい、一つとは限らない。</li>
+</ul>
+<p><img src="figures/confounding1.drawio.png" class="img-fluid"></p>
 
 
 </section>
