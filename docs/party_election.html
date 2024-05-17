@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.290">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "一致なし",
     "search-matching-documents-text": "一致した文書",
@@ -55,8 +61,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "追加の検索結果",
     "search-more-matches-text": "追加の検索結果",
     "search-clear-button-title": "消去",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "検索"
+    "search-submit-button-title": "検索",
+    "search-label": "サーチ"
   }
 }</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,6 +74,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-sidebar floating">
@@ -74,13 +109,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./party_election.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">政党と選挙</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="サーチ" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./party_election.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">政党と選挙</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -89,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">政治学入門</a> 
@@ -161,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -178,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./electoral_system.html">比較政治</a></li><li class="breadcrumb-item"><a href="./party_election.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">政党と選挙</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">政党と選挙</span></h1>
 </div>
@@ -193,7 +228,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>選挙制度＝選挙（という名のゲーム）のルール</p>
 <ul>
@@ -201,8 +238,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/principal_agent.drawio.png" class="quarto-discovered-preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">有権者＝政治家＝公務員</figcaption><p></p>
+<p><img src="figures/principal_agent.drawio.png" class="img-fluid figure-img"></p>
+<figcaption>有権者＝政治家＝公務員</figcaption>
 </figure>
 </div>
 <p>→ルールの下で政治家や政党はどのように行動するのか？（選挙に意味はあるのか？）</p>
@@ -273,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/catalinac1.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://www.journals.uchicago.edu/doi/full/10.1086/683073">Catalinac (2016)</a></figcaption><p></p>
+<figcaption><a href="https://www.journals.uchicago.edu/doi/full/10.1086/683073">Catalinac (2016)</a></figcaption>
 </figure>
 </div>
 <ul>
@@ -282,13 +319,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/catalinac2.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/positioning-under-alternative-electoral-systems-evidence-from-japanese-candidate-election-manifestos/D0D7EE4EEDBDEED88F6550AEA2841870">Catalinac (2018)</a></figcaption><p></p>
+<figcaption><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/positioning-under-alternative-electoral-systems-evidence-from-japanese-candidate-election-manifestos/D0D7EE4EEDBDEED88F6550AEA2841870">Catalinac (2018)</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/female_legislator.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://www.rieti.go.jp/jp/publications/nts/22e094.html">粕谷ほか (2022)</a></figcaption><p></p>
+<figcaption><a href="https://www.rieti.go.jp/jp/publications/nts/22e094.html">粕谷ほか (2022)</a></figcaption>
 </figure>
 </div>
 </section>
@@ -346,7 +383,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/de-benedictis.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://www.journals.uchicago.edu/doi/full/10.1086/686308">de Benedictis-Kessner and Warshaw (2016)</a></figcaption><p></p>
+<figcaption><a href="https://www.journals.uchicago.edu/doi/full/10.1086/686308">de Benedictis-Kessner and Warshaw (2016)</a></figcaption>
 </figure>
 </div>
 <p>選挙による代理：有権者のために政治家を働かせる</p>
@@ -356,24 +393,95 @@ ul.task-list li input[type="checkbox"] {
 <li>定年制、再選禁止、議員報酬</li>
 </ul></li>
 <li>（ダウンズの）中位投票者定理</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+中位投票者定理の解説
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>中位投票者定理について直観的に説明します。まず、「仮定」として(1)一次元の政策空間があるとします。例えば、左に行けば行くほど増税・大きな政府で右に行けば行くほど減税・小さな政府とか、左が穏健な外交政策で右が強硬な外交政策といった状況を想像してください。そして、(2)有権者は自分の好みの政策があり、次の図のように有権者の好みは散らばっているとします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter1.png" class="img-fluid figure-img"></p>
+<figcaption>有権者の好みの散らばり</figcaption>
+</figure>
+</div>
+<ul>
+<li>図の見方としては、-10から10くらいまで政策の選択肢があり（数値自体に意味はないです）、0周辺と7周辺が多くの有権者の好みであるということです。</li>
+</ul>
+<p>さらに、(3)ここでは小選挙区制を想定し、2つの政党しか候補者を立てていないとします。それぞれの政党は政策空間のうちの一点を政策として提示します。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter2.png" class="img-fluid figure-img"></p>
+<figcaption>政党の政策</figcaption>
+</figure>
+</div>
+<p>そして、(4)有権者は誠実投票を行う、すなわち自分の好みに最も近い政策を提示している政党に投票します。したがって、2つの政党の政策の中間で2つのグループに分けられ、左側は政党1に、右側は政党2に投票します。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter3.png" class="img-fluid figure-img"></p>
+<figcaption>有権者の投票</figcaption>
+</figure>
+</div>
+<p>さて、(5)政党は政策よりも選挙で勝つことを目指しているとします。そして、小選挙区制なのでどちらか一方の政党だけが勝ちます。したがって、負ける側は少しでも多くの得票を得るために政策を変える必要があります。つまり、例えば政党1からすると、もっと政策を右に寄せて票を獲得しようとします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter4.png" class="img-fluid figure-img"></p>
+<figcaption>政党1による票の取り込み</figcaption>
+</figure>
+</div>
+<p>もちろん、政党2も対抗しますので、政策を左に寄せていきます。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter5.png" class="img-fluid figure-img"></p>
+<figcaption>政党2による票の取り込み</figcaption>
+</figure>
+</div>
+<p>このように、2つの政党が互いに得票のために政策を調整していくと、「中位投票者」の好みの政策で膠着状態に陥ります。「中位投票者」とは、その人よりも左の人も、右の人も同じ数だけいるような人、つまり50%に位置している人です。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter6.png" class="img-fluid figure-img"></p>
+<figcaption>中位投票者への収束</figcaption>
+</figure>
+</div>
+<p>以上が中位投票者定理の意味と証明の直観的な説明です。もちろん、これはあくまで「理論」であって実際にそうなるかは分かりません。というか、アメリカを見れば分かるように二大政党制であっても政党の政策が同じになることはないので、現実に当てはめるには限界があります。</p>
+<p>しかし、参政権の拡大あるいは投票率の上昇が政策を変更することを説明することはできます。上記の例で、左側にいる有権者のほうが投票率が上がったとします。すると。中位投票者は次のように左に移動します。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/median_voter7.png" class="img-fluid figure-img"></p>
+<figcaption>中位投票者の変化</figcaption>
+</figure>
+</div>
+<p>つまり、左と右で綱引きをしているようなもので、投票率が上がれば（その人たちが望む政策は実現しなかったとしても）政策を自分が望む方向へ動かすことができると考えられます。</p>
+</div>
+</div>
+</div>
+<ul>
 <li>参政権の拡大、簡易な投票環境、義務投票制</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/miler1.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://academic.oup.com/qje/article/123/3/1287/1928181">Miler (2008)</a></figcaption><p></p>
+<figcaption><a href="https://academic.oup.com/qje/article/123/3/1287/1928181">Miler (2008)</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/miler2.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://academic.oup.com/qje/article/123/3/1287/1928181">Miler (2008)</a></figcaption><p></p>
+<figcaption><a href="https://academic.oup.com/qje/article/123/3/1287/1928181">Miler (2008)</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bertocchi.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><a href="https://www.aeaweb.org/articles?id=10.1257/pol.20180203">Bertocchia et al.&nbsp;(2020)</a></figcaption><p></p>
+<figcaption><a href="https://www.aeaweb.org/articles?id=10.1257/pol.20180203">Bertocchia et al.&nbsp;(2020)</a></figcaption>
 </figure>
 </div>
 </section>
@@ -383,7 +491,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/principal_agent.drawio.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">有権者＝政治家＝公務員</figcaption><p></p>
+<figcaption>有権者＝政治家＝公務員</figcaption>
 </figure>
 </div>
 <ul>
@@ -490,10 +598,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -503,8 +635,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -516,7 +657,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -560,6 +824,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -585,6 +850,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -642,27 +933,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./voting_behavior.html" class="pagination-link">
+      <a href="./voting_behavior.html" class="pagination-link" aria-label="投票行動">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">投票行動</span></span>
       </a>          
   </div>
@@ -670,6 +945,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
