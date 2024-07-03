@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -21,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -47,13 +66,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "一致なし",
     "search-matching-documents-text": "一致した文書",
@@ -62,10 +75,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "追加の検索結果",
     "search-more-matches-text": "追加の検索結果",
     "search-clear-button-title": "消去",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "検索",
-    "search-label": "サーチ"
+    "search-submit-button-title": "検索"
   }
 }</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,13 +92,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">はじめに</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">はじめに</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="サーチ" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -96,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">政治学入門</a> 
@@ -162,13 +173,26 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">国際関係</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">国際関係</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="セクションを切り替え">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./international_society.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">国際社会</span></span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -179,6 +203,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#成績評価" id="toc-成績評価" class="nav-link" data-scroll-target="#成績評価">成績評価</a></li>
   <li><a href="#連絡" id="toc-連絡" class="nav-link" data-scroll-target="#連絡">連絡</a></li>
+  <li><a href="#参考書国際関係" id="toc-参考書国際関係" class="nav-link" data-scroll-target="#参考書国際関係">参考書（国際関係）</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -205,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">公開</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024年5月17日</p>
+      <p class="date">2024年7月4日</p>
     </div>
   </div>
   
@@ -213,9 +238,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-
 </header>
-
 
 <section id="はじめに" class="level1 unnumbered">
 <h1 class="unnumbered">はじめに</h1>
@@ -265,9 +288,108 @@ ul.task-list li input[type="checkbox"] {
 <li>これらは平常点として加点するので、質問する際は名乗ってください。質問箱やTwitterで匿名で質問する場合は何かしらの形で土井に氏名あるいは学生番号を伝えてください。発言者が分からない場合は加点できません。</li>
 <li>土井の研究室は法学部棟609号室です。アポイントメント無しで訪問しても構いません（その時に研究室にいてお相手する時間があるかは分かりませんが）。</li>
 </ul>
-
-
 </section>
+<section id="参考書国際関係" class="level2">
+<h2 class="anchored" data-anchor-id="参考書国際関係">参考書（国際関係）</h2>
+<p>特定の教科書を用いないが、自習のためにいくつかの参考書を紹介する。<strong>国際関係論のテキストは多種多様なので、ぜひ読み比べて欲しい。</strong></p>
+<ul>
+<li>なにから読めばよいか分からない初学者の方は、まず <span class="citation" data-cites="sunahara2020">砂原, 稗田, と 多湖 (<a href="#ref-sunahara2020" role="doc-biblioref">2020</a>)</span> や <span class="citation" data-cites="sakamoto2020">坂本 と 石橋 (<a href="#ref-sakamoto2020" role="doc-biblioref">2020</a>)</span> など政治学の入門レベルの教科書の中の国際関係に関する箇所を読むことを勧める。その後、 <span class="citation" data-cites="murata2023">村田 ほか (<a href="#ref-murata2023" role="doc-biblioref">2023</a>)</span> など国際関係論の入門レベルの教科書を読むとよい。</li>
+<li>身近な日本の話題から国際関係や国際法へ入門するものとして <span class="citation" data-cites="sato2018">佐藤 ほか (<a href="#ref-sato2018" role="doc-biblioref">2018</a>)</span> や <span class="citation" data-cites="morikawa2016">森川 ほか (<a href="#ref-morikawa2016" role="doc-biblioref">2016</a>)</span> などがある。</li>
+<li>既に国際関係論を学んだことがある人は <span class="citation" data-cites="nakanishi2013">中西, 石田, と 田所 (<a href="#ref-nakanishi2013" role="doc-biblioref">2013</a>)</span> や <span class="citation" data-cites="yamakage2012">山影 (<a href="#ref-yamakage2012" role="doc-biblioref">2012</a>)</span> など が発展レベルの教科書としてある。また、発展レベルの政治学を扱う <span class="citation" data-cites="kume2011">久米 ほか (<a href="#ref-kume2011" role="doc-biblioref">2011</a>)</span> の国際関係に関する箇所も読むとよい。</li>
+<li>国際関係の重要な知識をまとめたものとして <span class="citation" data-cites="tanaka2010">田中 と 中西 (<a href="#ref-tanaka2010" role="doc-biblioref">2010</a>)</span> は辞書的に使うことができる<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。</li>
+<li>国際関係論を本格的に学習したい人は英語のテキストとして <span class="citation" data-cites="frieden2019">Frieden, Lake, と Schultz (<a href="#ref-frieden2019" role="doc-biblioref">2019</a>)</span> などに挑戦することを勧める。</li>
+</ul>
+<p>国際関係論を直接扱うものではないが、この授業を理解する上で重要な周辺知識に関する参考書も挙げておく。</p>
+<ul>
+<li>国際関係を理解する上で国際政治史、国際法、比較政治の知識は不可欠である。これらについても多くのテキストがあるが、入り口としてそれぞれ <span class="citation" data-cites="ogawa2018">小川, 板橋, と 青野 (<a href="#ref-ogawa2018" role="doc-biblioref">2018</a>)</span> 、<span class="citation" data-cites="tamada2022">玉田, 水島, と 山田 (<a href="#ref-tamada2022" role="doc-biblioref">2022</a>)</span> 、 <span class="citation" data-cites="kubo2016">久保, 末近, と 高橋 (<a href="#ref-kubo2016" role="doc-biblioref">2016</a>)</span> を紹介する。</li>
+<li>国際関係の一つの見方としてゲーム理論<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>がある。ゲーム理論を用いた政治学の入門レベルの教科書として <span class="citation" data-cites="asako2018">浅古 (<a href="#ref-asako2018" role="doc-biblioref">2018</a>)</span> がある。また、 <span class="citation" data-cites="okada2020">岡田 (<a href="#ref-okada2020" role="doc-biblioref">2020</a>)</span> はゲーム理論を用いた国際関係論のテキストである（ただし、やや難易度は高い）。</li>
+<li>国際関係をはじめ、様々な社会現象に関して原因と結果を検証する方法として統計的因果推論がある。入門レベルの教科書として <span class="citation" data-cites="nakamuro2017">中室 と 津川 (<a href="#ref-nakamuro2017" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="ito2017">伊藤公一朗. (<a href="#ref-ito2017" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="matsubayashi2021">松林 (<a href="#ref-matsubayashi2021" role="doc-biblioref">2021</a>)</span> などがある。事例分析の方法としては <span class="citation" data-cites="kume2013">久米 (<a href="#ref-kume2013" role="doc-biblioref">2013</a>)</span>, <span class="citation" data-cites="ito2022">伊藤修一郎. (<a href="#ref-ito2022" role="doc-biblioref">2022</a>)</span> などが参考になる。</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+引用方法
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>技術的な問題から、講義ノートにおける引用方法は適切ではないので、レポート執筆などにおいて<strong>参考にしないこと</strong>。学生便覧の「引用の仕方」などを参照すること。</p>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-frieden2019" class="csl-entry" role="listitem">
+Frieden, Jeffry A, David A Lake, と Kenneth A Schultz. 2019. <em>World politics: interests, interactions, institutions</em>. WW Norton.
+</div>
+<div id="ref-nakamuro2017" class="csl-entry" role="listitem">
+中室牧子, と 津川友介. 2017. <em>「原因と結果」の経済学 : データから真実を見抜く思考法</em>. ダイヤモンド社.
+</div>
+<div id="ref-nakanishi2013" class="csl-entry" role="listitem">
+中西寛, 石田淳, と 田所昌幸. 2013. <em>国際政治学</em>. 有斐閣.
+</div>
+<div id="ref-kubo2016" class="csl-entry" role="listitem">
+久保慶一, 末近浩太, と 高橋百合子(政治学). 2016. <em>比較政治学の考え方</em>. 有斐閣.
+</div>
+<div id="ref-kume2013" class="csl-entry" role="listitem">
+久米郁男. 2013. <em>原因を推論する : 政治分析方法論のすゝめ</em>. 有斐閣.
+</div>
+<div id="ref-kume2011" class="csl-entry" role="listitem">
+久米郁男, 川出良枝, 古城佳子, 田中愛治, と 真渕勝. 2011. <em>政治学</em>. 補訂版. 有斐閣.
+</div>
+<div id="ref-ito2022" class="csl-entry" role="listitem">
+伊藤修一郎. 2022. <em>政策リサーチ入門 : 仮説検証による問題解決の技法</em>. 増補版. 東京大学出版会.
+</div>
+<div id="ref-ito2017" class="csl-entry" role="listitem">
+伊藤公一朗. 2017. <em>データ分析の力 : 因果関係に迫る思考法</em>. 光文社新書. 光文社.
+</div>
+<div id="ref-sato2018" class="csl-entry" role="listitem">
+佐藤史郎, 川名晋史, 上野友也, と 齊藤孝祐. 2018. <em>日本外交の論点</em>. 法律文化社.
+</div>
+<div id="ref-sakamoto2020" class="csl-entry" role="listitem">
+坂本治也, と 石橋章市朗. 2020. <em>ポリティカル・サイエンス入門</em>. 法律文化社.
+</div>
+<div id="ref-ogawa2018" class="csl-entry" role="listitem">
+小川浩之, 板橋拓己, と 青野利彦. 2018. <em>国際政治史 : 主権国家体系のあゆみ</em>. 有斐閣.
+</div>
+<div id="ref-yamakage2012" class="csl-entry" role="listitem">
+山影進. 2012. <em>国際関係論講義</em>. 東京大学出版会.
+</div>
+<div id="ref-okada2020" class="csl-entry" role="listitem">
+岡田章. 2020. <em>国際関係から学ぶゲーム理論 : 国際協力を実現するために</em>. 有斐閣.
+</div>
+<div id="ref-murata2023" class="csl-entry" role="listitem">
+村田晃嗣, 君塚直隆, 石川卓, 栗栖薫子, と 秋山信将. 2023. <em>国際政治学をつかむ</em>. 第3版 版. 有斐閣.
+</div>
+<div id="ref-matsubayashi2021" class="csl-entry" role="listitem">
+松林哲也. 2021. <em>政治学と因果推論 : 比較から見える政治と社会</em>. シリーズソーシャル・サイエンス. 岩波書店.
+</div>
+<div id="ref-morikawa2016" class="csl-entry" role="listitem">
+森川幸一, 森肇志, 岩月直樹, 藤澤巌, と 北村朋史. 2016. <em>国際法で世界がわかる : ニュースを読み解く32講</em>. 岩波書店.
+</div>
+<div id="ref-asako2018" class="csl-entry" role="listitem">
+浅古泰史. 2018. <em>ゲーム理論で考える政治学 : フォーマルモデル入門</em>. 有斐閣.
+</div>
+<div id="ref-tamada2022" class="csl-entry" role="listitem">
+玉田大, 水島朋則, と 山田卓平. 2022. <em>国際法</em>. 第2版 版. 有斐閣.
+</div>
+<div id="ref-tanaka2010" class="csl-entry" role="listitem">
+田中明彦, と 中西寛. 2010. <em>新・国際政治経済の基礎知識</em>. 新版. 有斐閣.
+</div>
+<div id="ref-sunahara2020" class="csl-entry" role="listitem">
+砂原庸介, 稗田健志, と 多湖淳. 2020. <em>政治学の第一歩</em>. 新版. 有斐閣.
+</div>
+</div>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>ただし、やや古いので注意。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>ゲーム理論自体はミクロ経済学の一分野である。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
@@ -350,34 +472,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-          // default icon
-          link.classList.add("external");
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -387,17 +485,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -409,130 +498,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -576,7 +542,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -602,32 +567,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -685,19 +624,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="政治（学）って？">
+      <a href="./intro.html" class="pagination-link">
         <span class="nav-page-text">政治（学）って？</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 

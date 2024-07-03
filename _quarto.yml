@@ -22,6 +22,8 @@ book:
         - party_election.qmd
         # - political_regime.qmd
     - part: "国際関係"
+      chapters: 
+        - international_society.qmd
 
 bibliography: references.bib
 
