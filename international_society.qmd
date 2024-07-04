@@ -50,6 +50,8 @@ state)
 
 ![国際連合本部ビル](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/UNHQ_NYC.jpg/800px-UNHQ_NYC.jpg){width=50%}
 
+![[国連システム](https://www.un.org/en/about-us/un-system)](https://www.un.org/sites/un2.un.org/files/23-00013_un_system_chart_11x8.5_web_e.png)
+
 ### 立法
 
 **条約** (treaty) ／**慣習国際法** (customary international law)
@@ -204,7 +206,7 @@ $\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolutio
 「留保」とは、国が、条約の特定の規定の自国への適用上その法的効果を排除し又は変更することを意図して、条約への署名、条約の批准、受諾若しくは承認又は条約への加入の際に単独に行う声明（用いられる文言及び名称のいかんを問わない。）をいう。
 :::
 
-- 日本の選択条項受諾宣言および留保[@tamada2016]
+- 日本の選択条項（強制管轄権）受諾宣言および留保[@tamada2016]
 
 :::{.callout-note}
 ## [国際司法裁判所規程](https://www.unic.or.jp/info/un/un_organization/icj/statute/)　第59条
@@ -228,7 +230,15 @@ $\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolutio
 
 - **勧告的意見** (advisory opinion)
 
-$\therefore$国際社会は国内社会よりも劣っている？
+### 国内社会と国際社会
+
+||国内社会|国際社会|
+|---|---|---|
+|立法|代表者（国会）による制定|自発的に条約へ同意$\approx$契約|
+|行政|政府による徴税、執行|自発的な履行or他国による強制|
+|司法|強制的な管轄権|管轄権への自発的同意or選択条項受諾宣言|
+
+$\leadsto$国際社会は国内社会よりも劣っている
 
 ## 近代国際社会の成立
 
