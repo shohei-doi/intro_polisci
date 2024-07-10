@@ -1,0 +1,179 @@
+# 戦争の原因
+
+- 現代の武力紛争の特徴はなにか？
+- 戦争と外交はどのような関係にあるのか？
+- なぜ戦争は選択されるのか？
+
+### 課題文献 {.unnumbered}
+
+- 戦争のデータ
+  - @tago2020[序章]
+- 抑止と安心供与
+  - @nakanishi2013[第3章]
+- 戦争の交渉モデル
+  - @Blattman2023
+  - @tago2020[第2章]
+  - @sunahara2020[第10章]
+  - @sakamoto2020[第2章]
+  - @ohshiba2018[第4章]
+  - @asako2018[第11章]
+  - @okada2020[第6章]
+  - @ishiguro2019[第1章]
+
+## 戦争の傾向
+
+武力紛争を定義し、[データセット](https://www.cao.go.jp/pko/pko_j/organization/researcher/atpkonow/article099.html)を構築
+
+[Uppsala Conflict Data Program (UCDP)](https://ucdp.uu.se/encyclopedia)の武力紛争
+
+:::{.callout-note}
+## [UCDPにおける武力紛争の定義](https://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-221.pdf)
+
+UCDP defines state-based armed conflict as: “a **contested incompatibility** that concerns government and/or territory where the **use of armed force** between **two parties**, of which at least one is the government of a state, results in at least **25 battle-related deaths** in a calendar year.”
+:::
+
+::: {.column-screen-right}
+<iframe src="https://ucdp.uu.se/encyclopedia" loading="lazy" style="width: 100%; height: 800px; border: 0px none;"></iframe>
+:::
+
+![武力紛争の推移（1946-2023年）](figures/conflict_ucdp.png)
+
+![武力紛争の種類ごとの推移（1946-2023年）](figures/conflict_type_ucdp.png)
+
+[Correlates of War (COW)](https://correlatesofwar.org/data-sets/MIDs) の国家間軍事衝突[@palmer2022]
+
+- No militarized action
+- Threat to use force
+- Display use of force
+- Use of force, War
+
+![国家間軍事衝突の推移（1816-2014年）](figures/conflict_mid.png)
+
+![国家間軍事衝突の形態ごとの推移（1816-2014年）](figures/conflict_type_mid.png)
+
+![国家間軍事衝突の当事国の割合（1816-2014年）](figures/conflict_state_mid.png)
+
+## 戦争の構造
+
+戦争の原因？
+
+1. 人間の本性
+    - 循環論法、後知恵
+1. アナーキー
+    - 犯罪、内戦
+    - 政治的統合？
+
+地域的・時間的な分散／非現実的な安全保障政策
+
+- 戦争$\neq$自然災害／戦争$=$人々（集団）の選択
+
+様々な戦争（が生じる状況）に**共通する構造**？
+
+- あらゆる戦争はあらゆる側面で異なる
+
+### 政治の手段としての戦争
+
+カール・フォン・クラウゼヴィッツ（「戦争論」）の戦争の定義[@clausewitz2020]
+
+> 戦争とは他の⼿段をもってする**政治の継続**である。
+
+> 戦争とは、敵を強制して**われわれの意志を遂⾏させる**ために⽤いられる暴⼒⾏為である。
+
+- 戦争$\neq$目的／戦争$=$手段
+
+$\leadsto$「なぜ戦争が起こるのか」＝「なぜ外交が失敗したのか」[@fearon1995]
+
+### 利害の対立
+
+複数の国＆利害対立$\leadsto$政治
+
+- 国益 (national interest)：安全保障、国力、経済的富、領土、政策（政府）
+- **現状変更**勢力 (revisionist power)／**現状維持**勢力 (status quo power)
+
+![[朝鮮戦争](https://wonderingmaps.com/korea-division/)](https://wonderingmaps.com/wp-content/uploads/division_of_korea.png)
+
+### 国際危機と戦争
+
+![国際危機の構造](figures/crisis.drawio.png)
+
+:::{.callout-tip}
+## 国際危機のシナリオ
+
+- 国家$A$と国家$B$は価値のあるもの（例えば領土）をそれぞれ$q$と$1-q$と分け合っている。
+- 国家$A$が$B$を攻撃し、$B$が降伏すれば、価値あるものの一部を明け渡す。
+  - 国家$A$は$x$を所有する（国家$B$は$1-x$だけ手にする）。
+- 国家$A$が攻撃して、国家$B$が反撃をした場合、戦争が起こる。
+  - 戦争の結果国家$A$と$B$はそれぞれ$w$と$1-w$を獲得する。
+  - 戦争の費用としてそれぞれ$c_A$と$c_B$だけ失う。
+:::
+
+- 展開型ゲーム (extensive-form game)／後ろ向き帰納法 (backward induction)### 抑止
+
+**抑止** (deterrence) ：実行したいこと（この場合、攻撃）を自制させる
+
+![抑止の失敗](figures/deterrence_failure.drawio.png)
+
+#### 抑止の破綻・戦争の回避
+
+- $B$：戦争より譲歩 ($1-x > 1-w-c_B$)
+- 例：$q = 0.2, x = 0.8, w = 0.5, c_B = 0.4$
+
+#### 抑止の成功
+
+- $B$：譲歩より戦争 ($1-x < 1-w-c_B$)
+- $A$：戦争より平和 ($q > w - c_A$)
+- 例：$q = 0.2, x = 0.8, w = 0.5, c_A = 0.4, c_B = 0.2$
+
+#### 抑止の破綻・戦争
+
+- $B$：譲歩より戦争 ($1-x < 1-w-c_B$)
+- $A$：平和より戦争 ($q < w - c_A$)
+- 例：$q = 0.2, x = 0.8, w = 0.5, c_A = 0.2, c_B = 0.2$
+
+#### 抑止の条件
+
+![抑止の成功](figures/deterrence.drawio.png)
+
+1. 国家$B$の反撃の意思 ($w + c_B < x$)
+1. 国家$A$の戦争回避の意思 ($q > w - c_A$)
+
+- 戦争で有利な結果を得られる国力
+- 戦争で受ける被害・受忍限度（意思の強さ）
+
+### 交渉
+
+![交渉](figures/bargaining.drawio.png)
+
+:::{.callout-important}
+## 交渉可能性[@fearon1995]
+
+基本的に、戦争に費用がある限り、互いに戦争よりも好ましい交渉結果を得ることができる。
+:::
+
+![交渉可能領域](figures/bargaining_range1.drawio.png)
+
+![交渉可能領域](figures/bargaining_range2.drawio.png)
+
+![交渉可能領域](figures/bargaining_range3.drawio.png)
+
+![交渉可能領域](figures/bargaining_range4.drawio.png)
+
+1. $A$が戦争よりも交渉を好む ($x > w - c_A$)
+1. $B$が戦争よりも交渉を好む ($1- x > 1-w - c_B$)
+
+$$
+w - c_A < x < w + c_B
+$$
+
+- **外部機会** (outside option) $\leadsto$交渉ポジション（有利さ）
+
+抑止＆交渉$\leadsto$アナーキーにおける平和
+
+- 抑止と交渉の二分法
+- 平和／正義
+
+## 戦争の原因
+
+## 戦争の終結
+
+## 参考文献 {.unnumbered}

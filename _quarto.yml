@@ -24,6 +24,7 @@ book:
     - part: "国際関係"
       chapters: 
         - international_society.qmd
+        - international_security.qmd
 
 bibliography: references.bib
 
