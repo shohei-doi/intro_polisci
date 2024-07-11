@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -66,13 +65,7 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "一致なし",
     "search-matching-documents-text": "一致した文書",
@@ -81,10 +74,8 @@ div.csl-indent {
     "search-more-match-text": "追加の検索結果",
     "search-more-matches-text": "追加の検索結果",
     "search-clear-button-title": "消去",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "検索",
-    "search-label": "サーチ"
+    "search-submit-button-title": "検索"
   }
 }</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,33 +85,6 @@ div.csl-indent {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 </head>
 
 <body class="nav-sidebar floating">
@@ -129,13 +93,13 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./international_society.html">国際関係</a></li><li class="breadcrumb-item"><a href="./international_security.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">戦争の原因</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./international_society.html">国際関係</a></li><li class="breadcrumb-item"><a href="./international_security.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">戦争の原因</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="サーチ" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -144,7 +108,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">政治学入門</a> 
@@ -235,7 +199,7 @@ window.Quarto = {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -248,10 +212,16 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#政治の手段としての戦争" id="toc-政治の手段としての戦争" class="nav-link" data-scroll-target="#政治の手段としての戦争"><span class="header-section-number">5.2.1</span> 政治の手段としての戦争</a></li>
   <li><a href="#利害の対立" id="toc-利害の対立" class="nav-link" data-scroll-target="#利害の対立"><span class="header-section-number">5.2.2</span> 利害の対立</a></li>
-  <li><a href="#国際危機と戦争" id="toc-国際危機と戦争" class="nav-link" data-scroll-target="#国際危機と戦争"><span class="header-section-number">5.2.3</span> 国際危機と戦争</a></li>
-  <li><a href="#交渉" id="toc-交渉" class="nav-link" data-scroll-target="#交渉"><span class="header-section-number">5.2.4</span> 交渉</a></li>
+  <li><a href="#戦争の被害" id="toc-戦争の被害" class="nav-link" data-scroll-target="#戦争の被害"><span class="header-section-number">5.2.3</span> 戦争の被害</a></li>
+  <li><a href="#国際危機と戦争" id="toc-国際危機と戦争" class="nav-link" data-scroll-target="#国際危機と戦争"><span class="header-section-number">5.2.4</span> 国際危機と戦争</a></li>
+  <li><a href="#交渉" id="toc-交渉" class="nav-link" data-scroll-target="#交渉"><span class="header-section-number">5.2.5</span> 交渉</a></li>
   </ul></li>
-  <li><a href="#戦争の原因" id="toc-戦争の原因" class="nav-link" data-scroll-target="#戦争の原因"><span class="header-section-number">5.3</span> 戦争の原因</a></li>
+  <li><a href="#戦争の原因" id="toc-戦争の原因" class="nav-link" data-scroll-target="#戦争の原因"><span class="header-section-number">5.3</span> 戦争の原因</a>
+  <ul class="collapse">
+  <li><a href="#情報の非対称性" id="toc-情報の非対称性" class="nav-link" data-scroll-target="#情報の非対称性"><span class="header-section-number">5.3.1</span> 情報の非対称性</a></li>
+  <li><a href="#コミットメント問題" id="toc-コミットメント問題" class="nav-link" data-scroll-target="#コミットメント問題"><span class="header-section-number">5.3.2</span> コミットメント問題</a></li>
+  <li><a href="#分割不可能性リスク愛好的" id="toc-分割不可能性リスク愛好的" class="nav-link" data-scroll-target="#分割不可能性リスク愛好的"><span class="header-section-number">5.3.3</span> 分割不可能性・リスク愛好的</a></li>
+  </ul></li>
   <li><a href="#戦争の終結" id="toc-戦争の終結" class="nav-link" data-scroll-target="#戦争の終結"><span class="header-section-number">5.4</span> 戦争の終結</a></li>
   <li><a href="#参考文献" id="toc-参考文献" class="nav-link" data-scroll-target="#参考文献">参考文献</a></li>
   </ul>
@@ -260,7 +230,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./international_society.html">国際関係</a></li><li class="breadcrumb-item"><a href="./international_security.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">戦争の原因</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">戦争の原因</span></h1>
 </div>
@@ -275,9 +245,7 @@ window.Quarto = {
   </div>
   
 
-
 </header>
-
 
 <ul>
 <li>現代の武力紛争の特徴はなにか？</li>
@@ -331,14 +299,14 @@ window.Quarto = {
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/conflict_ucdp.png" class="img-fluid figure-img"></p>
-<figcaption>武力紛争の推移（1946-2023年）</figcaption>
+<p><img src="figures/conflict_ucdp.png" class="quarto-discovered-preview-image img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">武力紛争の推移（1946-2023年）</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/conflict_type_ucdp.png" class="img-fluid figure-img"></p>
-<figcaption>武力紛争の種類ごとの推移（1946-2023年）</figcaption>
+<p></p><figcaption class="figure-caption">武力紛争の種類ごとの推移（1946-2023年）</figcaption><p></p>
 </figure>
 </div>
 <p><a href="https://correlatesofwar.org/data-sets/MIDs">Correlates of War (COW)</a> の国家間軍事衝突<span class="citation" data-cites="palmer2022">(<a href="#ref-palmer2022" role="doc-biblioref">Palmer ほか 2022</a>)</span></p>
@@ -351,19 +319,19 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/conflict_mid.png" class="img-fluid figure-img"></p>
-<figcaption>国家間軍事衝突の推移（1816-2014年）</figcaption>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の推移（1816-2014年）</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/conflict_type_mid.png" class="img-fluid figure-img"></p>
-<figcaption>国家間軍事衝突の形態ごとの推移（1816-2014年）</figcaption>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の形態ごとの推移（1816-2014年）</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/conflict_state_mid.png" class="img-fluid figure-img"></p>
-<figcaption>国家間軍事衝突の当事国の割合（1816-2014年）</figcaption>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の当事国の割合（1816-2014年）</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -388,6 +356,7 @@ window.Quarto = {
 <p>様々な戦争（が生じる状況）に<strong>共通する構造</strong>？</p>
 <ul>
 <li>あらゆる戦争はあらゆる側面で異なる</li>
+<li>抽象化、モデル化</li>
 </ul>
 <section id="政治の手段としての戦争" class="level3" data-number="5.2.1">
 <h3 data-number="5.2.1" class="anchored" data-anchor-id="政治の手段としての戦争"><span class="header-section-number">5.2.1</span> 政治の手段としての戦争</h3>
@@ -408,21 +377,45 @@ window.Quarto = {
 <p>複数の国＆利害対立<span class="math inline">\(\leadsto\)</span>政治</p>
 <ul>
 <li>国益 (national interest)：安全保障、国力、経済的富、領土、政策（政府）</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/conflict_interest_mid.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の理由ごとの推移（1816-2014年）</figcaption><p></p>
+</figure>
+</div>
+<ul>
 <li><strong>現状変更</strong>勢力 (revisionist power)／<strong>現状維持</strong>勢力 (status quo power)</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://wonderingmaps.com/wp-content/uploads/division_of_korea.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://wonderingmaps.com/korea-division/">朝鮮戦争</a></figcaption>
+<p></p><figcaption class="figure-caption"><a href="https://wonderingmaps.com/korea-division/">朝鮮戦争</a></figcaption><p></p>
+</figure>
+</div>
+<p>対立の理由／戦争の原因</p>
+</section>
+<section id="戦争の被害" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="戦争の被害"><span class="header-section-number">5.2.3</span> 戦争の被害</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/conflict_fatality_mid.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の被害者規模（1816-2014年）</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/conflict_fatality_ucdp.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">武力紛争の被害者規模（1946-2023年）</figcaption><p></p>
 </figure>
 </div>
 </section>
-<section id="国際危機と戦争" class="level3" data-number="5.2.3">
-<h3 data-number="5.2.3" class="anchored" data-anchor-id="国際危機と戦争"><span class="header-section-number">5.2.3</span> 国際危機と戦争</h3>
+<section id="国際危機と戦争" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="国際危機と戦争"><span class="header-section-number">5.2.4</span> 国際危機と戦争</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/crisis.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>国際危機の構造</figcaption>
+<p></p><figcaption class="figure-caption">国際危機の構造</figcaption><p></p>
 </figure>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -456,38 +449,38 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/deterrence_failure.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>抑止の失敗</figcaption>
+<p></p><figcaption class="figure-caption">抑止の失敗</figcaption><p></p>
 </figure>
 </div>
-<section id="抑止の破綻戦争の回避" class="level4" data-number="5.2.3.1">
-<h4 data-number="5.2.3.1" class="anchored" data-anchor-id="抑止の破綻戦争の回避"><span class="header-section-number">5.2.3.1</span> 抑止の破綻・戦争の回避</h4>
+<section id="抑止の破綻戦争の回避" class="level4" data-number="5.2.4.1">
+<h4 data-number="5.2.4.1" class="anchored" data-anchor-id="抑止の破綻戦争の回避"><span class="header-section-number">5.2.4.1</span> 抑止の破綻・戦争の回避</h4>
 <ul>
 <li><span class="math inline">\(B\)</span>：戦争より譲歩 (<span class="math inline">\(1-x &gt; 1-w-c_B\)</span>)</li>
 <li>例：<span class="math inline">\(q = 0.2, x = 0.8, w = 0.5, c_B = 0.4\)</span></li>
 </ul>
 </section>
-<section id="抑止の成功" class="level4" data-number="5.2.3.2">
-<h4 data-number="5.2.3.2" class="anchored" data-anchor-id="抑止の成功"><span class="header-section-number">5.2.3.2</span> 抑止の成功</h4>
+<section id="抑止の成功" class="level4" data-number="5.2.4.2">
+<h4 data-number="5.2.4.2" class="anchored" data-anchor-id="抑止の成功"><span class="header-section-number">5.2.4.2</span> 抑止の成功</h4>
 <ul>
 <li><span class="math inline">\(B\)</span>：譲歩より戦争 (<span class="math inline">\(1-x &lt; 1-w-c_B\)</span>)</li>
 <li><span class="math inline">\(A\)</span>：戦争より平和 (<span class="math inline">\(q &gt; w - c_A\)</span>)</li>
 <li>例：<span class="math inline">\(q = 0.2, x = 0.8, w = 0.5, c_A = 0.4, c_B = 0.2\)</span></li>
 </ul>
 </section>
-<section id="抑止の破綻戦争" class="level4" data-number="5.2.3.3">
-<h4 data-number="5.2.3.3" class="anchored" data-anchor-id="抑止の破綻戦争"><span class="header-section-number">5.2.3.3</span> 抑止の破綻・戦争</h4>
+<section id="抑止の破綻戦争" class="level4" data-number="5.2.4.3">
+<h4 data-number="5.2.4.3" class="anchored" data-anchor-id="抑止の破綻戦争"><span class="header-section-number">5.2.4.3</span> 抑止の破綻・戦争</h4>
 <ul>
 <li><span class="math inline">\(B\)</span>：譲歩より戦争 (<span class="math inline">\(1-x &lt; 1-w-c_B\)</span>)</li>
 <li><span class="math inline">\(A\)</span>：平和より戦争 (<span class="math inline">\(q &lt; w - c_A\)</span>)</li>
 <li>例：<span class="math inline">\(q = 0.2, x = 0.8, w = 0.5, c_A = 0.2, c_B = 0.2\)</span></li>
 </ul>
 </section>
-<section id="抑止の条件" class="level4" data-number="5.2.3.4">
-<h4 data-number="5.2.3.4" class="anchored" data-anchor-id="抑止の条件"><span class="header-section-number">5.2.3.4</span> 抑止の条件</h4>
+<section id="抑止の条件" class="level4" data-number="5.2.4.4">
+<h4 data-number="5.2.4.4" class="anchored" data-anchor-id="抑止の条件"><span class="header-section-number">5.2.4.4</span> 抑止の条件</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/deterrence.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>抑止の成功</figcaption>
+<p></p><figcaption class="figure-caption">抑止の成功</figcaption><p></p>
 </figure>
 </div>
 <ol type="1">
@@ -500,15 +493,15 @@ window.Quarto = {
 </ul>
 </section>
 </section>
-<section id="交渉" class="level3" data-number="5.2.4">
-<h3 data-number="5.2.4" class="anchored" data-anchor-id="交渉"><span class="header-section-number">5.2.4</span> 交渉</h3>
+<section id="交渉" class="level3" data-number="5.2.5">
+<h3 data-number="5.2.5" class="anchored" data-anchor-id="交渉"><span class="header-section-number">5.2.5</span> 交渉</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bargaining.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉</figcaption>
+<p></p><figcaption class="figure-caption">交渉</figcaption><p></p>
 </figure>
 </div>
-<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -524,25 +517,25 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bargaining_range1.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉可能領域</figcaption>
+<p></p><figcaption class="figure-caption">交渉可能領域</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bargaining_range2.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉可能領域</figcaption>
+<p></p><figcaption class="figure-caption">交渉可能領域</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bargaining_range3.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉可能領域</figcaption>
+<p></p><figcaption class="figure-caption">交渉可能領域</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bargaining_range4.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉可能領域</figcaption>
+<p></p><figcaption class="figure-caption">交渉可能領域</figcaption><p></p>
 </figure>
 </div>
 <ol type="1">
@@ -553,6 +546,7 @@ window.Quarto = {
 w - c_A &lt; x &lt; w + c_B
 \]</span></p>
 <ul>
+<li>非効率性パズル</li>
 <li><strong>外部機会</strong> (outside option) <span class="math inline">\(\leadsto\)</span>交渉ポジション（有利さ）</li>
 </ul>
 <p>抑止＆交渉<span class="math inline">\(\leadsto\)</span>アナーキーにおける平和</p>
@@ -564,15 +558,148 @@ w - c_A &lt; x &lt; w + c_B
 </section>
 <section id="戦争の原因" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="戦争の原因"><span class="header-section-number">5.3</span> 戦争の原因</h2>
+<p>そうであるにもかかわらず戦争が選択されるのはなぜか？<span class="citation" data-cites="fearon1995">(<a href="#ref-fearon1995" role="doc-biblioref">Fearon 1995</a>)</span></p>
+<ul>
+<li>情報の非対称性</li>
+<li>コミットメント問題</li>
+<li>分割不可能性・リスク愛好的</li>
+</ul>
+<section id="情報の非対称性" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="情報の非対称性"><span class="header-section-number">5.3.1</span> 情報の非対称性</h3>
+<p><strong>情報の非対称性</strong> (asymmetric information)</p>
+<ul>
+<li>本当に国家<span class="math inline">\(B\)</span>は反撃する気があるのか？</li>
+</ul>
+<p>国家<span class="math inline">\(A\)</span>が抑止の<strong>信憑性</strong> (credibility) が低いと<strong>誤認</strong> (misperception)<span class="math inline">\(\leadsto\)</span>抑止や交渉の失敗<span class="math inline">\(\leadsto\)</span>戦争</p>
+<section id="チープトーク" class="level4" data-number="5.3.1.1">
+<h4 data-number="5.3.1.1" class="anchored" data-anchor-id="チープトーク"><span class="header-section-number">5.3.1.1</span> チープトーク</h4>
+<p>チープ・トーク、ブラフ</p>
+<ul>
+<li>異なるタイプ<span class="math inline">\(\leadsto\)</span>異なるメッセージ<span class="math inline">\(\leadsto\)</span>情報伝達</li>
+</ul>
+<p>コストリー・シグナル</p>
+</section>
+<section id="朝鮮戦争" class="level4" data-number="5.3.1.2">
+<h4 data-number="5.3.1.2" class="anchored" data-anchor-id="朝鮮戦争"><span class="header-section-number">5.3.1.2</span> 朝鮮戦争</h4>
+<p>アチソン・ライン（1950年）</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Acheson_line_ko.svg/640px-Acheson_line_ko.svg.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><a href="https://commons.wikimedia.org/wiki/File:Acheson_line_ko.svg">アチソン・ライン</a></figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li>誤った情報伝達</li>
+</ul>
+<p>北朝鮮が韓国に侵攻（<strong>朝鮮戦争</strong>）<span class="math inline">\(\leadsto\)</span> アメリカが参戦、「北進統一」を目指す<span class="math inline">\(\leadsto\)</span>中国義勇兵の参戦</p>
+<ul>
+<li>中国による威嚇</li>
+</ul>
+</section>
+<section id="干ばつと紛争" class="level4" data-number="5.3.1.3">
+<h4 data-number="5.3.1.3" class="anchored" data-anchor-id="干ばつと紛争"><span class="header-section-number">5.3.1.3</span> 干ばつと紛争</h4>
+<p>干ばつ<span class="math inline">\(\leadsto\)</span>農作物の減少・経済水準の低下<span class="math inline">\(\leadsto\)</span>戦争の費用の低下<span class="math inline">\(\leadsto\)</span>誤認の確率の上昇？</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.annualreviews.org/docserver/fulltext/polisci/22/1/pl220343.f1.gif" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><span class="citation" data-cites="koubi2019">Koubi (<a href="#ref-koubi2019" role="doc-biblioref">2019</a>)</span></figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li>相関<span class="math inline">\(\neq\)</span>因果</li>
+<li>第三の要因（交絡因子）</li>
+</ul>
+</section>
+</section>
+<section id="コミットメント問題" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="コミットメント問題"><span class="header-section-number">5.3.2</span> コミットメント問題</h3>
+<p><strong>コミットメント問題</strong> (commitment problem)</p>
+<section id="安心供与" class="level4" data-number="5.3.2.1">
+<h4 data-number="5.3.2.1" class="anchored" data-anchor-id="安心供与"><span class="header-section-number">5.3.2.1</span> 安心供与</h4>
+<p>第一撃における優位 (first-strike advantage) ／<strong>先制攻撃</strong> (preemptive attack)<span class="citation" data-cites="powell2006">(<a href="#ref-powell2006" role="doc-biblioref">Powell 2006</a>)</span></p>
+<ul>
+<li>攻撃・防御バランス</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/reassurance.drawio.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">国際危機の構造</figcaption><p></p>
+</figure>
+</div>
+<p>戦争の結果</p>
+<ul>
+<li>互いに攻撃する戦争の場合<span class="math inline">\(w\)</span></li>
+<li>国家<span class="math inline">\(A\)</span>に有利な戦争の場合<span class="math inline">\(w^A\)</span></li>
+<li>国家<span class="math inline">\(B\)</span>に有利な戦争の場合<span class="math inline">\(w^B\)</span></li>
+</ul>
+<p>安心供与 (reassurance) の破綻</p>
+<ul>
+<li><span class="math inline">\(B\)</span>：平和より一方的な攻撃<span class="math inline">\(1-q &lt; 1-w^B - c_B\)</span></li>
+<li><span class="math inline">\(B\)</span>：一方的に攻撃されるより戦争<span class="math inline">\(1-w^A-c_B &lt; 1-w-c_B\)</span></li>
+<li><span class="math inline">\(A\)</span>：一方的に攻撃されるより戦争<span class="math inline">\(w^B-c_A &lt; w-c_A\)</span></li>
+<li>例：<span class="math inline">\(q = 0.5, w^A = 0.8, w = 0.5, w^B = 0.2, c_A = c_B = 0.2\)</span></li>
+</ul>
+<p><span class="math inline">\(\leadsto\)</span>抑止＆安心供与</p>
+</section>
+<section id="太平洋戦争" class="level4" data-number="5.3.2.2">
+<h4 data-number="5.3.2.2" class="anchored" data-anchor-id="太平洋戦争"><span class="header-section-number">5.3.2.2</span> 太平洋戦争</h4>
+<p><strong>予防戦争</strong> (preventive war)</p>
+<ul>
+<li>大日本帝国は日中戦争で消耗<span class="math inline">\(\leadsto\)</span>資源を求めて東南アジアに進出<span class="math inline">\(\leadsto\)</span>アメリカなどから経済制裁</li>
+<li>アメリカは当時、日本にとって石油輸出国</li>
+</ul>
+</section>
+</section>
+<section id="分割不可能性リスク愛好的" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="分割不可能性リスク愛好的"><span class="header-section-number">5.3.3</span> 分割不可能性・リスク愛好的</h3>
+<p>財が分割不可能 (all or nothing)</p>
+<ul>
+<li>本当に分割不可能？</li>
+<li>サイドペイメント</li>
+</ul>
+<p>リスク愛好的</p>
+<ul>
+<li>確実に得られる1万円 or 50%で2万円もらえるが50%でなにももらえない</li>
+</ul>
+</section>
 </section>
 <section id="戦争の終結" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="戦争の終結"><span class="header-section-number">5.4</span> 戦争の終結</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/conflict_duration_mid.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の期間</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/conflict_duration_ucdp.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">武力紛争の期間</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/conflict_outcome_mid.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">国家間軍事衝突の帰結</figcaption><p></p>
+</figure>
+</div>
+<p>戦争の終結<span class="math inline">\(=\)</span>外交の成功<span class="math inline">\(=\)</span>外交の阻害要因の消滅<span class="citation" data-cites="reiter2010">(<a href="#ref-reiter2010" role="doc-biblioref">Reiter 2010</a>)</span></p>
+<ul>
+<li>情報の非対称性／コミットメント問題の戦闘を通じた解決</li>
+<li>コミットメントとしての和平協定</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/weisinger.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><span class="citation" data-cites="weisiger2016">Weisiger (<a href="#ref-weisiger2016" role="doc-biblioref">2016</a>)</span></figcaption><p></p>
+</figure>
+</div>
 </section>
 <section id="参考文献" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="参考文献">参考文献</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-Blattman2023" class="csl-entry" role="listitem">
 Blattman, Christopher. 2023. <em>戦争と交渉の経済学 : 人はなぜ戦うのか</em>. 草思社.
 </div>
@@ -582,8 +709,20 @@ Clausewitz, Carl von. 2020. <em>戦争論 : 縮訳版</em>. 日経BP日本経済
 <div id="ref-fearon1995" class="csl-entry" role="listitem">
 Fearon, James D. 1995. <span>「Rationalist explanations for war」</span>. <em>International organization</em> 49 (3): 379–414.
 </div>
+<div id="ref-koubi2019" class="csl-entry" role="listitem">
+Koubi, Vally. 2019. <span>「Climate change and conflict」</span>. <em>Annual Review of Political Science</em> 22: 343–60.
+</div>
 <div id="ref-palmer2022" class="csl-entry" role="listitem">
 Palmer, Glenn, Roseanne W McManus, Vito D’Orazio, Michael R Kenwick, Mikaela Karstens, Chase Bloch, Nick Dietrich, Kayla Kahn, Kellan Ritter, と Michael J Soules. 2022. <span>「The MID5 Dataset, 2011–2014: Procedures, coding rules, and description」</span>. <em>Conflict Management and Peace Science</em> 39 (4): 470–82.
+</div>
+<div id="ref-powell2006" class="csl-entry" role="listitem">
+Powell, Robert. 2006. <span>「War as a commitment problem」</span>. <em>International organization</em> 60 (1): 169–203.
+</div>
+<div id="ref-reiter2010" class="csl-entry" role="listitem">
+Reiter, Dan. 2010. <em>How wars end</em>. Princeton University Press.
+</div>
+<div id="ref-weisiger2016" class="csl-entry" role="listitem">
+Weisiger, Alex. 2016. <span>「Learning from the battlefield: Information, domestic politics, and interstate war duration」</span>. <em>International Organization</em> 70 (2): 347–75.
 </div>
 <div id="ref-nakanishi2013" class="csl-entry" role="listitem">
 中西寛, 石田淳, と 田所昌幸. 2013. <em>国際政治学</em>. 有斐閣.
@@ -692,34 +831,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-          // default icon
-          link.classList.add("external");
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -729,17 +844,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -751,130 +857,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -918,7 +901,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -944,32 +926,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1027,11 +983,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./international_society.html" class="pagination-link" aria-label="国際社会">
+      <a href="./international_society.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">国際社会</span></span>
       </a>          
   </div>
@@ -1039,7 +1011,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 
