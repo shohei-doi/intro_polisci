@@ -25,6 +25,7 @@ book:
       chapters: 
         - international_society.qmd
         - international_security.qmd
+        - security_policy.qmd
 
 bibliography: references.bib
 
