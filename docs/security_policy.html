@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -66,13 +65,7 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "一致なし",
     "search-matching-documents-text": "一致した文書",
@@ -81,10 +74,8 @@ div.csl-indent {
     "search-more-match-text": "追加の検索結果",
     "search-more-matches-text": "追加の検索結果",
     "search-clear-button-title": "消去",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "検索",
-    "search-label": "サーチ"
+    "search-submit-button-title": "検索"
   }
 }</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,33 +85,6 @@ div.csl-indent {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 </head>
 
 <body class="nav-sidebar floating">
@@ -129,13 +93,13 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./international_society.html">国際関係</a></li><li class="breadcrumb-item"><a href="./security_policy.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">安全保障政策</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./international_society.html">国際関係</a></li><li class="breadcrumb-item"><a href="./security_policy.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">安全保障政策</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="サーチ" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -144,7 +108,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">政治学入門</a> 
@@ -241,7 +205,7 @@ window.Quarto = {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -277,7 +241,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./international_society.html">国際関係</a></li><li class="breadcrumb-item"><a href="./security_policy.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">安全保障政策</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">安全保障政策</span></h1>
 </div>
@@ -292,9 +256,7 @@ window.Quarto = {
   </div>
   
 
-
 </header>
-
 
 <p>戦争<span class="math inline">\(=\)</span></p>
 <ul>
@@ -326,14 +288,14 @@ window.Quarto = {
 <p>現状の利益配分／国力の分布</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/bargaining_range4.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉可能領域</figcaption>
+<p><img src="figures/bargaining_range4.drawio.png" class="quarto-discovered-preview-image img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">交渉可能領域</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/bargaining_range7.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>交渉可能領域</figcaption>
+<p></p><figcaption class="figure-caption">交渉可能領域</figcaption><p></p>
 </figure>
 </div>
 <p>国力？</p>
@@ -348,13 +310,13 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/milex_cinc.png" class="img-fluid figure-img"></p>
-<figcaption>総合国力指数と軍事費の推移</figcaption>
+<p></p><figcaption class="figure-caption">総合国力指数と軍事費の推移</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/milex.png" class="img-fluid figure-img"></p>
-<figcaption>軍事支出とGDP費の推移</figcaption>
+<p></p><figcaption class="figure-caption">軍事支出とGDP費の推移</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -377,6 +339,9 @@ window.Quarto = {
 <h3 data-number="6.1.3" class="anchored" data-anchor-id="安全保障のジレンマ"><span class="header-section-number">6.1.3</span> 安全保障のジレンマ</h3>
 <p>先制攻撃<span class="math inline">\(\leadsto\)</span>安心供与の破綻</p>
 <p><strong>安全保障のジレンマ</strong><span class="citation" data-cites="jervis1978">(<a href="#ref-jervis1978" role="doc-biblioref">Jervis 1978</a>)</span>：安全保障のための政策<span class="math inline">\(\leadsto\)</span>安全保障環境の悪化</p>
+<ul>
+<li>軍拡競争？</li>
+</ul>
 <p>スパイラル・モデル：抑止力の拡大<span class="math inline">\(\leadsto\)</span>戦争？<span class="citation" data-cites="slantchev2003">(<a href="#ref-slantchev2003" role="doc-biblioref">Slantchev 2003</a>)</span></p>
 <ul>
 <li>攻撃・防御バランス</li>
@@ -402,14 +367,14 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/alliance.png" class="img-fluid figure-img"></p>
-<figcaption>同盟の種類と推移</figcaption>
+<p></p><figcaption class="figure-caption">同盟の種類と推移</figcaption><p></p>
 </figure>
 </div>
 <p>拡大抑止 (extended deterrence)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/extended_deterrence.drawio.png" class="img-fluid figure-img"></p>
-<figcaption>同盟国のいる国際危機</figcaption>
+<p></p><figcaption class="figure-caption">同盟国のいる国際危機</figcaption><p></p>
 </figure>
 </div>
 <ul>
@@ -424,33 +389,33 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Map_Europe_alliances_1914-en.svg/800px-Map_Europe_alliances_1914-en.svg.png?20210404205950" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><a href="https://commons.wikimedia.org/wiki/File:Map_Europe_alliances_1914-en.svg">第1次世界大戦時のヨーロッパの同盟関係</a></figcaption>
+<p></p><figcaption class="figure-caption"><a href="https://commons.wikimedia.org/wiki/File:Map_Europe_alliances_1914-en.svg">第1次世界大戦時のヨーロッパの同盟関係</a></figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/NATO_vs._Warsaw_%281949-1990%29.svg/800px-NATO_vs._Warsaw_%281949-1990%29.svg.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://commons.wikimedia.org/wiki/File:NATO_vs._Warsaw_(1949-1990).svg">NATOとワルシャワ条約機構の加盟国</a></figcaption>
+<p></p><figcaption class="figure-caption"><a href="https://commons.wikimedia.org/wiki/File:NATO_vs._Warsaw_(1949-1990).svg">NATOとワルシャワ条約機構の加盟国</a></figcaption><p></p>
 </figure>
 </div>
 <p>拡大抑止の効果</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/leeds2003.png" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="leeds2003">B. A. Leeds (<a href="#ref-leeds2003" role="doc-biblioref">2003</a>)</span></figcaption>
+<p></p><figcaption class="figure-caption"><span class="citation" data-cites="leeds2003">B. A. Leeds (<a href="#ref-leeds2003" role="doc-biblioref">2003</a>)</span></figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/fuhrmann2014.png" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="fuhrmann2014">Fuhrmann と Sechser (<a href="#ref-fuhrmann2014" role="doc-biblioref">2014</a>)</span></figcaption>
+<p></p><figcaption class="figure-caption"><span class="citation" data-cites="fuhrmann2014">Fuhrmann と Sechser (<a href="#ref-fuhrmann2014" role="doc-biblioref">2014</a>)</span></figcaption><p></p>
 </figure>
 </div>
 <p>見捨てられる可能性</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/berkemeier2018.png" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="berkemeier2018">Berkemeier と Fuhrmann (<a href="#ref-berkemeier2018" role="doc-biblioref">2018</a>)</span></figcaption>
+<p></p><figcaption class="figure-caption"><span class="citation" data-cites="berkemeier2018">Berkemeier と Fuhrmann (<a href="#ref-berkemeier2018" role="doc-biblioref">2018</a>)</span></figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -522,7 +487,7 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://peacekeeping.un.org/sites/default/files/styles/1200x500/public/727731_0.jpg?itok=5rS5c_FE" class="img-fluid figure-img"></p>
-<figcaption><a href="https://www.un.org/securitycouncil/content/what-security-council">国連安全保障理事会</a></figcaption>
+<p></p><figcaption class="figure-caption"><a href="https://www.un.org/securitycouncil/content/what-security-council">国連安全保障理事会</a></figcaption><p></p>
 </figure>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -634,7 +599,7 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/unsc_veto.png" class="img-fluid figure-img"></p>
-<figcaption>安保理における拒否権行使の推移</figcaption>
+<p></p><figcaption class="figure-caption">安保理における拒否権行使の推移</figcaption><p></p>
 </figure>
 </div>
 <p><strong>朝鮮戦争</strong>／<a href="https://ja.wikisource.org/wiki/%E5%9B%BD%E9%9A%9B%E9%80%A3%E5%90%88%E5%AE%89%E5%85%A8%E4%BF%9D%E9%9A%9C%E7%90%86%E4%BA%8B%E4%BC%9A%E6%B1%BA%E8%AD%B083">安保理決議83</a></p>
@@ -656,19 +621,19 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/unsc_peacekeeping.png" class="img-fluid figure-img"></p>
-<figcaption>国連平和維持活動の推移</figcaption>
+<p></p><figcaption class="figure-caption">国連平和維持活動の推移</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/UNpeacekeeping.svg/1280px-UNpeacekeeping.svg.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://commons.wikimedia.org/wiki/File:UNpeacekeeping.svg">国連平和維持活動の展開</a></figcaption>
+<p></p><figcaption class="figure-caption"><a href="https://commons.wikimedia.org/wiki/File:UNpeacekeeping.svg">国連平和維持活動の展開</a></figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/unsc_meeting.png" class="img-fluid figure-img"></p>
-<figcaption>国連安保理会合の推移</figcaption>
+<p></p><figcaption class="figure-caption">国連安保理会合の推移</figcaption><p></p>
 </figure>
 </div>
 <p><strong>湾岸戦争</strong>／<a href="https://digitallibrary.un.org/record/102245">安保理決議678</a></p>
@@ -723,25 +688,25 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/polity.png" class="img-fluid figure-img"></p>
-<figcaption>政治体制 (Polity) の推移</figcaption>
+<p></p><figcaption class="figure-caption">政治体制 (Polity) の推移</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/v-dem.png" class="img-fluid figure-img"></p>
-<figcaption>政治体制 (V-Dem) の推移</figcaption>
+<p></p><figcaption class="figure-caption">政治体制 (V-Dem) の推移</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/democracy_map.png" class="img-fluid figure-img"></p>
-<figcaption>政治体制の地理的分布</figcaption>
+<p></p><figcaption class="figure-caption">政治体制の地理的分布</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/democratic_peace.png" class="img-fluid figure-img"></p>
-<figcaption>政治体制の組み合わせと紛争頻度</figcaption>
+<p></p><figcaption class="figure-caption">政治体制の組み合わせと紛争頻度</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -751,6 +716,7 @@ window.Quarto = {
 <li>アカウンタビリティ
 <ul>
 <li>権威主義国による攻撃<span class="citation" data-cites="reiter2003">(<a href="#ref-reiter2003" role="doc-biblioref">Reiter と Stam 2003</a>)</span></li>
+<li>（指導者の）政治的生き残り<span class="citation" data-cites="buenodemesquita2013">(<a href="#ref-buenodemesquita2013" role="doc-biblioref">Bueno de Mesquita ほか 2013</a>)</span></li>
 <li>独裁者の末路<span class="citation" data-cites="goemans2008">(<a href="#ref-goemans2008" role="doc-biblioref">Goemans 2008</a>)</span></li>
 </ul></li>
 <li>情報の非対称性
@@ -789,10 +755,17 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/George_W_Bush_approval_ratings_with_events.svg/1280px-George_W_Bush_approval_ratings_with_events.svg.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://commons.wikimedia.org/wiki/File:George_W_Bush_approval_ratings_with_events.svg">ブッシュJr米大統領の支持率の推移</a></figcaption>
+<p></p><figcaption class="figure-caption"><a href="https://commons.wikimedia.org/wiki/File:George_W_Bush_approval_ratings_with_events.svg">ブッシュJr米大統領の支持率の推移</a></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/kishida.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><a href="https://news.ntv.co.jp/category/politics/3d1a809c6fbf4f3ea35bbc3d4812a597">岸田事件前後の内閣支持率</a></figcaption><p></p>
 </figure>
 </div>
 <ul>
+<li>テロリズムの効果<span class="citation" data-cites="godefroidt2023">(<a href="#ref-godefroidt2023" role="doc-biblioref">Godefroidt 2023</a>)</span></li>
 <li>インフレ率／失業率と紛争
 <ul>
 <li>権威主義国<span class="citation" data-cites="mitchell2004">(<a href="#ref-mitchell2004" role="doc-biblioref">Mitchell と Prins 2004</a>)</span></li>
@@ -801,6 +774,19 @@ window.Quarto = {
 <li>国際危機と政治的生き残り<span class="citation" data-cites="chiozza2003">(<a href="#ref-chiozza2003" role="doc-biblioref">Chiozza と Goemans 2003</a>)</span></li>
 <li>選挙後の紛争<span class="citation" data-cites="gaubatz1991">(<a href="#ref-gaubatz1991" role="doc-biblioref">Gaubatz 1991</a>)</span></li>
 </ul>
+<p>暗殺の影響<span class="citation" data-cites="jones2009">(<a href="#ref-jones2009" role="doc-biblioref">Jones と Olken 2009</a>)</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/jones1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">暗殺と民主化</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/jones2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">暗殺と紛争</figcaption><p></p>
+</figure>
+</div>
 </section>
 <section id="民主化による平和" class="level3" data-number="6.3.4">
 <h3 data-number="6.3.4" class="anchored" data-anchor-id="民主化による平和"><span class="header-section-number">6.3.4</span> 民主化による平和</h3>
@@ -825,7 +811,7 @@ window.Quarto = {
 <h2 class="unnumbered anchored" data-anchor-id="参考文献">参考文献</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-arena2009" class="csl-entry" role="listitem">
 Arena, Philip, と Glenn Palmer. 2009. <span>「Politics or the economy? Domestic correlates of dispute involvement in developed democracies」</span>. <em>International Studies Quarterly</em> 53 (4): 955–75.
 </div>
@@ -834,6 +820,9 @@ Barnhart, Joslyn N, Robert F Trager, Elizabeth N Saunders, と Allan Dafoe. 2020
 </div>
 <div id="ref-berkemeier2018" class="csl-entry" role="listitem">
 Berkemeier, Molly, と Matthew Fuhrmann. 2018. <span>「Reassessing the fulfillment of alliance commitments in war」</span>. <em>Research &amp; Politics</em> 5 (2): 2053168018779697.
+</div>
+<div id="ref-buenodemesquita2013" class="csl-entry" role="listitem">
+Bueno de Mesquita, Bruce, Alastair Smith, 四本健二, と 浅野宜之. 2013. <em>独裁者のためのハンドブック</em>. 亜紀書房.
 </div>
 <div id="ref-caprioli2001" class="csl-entry" role="listitem">
 Caprioli, Mary, と Mark A Boyer. 2001. <span>「Gender, violence, and international crisis」</span>. <em>Journal of conflict resolution</em> 45 (4): 503–18.
@@ -880,6 +869,9 @@ Gibler, Douglas M, と Jaroslav Tir. 2010. <span>「Settled borders and regime t
 <div id="ref-gibler2014" class="csl-entry" role="listitem">
 ———. 2014. <span>「Territorial peace and democratic clustering」</span>. <em>The Journal of Politics</em> 76 (1): 27–40.
 </div>
+<div id="ref-godefroidt2023" class="csl-entry" role="listitem">
+Godefroidt, Amélie. 2023. <span>「How terrorism does (and does not) affect citizens’ political attitudes: a meta-analysis」</span>. <em>American Journal of Political Science</em> 67 (1): 22–38.
+</div>
 <div id="ref-goemans2008" class="csl-entry" role="listitem">
 Goemans, Hein E. 2008. <span>「Which way out? The manner and consequences of losing office」</span>. <em>Journal of Conflict Resolution</em> 52 (6): 771–94.
 </div>
@@ -891,6 +883,9 @@ Ikenberry, G John. 2009. <span>「Liberal internationalism 3.0: America and the 
 </div>
 <div id="ref-jervis1978" class="csl-entry" role="listitem">
 Jervis, Robert. 1978. <span>「Cooperation under the security dilemma」</span>. <em>World politics</em> 30 (2): 167–214.
+</div>
+<div id="ref-jones2009" class="csl-entry" role="listitem">
+Jones, Benjamin F, と Benjamin A Olken. 2009. <span>「Hit or miss? The effect of assassinations on institutions and war」</span>. <em>American Economic Journal: Macroeconomics</em> 1 (2): 55–87.
 </div>
 <div id="ref-katagiri2019" class="csl-entry" role="listitem">
 Katagiri, Azusa, と Eric Min. 2019. <span>「The credibility of public and private signals: A document-based approach」</span>. <em>American Political Science Review</em> 113 (1): 156–72.
@@ -1061,34 +1056,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-          // default icon
-          link.classList.add("external");
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1098,17 +1069,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1120,130 +1082,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -1287,7 +1126,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1313,32 +1151,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1396,11 +1208,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./international_security.html" class="pagination-link" aria-label="戦争の原因">
+      <a href="./international_security.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">戦争の原因</span></span>
       </a>          
   </div>
@@ -1408,7 +1236,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 

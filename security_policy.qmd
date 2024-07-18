@@ -63,6 +63,8 @@ $$
 
 **安全保障のジレンマ**[@jervis1978]：安全保障のための政策$\leadsto$安全保障環境の悪化
 
+- 軍拡競争？
+
 スパイラル・モデル：抑止力の拡大$\leadsto$戦争？[@slantchev2003]
 
 - 攻撃・防御バランス
@@ -280,6 +282,7 @@ Resolves that if the Security Council, **because of lack of unanimity of the per
 
 - アカウンタビリティ
   - 権威主義国による攻撃[@reiter2003]
+  - （指導者の）政治的生き残り[@buenodemesquita2013]
   - 独裁者の末路[@goemans2008]
 - 情報の非対称性
   - 報道の自由[@van1997]／与野党の議論[@schultz1998]
@@ -306,11 +309,20 @@ Resolves that if the Security Council, **because of lack of unanimity of the per
 
 ![[ブッシュJr米大統領の支持率の推移](https://commons.wikimedia.org/wiki/File:George_W_Bush_approval_ratings_with_events.svg)](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/George_W_Bush_approval_ratings_with_events.svg/1280px-George_W_Bush_approval_ratings_with_events.svg.png)
 
+![[岸田事件前後の内閣支持率](https://news.ntv.co.jp/category/politics/3d1a809c6fbf4f3ea35bbc3d4812a597)](figures/kishida.jpg)
+
+- テロリズムの効果[@godefroidt2023]
 - インフレ率／失業率と紛争
   - 権威主義国[@mitchell2004]
   - 民主主義国[@arena2009; @fordham1998]
 - 国際危機と政治的生き残り[@chiozza2003]
 - 選挙後の紛争[@gaubatz1991]
+
+暗殺の影響[@jones2009]
+
+![暗殺と民主化](figures/jones1.png)
+
+![暗殺と紛争](figures/jones2.png)
 
 ### 民主化による平和
 
