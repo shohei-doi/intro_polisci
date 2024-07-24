@@ -1,0 +1,361 @@
+# 国際政治経済
+
+- 戦争以外に国際社会はどのような課題に直面しているのか？
+- どのような状況において、国家は協調し合えるのか？
+- 強制力のない国際制度にどのような意義を見い出せるのか？
+
+### 課題文献 {.unnumbered}
+
+- 国際協調と国際制度
+  - @sunahara2020[第1章]
+  - @nakanishi2013[第3,4章]
+  - @kume2011[第14章]
+  - @keohane1998
+- 国際政治経済
+  - @sunahara2020[第11章]
+  - @nakanishi2013[第6,7章]
+  - @nobayashi2007
+  - @iida2007
+  - @tadokoro2008
+
+## 国際協調
+
+### 囚人のジレンマ
+
+:::{.callout-tip}
+## 国際協力のシナリオ
+
+国家Aと国家Bがとある国際問題の解決に向けて協力をするか否かを選択する。
+
+- ある国家は協力をすれば、**どちらの国家も**$b/2$の利益を得る。
+- 国家は協力をすると、$c_A$もしくは$c_B$の費用を支払う。
+:::
+
+![国際協調](figures/cooperation.drawio.png)
+
+1. 一方的協力の費用が小さい ($c < b/2$)
+1. 一方的協力の費用が大きい ($c > b/2$)
+
+$\leadsto$囚人のジレンマ (prisoner's dilemma)／集合行為問題 (collective action problem)
+
+- タダ乗り(free riding)
+- 公共財(public goods)、共有地(commons/common pool resource)
+
+安全保障
+
+- 抑止と安心供与：現状維持／攻撃
+- 安全保障のジレンマ（囚人のジレンマversion）：軍縮／軍備拡大
+- 共同制裁：制裁／制裁逃れ
+
+国際政治経済
+
+- 貿易戦争：貿易促進／貿易規制
+- 通貨切り下げ競争：通貨価格の維持／通貨切り下げ
+- 底辺への競争 (race to the bottom)：規制維持／規制緩和
+  - 例：法人税、環境規制
+- 環境保護：環境保護／環境破壊
+- 開発援助：開発援助／開発援助せず
+- 公衆衛生：ワクチン共有／ワクチン独占
+
+### 中央集権的解決
+
+:::{.callout-tip}
+## 国際協力のシナリオ（中央集権的解決）
+
+非協力を選んだ場合は中央集権的組織によって処罰され、費用$p$を支払う。
+:::
+
+- 十分に処罰が大きい ($p > c_i-b/2$)
+
+### 覇権
+
+**覇権安定論** (hegemonic stability theory)
+
+- **覇権** (hegemony)／覇権国 (hegemon)[@lake1993]
+
+:::{.callout-tip}
+## 国際協力のシナリオ（覇権）
+
+国家Aは覇権国であり、裏切られたときの費用は小さい ($c_A < b/2$) 。
+:::
+
+- パクス・ブリタニカ／パクス・アメリカーナ
+
+<iframe src="https://ourworldindata.org/grapher/merchandise-exports-gdp-cepii?country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+能力のある大国の集団
+
+- オゾンホール／モントリオール議定書
+
+![[オゾン・ホール](https://ozonewatch.gsfc.nasa.gov/facts/hole_SH.html)](https://ozonewatch.gsfc.nasa.gov/facts/images/ozone_hole.jpg)
+
+$\leadsto$弱者による強者の搾取？[@olson1996]
+
+### 長期的関係
+
+自分が非協力を選んだら相手も非協力を選ぶことが分かっているのに、非協力を選ぶ？
+
+:::{.callout-tip}
+## 国際協力のシナリオ（長期的関係）
+
+国家Aと国家Bは長期的な関係にあり、協力するかどうかを何度も決定する機会がある。
+:::
+
+||1|2|3|4|5|...|
+|---|---|---|---|---|---|---|
+|国家A|協力|協力|協力|協力|協力|...|
+|国家B|協力|協力|協力|協力|協力|...|
+
+- **割引因子** (discount factor)／**将来の影** (shadow of the future)
+
+$$
+\begin{split}
+\textrm{常に協力の利益} &= b-c + \delta \times (b-c) + \delta^2 \times (b-c) + \delta^3 \times (b-c) + \cdots
+\end{split}
+$$
+
+**トリガー戦略** (grim trigger strategy)
+
+||1|2|3|4|5|...|
+|---|---|---|---|---|---|---|
+|国家A|協力|裏切り|裏切り|裏切り|裏切り|...|
+|国家B|裏切り|裏切り|裏切り|裏切り|裏切り|...|
+
+$$
+\begin{split}
+\textrm{一回裏切り、その後は互いに非協力の利益} &= \frac{b}{2}
+\end{split}
+$$
+
+:::{.callout-important}
+## （完全）フォーク定理
+
+割引因子が十分に大きければ、プレーヤーは相互協力を達成できる。
+:::
+
+$$
+\delta > \frac{2c}{b} - 1 
+$$
+
+- 将来の影
+- 協力の費用
+- 協力の利益
+
+トリガー戦略による抑止
+
+- **互恵主義** (reciprocity)
+- **対抗措置** (countermeasure)／処罰 (punishment)／応報 (retaliation)
+
+**イシュー・リンケージ**：ある分野における協調と別の分野における協調を連携させる
+
+$\leadsto$分野を越えたトリガー戦略が可能
+
+### 集団の規模
+
+:::{.callout-tip}
+## 国際協力のシナリオ（多国間協調）
+
+全体で$N$ヶ国の国がとある国際問題の解決に向けて協力をするか否かを選択する。
+
+- 1ヶ国が協力すると全ての国が$b/N$の利益を得る。
+- 協力を選択した国は費用$c$を支払う。
+:::
+
+$$
+\textrm{全ての国が協力したときの利益} = b - c
+$$
+
+$$
+\textrm{他の全ての国が協力したが、自国だけ協力しないときの利益} = \frac{N-1}{N} \times b
+$$
+
+## 国際制度
+
+第2次世界大戦後のアメリカの覇権$\leadsto$1970年代からの覇権後退
+
+$\leadsto$"After Hegemony"[@keohane1998]における国際協調の基盤？
+
+### 行動基準
+
+国際制度$\leadsto$許容される行動の基準$\leadsto$違反に対する報復、**評判費用**
+
+#### 自由貿易
+
+関税及び貿易に関する一般協定／世界貿易機関 (World Trade Organization: WT)
+
+:::{.callout-note}
+## [関税及び貿易に関する一般協定](https://www.mofa.go.jp/mofaj/ecm/it/page1w_000136.html)　第11条
+
+1. 締約国は、他の締約国の領域の産品の輸入について、又は他の締約国の領域に仕向けられる産品の輸出若しくは輸出のための販売について、割当によると、輸入又は輸出の許可によると、その他の措置によるとを問わず、**関税その他の課徴金以外のいかなる禁止又は制限も新設し、又は維持してはならない**。
+:::
+
+- 関税 (tariff)／非関税障壁 (non-tariff barrier)
+
+:::{.callout-note}
+## [世界貿易機関を設立するマラケシュ協定　附属書二　紛争解決に係る規則及び手続に関する了解](https://www.mofa.go.jp/mofaj/ecm/it/page25_000433.html)　第22条
+
+1. **代償及び譲許その他の義務の停止は、勧告及び裁定が妥当な期間内に実施されない場合に利用することができる**一時的な手段であるが、これらのいずれの手段よりも、当該勧告及び裁定の対象となった措置を対象協定に適合させるために勧告を完全に実施することが優先される。代償は、任意に与えられるものであり、また、代償が与えられる場合には、対象協定に適合するものでなければならない。
+:::
+
+#### 環境保護
+
+京都議定書／パリ協定
+
+:::{.callout-note}
+## [気候変動に関する国際連合枠組条約の京都議定書](https://www.mofa.go.jp/mofaj/gaiko/treaty/treaty_020413.html)　第3条
+
+1. 附属書Ⅰの締約国は、2008年から2012年までの約束期間において、附属書Ｉの締約国全体の排出量を1990年の水準から少なくとも５パーセント削減することを念頭において、個別に又は共同で、附属書Ａに掲げる温室効果ガスの人為的な排出量（二酸化炭素換算量）の合計が、附属書Ｂに定める数量的な排出抑制及び削減の約束に基づいて計算された割当量を超えないことを確保しなければならない。
+:::
+
+:::{.callout-note}
+## [気候変動に関する国際連合枠組条約の京都議定書](https://www.mofa.go.jp/mofaj/gaiko/treaty/treaty_020413.html)　第10条
+
+締約国は、それぞれ**共通に有しているが差異のある責任**並びに各国及び地域に特有の開発の優先順位並びに各国特有の目的及び事情を考慮し、非附属書Ⅰの締約国についていかなる新たな約束も導入しないが、条約第４条の規定に基づく既存の約束を再確認し、並びに持続可能な開発を達成するためにその約束の履行の促進を継続し、条約第４条３、５及び７の規定を考慮して、次のことを行う。
+:::
+
+![[京都議定書の加盟国](https://commons.wikimedia.org/wiki/File:Kyoto_Protocol_parties.svg)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kyoto_Protocol_parties.svg/800px-Kyoto_Protocol_parties.svg.png)
+
+![[京都議定書の達成度](https://www.theguardian.com/environment/blog/2012/nov/26/kyoto-protocol-carbon-emissions)](figures/kyoto_protocol_contribution.png)
+
+:::{.callout-note}
+## [パリ協定](https://www.env.go.jp/earth/ondanka/cop/shiryo.html)　第2条
+
+1. この協定は、条約（その目的を含む。）の実施を促進する上で、持続可能な開発及び貧困を撲滅するための努力の文脈において、気候変動の脅威に対する世界全体による対応を、次のことによるものを含め、強化することを目的とする。
+
+a. 世界全体の平均気温の上昇を工業化以前よりも**摂氏二度高い水準を十分に下回るものに抑える**こと並びに世界全体の平均気温の上昇を工業化以前よりも**摂氏一・五度高い水準までのものに制限する**ための努力を、この努力が気候変動のリスク及び影響を著しく減少させることとなるものであることを認識しつつ、継続すること。
+:::
+
+:::{.callout-note}
+## [パリ協定](https://www.env.go.jp/earth/ondanka/cop/shiryo.html)　第3条
+
+全ての締約国は、気候変動に対する世界全体による対応への**自国が決定する貢献**（以下「国が決定する貢献」という。）に関し、前条に規定するこの協定の目的を達成するため、次条、第七条、第九条から第十一条まで及び第十三条に定める野心的な努力に取り組み、及びその努力について通報する。全ての締約国の努力については、この協定の効果的な実施のために開発途上締約国を支援する必要性についての認識の下で、時間とともに前進を示すものとなる。
+:::
+
+![[パリ協定の加盟国](https://commons.wikimedia.org/wiki/File:ParisAgreement.svg)](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ParisAgreement.svg/800px-ParisAgreement.svg.png)
+
+$\leadsto$報復・法的拘束力の「ない」条約
+
+#### 人権保障
+
+[**世界人権宣言**](https://www.unic.or.jp/activities/humanrights/document/bill_of_rights/universal_declaration/)／[**自由権規約**](https://www.nichibenren.or.jp/activity/international/library/human_rights/liberty_convention.html)／[**社会権規約**](https://www.nichibenren.or.jp/activity/international/library/human_rights/society_convention.html)
+
+- [様々な人権条約](https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies)
+
+![[主要人権条約の締結数](https://indicators.ohchr.org)](figures/human_rights_treaty.png){width=80%}
+
+$\leadsto$報復の「ない」条約
+
+個別の処罰の可能性と意欲
+
+### 不完全観測
+
+不完全観測：行動を直接観察できない
+
+$\leadsto$シグナルから協力・非協力を推測
+
+#### 自由貿易
+
+WTOの**紛争解決機関** (dispute settlement body: DSB)
+
+:::{.callout-note}
+## [世界貿易機関を設立するマラケシュ協定　附属書二　紛争解決に係る規則及び手続に関する了解](https://www.mofa.go.jp/mofaj/ecm/it/page25_000433.html)　第4条
+
+7. 協議の要請を受けた日の後六十日の期間内に協議によって**紛争を解決することができない場合**には、申立てをした紛争当事国(この了解において「申立国」という。)は、**小委員会の設置を要請**することができる。協議を行っている国が協議によって紛争を解決することができなかったと共に認める場合には、申立国は、当該六十日の期間内に小委員会の設置を要請することができる。
+:::
+
+- 法的拘束力あり
+
+#### 環境保護
+
+温室効果ガスの削減行動を観測するのは困難$\leadsto$削減目標の設定
+
+- [**気候変動に関する政府間パネル**](https://www.data.jma.go.jp/cpdinfo/ipcc/index.html) (Intergovernmental Panel on Climate Change: IPCC)
+
+![[IPCC第6次統合報告書（政策決定者向け要約）より](https://www.ipcc.ch/report/sixth-assessment-report-cycle/)](figures/ipcc.png)
+
+#### 人権保障
+
+国際連合の[**人権理事会**](https://www.mofa.go.jp/mofaj/gaiko/jinken_r/index.html)
+
+- [**普遍的定期審査**](https://www.mofa.go.jp/mofaj/gaiko/jinken_r/upr_gai.html) (Universal Periodic Review: UPR)
+
+人権条約の委員会
+
+- 報告書審査／個人通報制度
+
+[日本に関する審査](https://www.nichibenren.or.jp/activity/international/library)
+
+国際NGO（ヒューマン・ライツ・ウォッチ、アムネスティ・インターナショナル、フリーダム・ハウス……）
+
+- **ブーメラン・モデル**／名指しと非難 (naming and shaming)
+
+![ブーメラン・モデルのイメージ](figures/boomerang_model.drawio.png)
+
+### 多国間協調
+
+#### 自由貿易
+
+**最恵国待遇** (most-favored nation status: MFN)
+
+:::{.callout-note}
+## [関税及び貿易に関する一般協定](https://www.mofa.go.jp/mofaj/ecm/it/page1w_000136.html)　第1条
+
+1. いずれかの種類の関税及び課徴金で、輸入若しくは輸出について若しくはそれらに関連して課され、又は輸入若しくは輸出のための支払手段の国際的移転について課せられるものに関し、それらの関税及び課徴金の徴収の方法に関し、輸入及び輸出に関連するすべての規則及び手続に関し、並びに第三条2及び4に掲げるすべての事項に関しては、いずれかの締約国が他国の原産の産品又は他国に仕向けられる産品に対して許与する利益、特典、特権又は免除は、**他のすべての締約国**の領域の原産の同種の産品又はそれらの領域に仕向けられる同種の産品に対して、**即時かつ無条件に許与**しなければならない。
+:::
+
+$\leadsto$非協力の利益を$0$にする。
+
+![[地域貿易協定の推移](https://rtais.wto.org/UI/charts.aspx)](figures/rta.png)
+
+![[関税同盟](https://commons.wikimedia.org/wiki/File:Customs_Unions_World.svg)](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Customs_Unions_World.svg/800px-Customs_Unions_World.svg.png?20210102005845)
+
+**多角的交渉**（ラウンド）
+
+- ドーハ・ラウンド
+
+:::{.callout-note}
+## [関税及び貿易に関する一般協定](https://www.mofa.go.jp/mofaj/ecm/it/page1w_000136.html)　第28条の2
+
+1. 締約国は、関税がしばしば貿易に対する著しい障害となること、したがつて、関税その他輸入及び輸出に関する課徴金の一般的水準の実質的な引下げ、特に、最少限度の数量の輸入をも阻害するような高関税の引下げをめざし、かつ、この協定の目的及び各締約国の異なる必要に妥当な考慮を払つて行われる**相互的かつ互恵的な交渉**が国際貿易の拡大のためきわめて重要であることを認める。よつて、締約国団は、このような交渉を随時主催することができる。
+:::
+
+![[WTO加盟国](https://commons.wikimedia.org/wiki/File:WTO_members_and_observers.svg)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/WTO_members_and_observers.svg/800px-WTO_members_and_observers.svg.png)
+
+$\leadsto$**取引費用** (transaction cost) の低減／長期的関係
+
+#### 環境保護
+
+酸性雨
+
+![@grennfelt2020](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs13280-019-01244-4/MediaObjects/13280_2019_1244_Fig4_HTML.png)
+
+[**枠組み条約**](https://www.mofa.go.jp/mofaj/files/000135675.pdf)／締約国会議
+
+- 予見可能性
+- 取引費用
+
+### 長期的関係
+
+#### 環境問題
+
+環境問題の影響は長期的・不確実
+
+1. 将来の環境保護の利益＞現在の費用？
+1. 将来の影$\not \leadsto$交渉での譲歩[@fearon1998]
+1. **世代間衡平** (intergenerational equity)
+
+### 国際制度の効果
+
+アナーキー$\leadsto$制度に効果はない[@mearsheimer2017]
+
+ほとんどの国はほとんどの時期においてほとんどのルールに従っている[@henkin1979]
+
+- 国家が時間や労力をかけて交渉？
+- 能力構築、明瞭な制度[@chayes1993]
+- 遵守できるルールが制度に[@downs1996]
+
+アナーキー$\not\leadsto$戦争、非協力
+
+- 国際制度の役割？
+
+## 参考文献 {.unnumbered}

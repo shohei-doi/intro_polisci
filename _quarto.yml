@@ -26,6 +26,7 @@ book:
         - international_society.qmd
         - international_security.qmd
         - security_policy.qmd
+        - international_political_economy.qmd
 
 bibliography: references.bib
 
