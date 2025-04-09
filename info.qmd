@@ -1,4 +1,4 @@
-# 自己紹介 {.unnumbered}
+# 自己紹介 {.unnumbered .unlisted}
 
 ## 何者なのか？
 
