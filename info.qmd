@@ -50,15 +50,13 @@
 
 ## 趣味
 
-![サイクリングをしたり……](figures/bike.JPG)
+![サイクリング](figures/bike.JPG)
 
-![アートを鑑賞したり……](figures/art.JPG)
+![アニメ・漫画・ゲーム](https://img2.animatetimes.com/2021/11/6192264c36f36_19a1ed1586823603433e427981b23999.jpg)
 
-![アニメを鑑賞したり……](https://img2.animatetimes.com/2021/11/6192264c36f36_19a1ed1586823603433e427981b23999.jpg)
+![ビール](figures/beer.JPG)
 
-![アート（）を鑑賞したり……](figures/beer.JPG)
-
-![ゲームをやったり……](https://topics-cdn.nintendo.co.jp/image/2020/06/03235641229580/0/22.jpg)
+![野球観戦](figures/baseball.jpg)
 
 ## ぜひ、政治学をしましょう！
 
