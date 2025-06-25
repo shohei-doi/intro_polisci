@@ -35,11 +35,11 @@
 - [北海道大学法学部政治講座教員](https://www.juris.hokudai.ac.jp/general/staff/ugrs.html)
 - [大学教育の分野別質保証委員会](https://www.scj.go.jp/ja/member/iinkai/daigakuhosyo/daigakuhosyo.html)
 
-<!-- ### 受講生の関心
+### 受講生の関心
 
-![関心のある政治学の分野](figures/interested_fields_polisci.png)
+![関心のある政治学の分野](figures/interested_fields_polisci_2025.png)
 
-![関心のある政治学の分野（男女別）](figures/interested_fields_polisci_gender.png) -->
+![関心のある政治学の分野（変化）](figures/interested_fields_polisci_2024-25.png)
 
 ## 政治
 
