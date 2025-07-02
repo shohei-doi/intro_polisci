@@ -32,9 +32,9 @@
 UCDP defines state-based armed conflict as: “a **contested incompatibility** that concerns government and/or territory where the **use of armed force** between **two parties**, of which at least one is the government of a state, results in at least **25 battle-related deaths** in a calendar year.”
 :::
 
-::: {.column-screen-right}
+<!-- ::: {.column-screen-right}
 <iframe src="https://ucdp.uu.se/encyclopedia" loading="lazy" style="width: 100%; height: 800px; border: 0px none;"></iframe>
-:::
+::: -->
 
 ![武力紛争の推移（1946-2023年）](figures/conflict_ucdp.png)
 
@@ -60,7 +60,7 @@ UCDP defines state-based armed conflict as: “a **contested incompatibility** t
 1. 人間の本性
     - 循環論法、後知恵
 1. アナーキー
-    - 犯罪、内戦
+    - 国内犯罪、内戦
     - 政治的統合？
 
 地域的・時間的な分散／非現実的な安全保障政策
@@ -105,6 +105,10 @@ $\leadsto$「なぜ戦争が起こるのか」＝「なぜ外交が失敗した�
 ![武力紛争の被害者規模（1946-2023年）](figures/conflict_fatality_ucdp.png)
 
 ### 国際危機と戦争
+
+国家は利益と費用を比較して行動する（ということにしておく）。
+
+- 選択肢1の利益 $-$ 費用 $>$ 選択肢2の利益 $-$ 費用 $\leadsto$ 選択肢1を2より好む。
 
 ![国際危機の構造](figures/crisis.drawio.png)
 
@@ -211,7 +215,7 @@ $$
 
 コストリー・シグナル
 
-#### 朝鮮戦争
+#### 誤認：朝鮮戦争
 
 アチソン・ライン（1950年）
 
@@ -236,6 +240,8 @@ $$
 
 **コミットメント問題** (commitment problem)
 
+- 国家$B$は約束（コミットメント）を守らないに違いない。
+
 #### 安心供与
 
 第一撃における優位 (first-strike advantage) ／**先制攻撃** (preemptive attack)[@powell2006]
@@ -259,7 +265,7 @@ $$
 
 $\leadsto$抑止＆安心供与
 
-#### 太平洋戦争
+#### 予防戦争：太平洋戦争
 
 **予防戦争** (preventive war)
 
@@ -270,6 +276,7 @@ $\leadsto$抑止＆安心供与
 
 財が分割不可能 (all or nothing)
 
+- 宗教的・文化的に重要な土地、小さな島など
 - 本当に分割不可能？
 - サイドペイメント
 
