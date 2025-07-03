@@ -316,6 +316,8 @@ $\leadsto$国際社会は国内社会よりも劣っている
 
 ![紛争の地理的分布](figures/map_historical_conflict.png)
 
+![国際機構の数の推移](figures/igo_year.png)
+
 時間的・地域的分散（変動）／アナーキー、人間の「本質」
 
 政府なき統治 (governance without government)、自生的・自己拘束的 (self-enforcing) な秩序
