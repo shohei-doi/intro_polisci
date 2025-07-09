@@ -3,7 +3,7 @@
 戦争$=$
 
 - 利害対立
-    - 現状変更の意図
+    - 現状変更／現状維持
 - 外交の失敗
     - 情報の非対称性
     - コミットメント問題
@@ -55,7 +55,7 @@ $$
 抑止力$=$抑止の能力$\times$抑止の信憑性
 
 - 暴力asコミュニケーション
-- 抑止力の検証？
+<!-- - 抑止力の検証？ -->
 
 ### 安全保障のジレンマ
 
@@ -115,8 +115,8 @@ An alliance is a **formal** agreement among **independent states** to **cooperat
 
 リベラルな平和／カント的平和[@oneal1997; @oneal1999]^[カントの「永遠平和のために」がこうした思想の潮流とする見方のため。]／リベラル国際秩序 (liberal international order: ILO) [@ikenberry2009; @ikenberry2018]？
 
-- 制度（国際法）による平和
-- 民主主義による平和
+- **制度（国際法）**による平和
+- **民主主義**による平和
 - 経済的相互依存（例、貿易や投資）による平和
 
 ## 国際制度による平和
@@ -206,9 +206,12 @@ An alliance is a **formal** agreement among **independent states** to **cooperat
 - 抑止力の向上／コミットメント問題の回避
 - 費用分担 (burden sharing)／取引費用 (transaction cost)／合意確保
 
+**朝鮮戦争**／[安保理決議83](https://ja.wikisource.org/wiki/%E5%9B%BD%E9%9A%9B%E9%80%A3%E5%90%88%E5%AE%89%E5%85%A8%E4%BF%9D%E9%9A%9C%E7%90%86%E4%BA%8B%E4%BC%9A%E6%B1%BA%E8%AD%B083)
+
 ![安保理における拒否権行使の推移](figures/unsc_veto.png)
 
-**朝鮮戦争**／[安保理決議83](https://ja.wikisource.org/wiki/%E5%9B%BD%E9%9A%9B%E9%80%A3%E5%90%88%E5%AE%89%E5%85%A8%E4%BF%9D%E9%9A%9C%E7%90%86%E4%BA%8B%E4%BC%9A%E6%B1%BA%E8%AD%B083)
+- 大国による戦争を防ぐ制度？
+- 国連にしかできないこと？
 
 **平和のための結集** (Uniting for Peace) 決議／国連[緊急特別総会](https://www.un.org/en/ga/sessions/emergency.shtml) (emergency special session: ESS)
 
