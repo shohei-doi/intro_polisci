@@ -264,6 +264,8 @@ Resolves that if the Security Council, **because of lack of unanimity of the per
 
 ## 民主主義による平和
 
+単一アクター (unitary actor) 仮定
+
 ### 民主的平和
 
 **民主的平和** (democratic peace: DP)
@@ -291,11 +293,11 @@ Resolves that if the Security Council, **because of lack of unanimity of the per
   - 報道の自由[@van1997]／与野党の議論[@schultz1998]
   - 観衆費用[@fearon1994]
     - 観衆費用の存在[@tomz2007; @kurizaki2015]
-    - 観衆費用の不在[@snyder2011; @trachtenberg2012: @katagiri2019]
+    - 観衆費用の不在[@snyder2011; @trachtenberg2012; @katagiri2019]
     - 権威主義国における観衆費用[@weiss2013; @weeks2008]
     - 民主主義国による威嚇の信憑性の低さ[@downes2012]
-  - 透明性？[@finel1999]
-  - 憲法9条？
+  - 透明性[@finel1999]
+  - 憲法9条
 - 規範／アイデンティティ／信頼[@doyle1986; @risse1995]
   - 妥協[@mousseau1998; @dixon1994]
   - 市民の態度[@tomz2013]
@@ -315,11 +317,11 @@ Resolves that if the Security Council, **because of lack of unanimity of the per
 ![[岸田事件前後の内閣支持率](https://news.ntv.co.jp/category/politics/3d1a809c6fbf4f3ea35bbc3d4812a597)](figures/kishida.jpg)
 
 - テロリズムの効果[@godefroidt2023]
-- インフレ率／失業率と紛争
+<!-- - インフレ率／失業率と紛争
   - 権威主義国[@mitchell2004]
-  - 民主主義国[@arena2009; @fordham1998]
+  - 民主主義国[@arena2009; @fordham1998] -->
 - 国際危機と政治的生き残り[@chiozza2003]
-- 選挙後の紛争[@gaubatz1991]
+<!-- - 選挙後の紛争[@gaubatz1991] -->
 
 暗殺の影響[@jones2009]
 

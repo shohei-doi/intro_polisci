@@ -165,7 +165,7 @@ $\leadsto$「なぜ戦争が起こるのか」＝「なぜ外交が失敗した�
 
 ![交渉](figures/bargaining.drawio.png)
 
-:::{.callout-note}
+:::{.callout-important}
 ## 交渉可能性[@fearon1995]
 
 基本的に、戦争に費用がある限り、互いに戦争よりも好ましい交渉結果を得ることができる。
