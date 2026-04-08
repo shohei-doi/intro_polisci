@@ -4,3 +4,4 @@
 /data/
 *.R
 *.code-workspace
+**/*.quarto_ipynb
