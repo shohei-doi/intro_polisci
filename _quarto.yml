@@ -13,14 +13,13 @@ book:
     - index.qmd
     - part: "導入"
       chapters: 
-        # - info.qmd
+        - info.qmd
         - intro.qmd
     - part: "比較政治"
       chapters: 
         - electoral_system.qmd
         - voting_behavior.qmd
         - party_election.qmd
-        # - political_regime.qmd
     - part: "国際関係"
       chapters: 
         - international_society.qmd

@@ -30,6 +30,10 @@
 
 ![株式ネットワーク](figures/ownership.png)
 
+![日本外務省の女性配属](figures/mofa_female_seniors_type_ratio.png)
+
+![女性幹部の効果](figures/upr_jpn_regression.png)
+
 :::{.callout-tip}
 ## 教員の研究を知る
 

@@ -42,13 +42,15 @@ state)
 - 正統性
   - 国民国家 (nation state)
 
+世界における国家の数は？
+
 ## 国内的類推
 
 **国内的類推** (domestic analogy)[@nakanishi2013, p.174; @shinoda2007, p.39-46]
 
 - 国際社会（国際連合）と国内社会の対比
 
-![国際連合本部ビル](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/UNHQ_NYC.jpg/800px-UNHQ_NYC.jpg){width=50%}
+![国際連合本部ビル](https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/783549.jpg)
 
 ![[国連システム](https://www.un.org/en/about-us/un-system)](https://www.un.org/sites/un2.un.org/files/23-00013_un_system_chart_11x8.5_web_e.png)
 
