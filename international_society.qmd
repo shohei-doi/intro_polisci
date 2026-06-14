@@ -22,6 +22,8 @@
 
 ## 主権国家体系
 
+世界における国家の数は？
+
 現代の国際社会の構造＝**主権国家体系** (system of sovereign
 state)
 
@@ -41,8 +43,6 @@ state)
 - 強制力（暴力）の独占
 - 正統性
   - 国民国家 (nation state)
-
-世界における国家の数は？
 
 ## 国内的類推
 
@@ -74,6 +74,8 @@ d. 法則決定の補助手段としての裁判上の判決及び諸国の最�
 
 「条約」とは、国の間において文書の形式により締結され、国際法によつて規律される国際的な**合意**（単一の文書によるものであるか関連する二以上の文書によるものであるかを問わず、また、名称のいかんを問わない。）をいう。 
 :::
+
+- [日本の条約データ](https://www3.mofa.go.jp/mofaj/gaiko/treaty/index.php)
 
 **国際連合** (the United Nations: UN) の**総会** (General Assembly)
 
@@ -165,7 +167,8 @@ $\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolutio
 この機構に対する分担金の支払が延滞している国際連合加盟国は、その延滞金の額がその時までの満2年間にその国から支払われるべきであった分担金の額に等しいか又はこれをこえるときは、総会で投票権を有しない。但し、総会は、支払の不履行がこのような加盟国にとってやむを得ない事情によると認めるときは、その加盟国に投票を許すことができる。
 :::
 
-- [予算](https://www.mofa.go.jp/mofaj/fp/unp_a/page22_001258.html)
+- [国連の予算](https://www.mofa.go.jp/mofaj/fp/unp_a/page22_001258.html)
+- [国連システムの予算](https://unsceb.org/total-expenses)
 - [国連分担金の支払い率](https://www.un.org/en/ga/contributions/honourroll.shtml)
 
 ### 司法
@@ -222,6 +225,7 @@ $\leadsto$[**決議**](https://www.un.org/en/ga/77/resolutions.shtml) (resolutio
 各国際連合加盟国は、自国が当事者であるいかなる事件においても、国際司法裁判所の裁判に従うことを約束する。
 :::
 
+- [ICJ判決リスト](https://www.icj-cij.org/contentious-cases)
 - 判決の法的拘束力／強制力
 
 :::{.callout-note}
