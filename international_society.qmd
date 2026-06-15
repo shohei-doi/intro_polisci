@@ -22,8 +22,6 @@
 
 ## 主権国家体系
 
-世界における国家の数は？
-
 現代の国際社会の構造＝**主権国家体系** (system of sovereign
 state)
 
@@ -37,12 +35,16 @@ state)
 - 内部における排他性・絶対性$\leadsto$**内政不干渉原則** (principle of non-interference)
 - 外部における対等性$\leadsto$**主権平等原則** (principle of sovereign equality)
 
+世界における国家の数は？
+
 現代の主権国家の特徴 [@sunahara2020]
 
 - 領域国家
 - 強制力（暴力）の独占
 - 正統性
   - 国民国家 (nation state)
+  - 人民 (people)／国民・民族 (nation)
+  - 自決権（self-determination）
 
 ## 国内的類推
 
