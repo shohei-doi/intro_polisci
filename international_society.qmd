@@ -41,7 +41,7 @@ state)
 
 - 領域国家
 - 強制力（暴力）の独占
-- 正統性
+- 正統性、（独立の）合法性
   - 国民国家 (nation state)
   - 人民 (people)／国民・民族 (nation)
   - 自決権（self-determination）
