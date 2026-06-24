@@ -1,0 +1,72 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  This bbl file is created by jecon.bst ver.6.6
+%  The latest jecon.bst is available at
+%  <https://github.com/ShiroTakeda/jecon-bst>
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Definition of \bysame
+\ifx\undefined\bysame%
+\newcommand{\bysame}{\hskip.3em \leavevmode\rule[.5ex]{2.5em}{.3pt}\hskip0.5em}
+\fi
+
+%%% Definition of \bysamejp
+\ifx\undefined\bysamejp%
+\newcommand{\bysamejp}{\hskip.2em \leavevmode\rule[.7ex]{2.5em}{.3pt}\hskip0.3em}
+\fi
+
+\makeatletter
+\@ifundefined{ifNAT@openbib}{\@latex@error{Package 'natbib' is not loaded! Please load Package 'natbib' in your preamble.\MessageBreak Additionally, if you use url field in your bib record entry, please also load Package 'hyperref' or 'pxjahyper', 'url' package.}\@ehc}{}\relax
+\makeatother
+
+\begin{thebibliography}{xxx}
+
+\harvarditem[Baylis et~al.]{Baylis, Smith and Owens}{2026}{baylis2026}
+Baylis, John, Steve Smith, and Patricia Owens (2026)  \textit{The globalization of world politics: An introduction to international relations}: Oxford university press.
+
+\harvarditem[Frieden et~al.]{Frieden, Lake, Schultz, Hyde and Rickard}{2026}{frieden2019}
+Frieden, Jeffry~A, David~A Lake, Kenneth~A Schultz, Susan~D Hyde, and Stephanie~J Rickard (2026)  \textit{World politics: interests, interactions, institutions}: WW Norton.
+
+\harvarditem[中西他]{中西・石田・田所}{2013}{nakanishi2013}
+中西寛・石田淳・田所昌幸 (2013) 『国際政治学』，有斐閣．
+
+\harvarditem[久保他]{久保・末近・高橋}{2025}{kubo2025}
+久保慶一・末近浩太・高橋百合子~(政治学) (2025) 『比較政治学の考え方 = Introduction to comparative politics』，有斐閣ストゥディア，第新版版，有斐閣．
+
+\harvarditem[伊藤他]{伊藤・作内・中井・藤村}{2025}{ito2025}
+伊藤武・作内由子・中井遼・藤村直史 (2025) 『民主主義の比較政治学』，y-knot，有斐閣．
+
+\harvarditem[北村他]{北村・田中・若狭・藤澤・森}{2025}{kitamura2025}
+北村朋史・田中佐代子・若狭彰室・藤澤巌・森肇志 (2025) 『国際法で世界がわかる : ニュースを読み解く33講』，第新版版，岩波書店．
+
+\harvarditem[坂本・石橋]{坂本・石橋}{2020}{sakamoto2020}
+坂本治也・石橋章市朗 (2020) 『ポリティカル・サイエンス入門』，法律文化社．
+
+\harvarditem[多湖]{多湖}{2024}{tago2024}
+多湖淳 (2024) 『国際関係論』，アカデミックナビ，勁草書房．
+
+\harvarditem[小川他]{小川・板橋・青野}{2018}{ogawa2018}
+小川浩之・板橋拓己・青野利彦 (2018) 『国際政治史 : 主権国家体系のあゆみ』，有斐閣．
+
+\harvarditem[山影]{山影}{2012}{yamakage2012}
+山影進 (2012) 『国際関係論講義』，東京大学出版会．
+
+\harvarditem[村田他]{村田・君塚・石川・栗栖・秋山}{2023}{murata2023}
+村田晃嗣・君塚直隆・石川卓・栗栖薫子・秋山信将 (2023) 『国際政治学をつかむ』，第第3版版，有斐閣．
+
+\harvarditem[玉田他]{玉田・水島・山田}{2022}{tamada2022}
+玉田大・水島朋則・山田卓平 (2022) 『国際法』，第第2版版，有斐閣．
+
+\harvarditem[田中・中西]{田中・中西}{2010}{tanaka2010}
+田中明彦・中西寛 (2010) 『新・国際政治経済の基礎知識』，第新版版，有斐閣．
+
+\harvarditem[砂原他]{砂原・稗田・多湖}{2020}{sunahara2020}
+砂原庸介・稗田健志・多湖淳 (2020) 『政治学の第一歩』，第新版版，有斐閣．
+
+\harvarditem[草野他]{草野・小川・藤田}{2023}{kusano2023}
+草野大希・小川裕子・藤田泰昌 (2023) 『国際関係論入門』，学問へのファーストステップ，ミネルヴァ書房．
+
+\end{thebibliography}
+
