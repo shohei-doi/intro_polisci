@@ -221,6 +221,15 @@ $$
 - 名誉、地位、評判
 - イデオロギー（政治的理念）、宗教
 
+#### 干ばつと紛争
+
+干ばつ$\leadsto$農作物の減少・経済水準の低下$\leadsto$戦争の費用の低下
+
+![@koubi2019](https://www.annualreviews.org/docserver/fulltext/polisci/22/1/pl220343.f1.gif)
+
+- 相関$\neq$因果
+- 第三の要因（交絡因子）
+
 #### 分割不可能性
 
 財が分割不可能 (all or nothing)
@@ -262,14 +271,18 @@ $$
 - 異なるタイプ$\leadsto$異なるメッセージ$\leadsto$情報伝達
 - 嘘をつく誘因はあるか？
 
-#### 干ばつと紛争
+:::{.callout-note collapse="true"}
+## 情報伝達のベイズ的定式化
+相手国のタイプ$a$が1であるか、0であるかを知りたい。
+大国からのメッセージを$m$とする。
 
-干ばつ$\leadsto$農作物の減少・経済水準の低下$\leadsto$戦争の費用の低下$\leadsto$誤認の確率の上昇？
+$$
+P(a=1 \mid m) = \frac{P(m \mid a=1) P(a=1)}{P(m \mid a=1) P(a=1) + P(m \mid a=0) P(a=0)}
+$$
 
-![@koubi2019](https://www.annualreviews.org/docserver/fulltext/polisci/22/1/pl220343.f1.gif)
+$P(a =  1 \mid m) > P(a = 1)$となるのはどのようなときか？
 
-- 相関$\neq$因果
-- 第三の要因（交絡因子）
+:::
 
 #### 誤認
 
